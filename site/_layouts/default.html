@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/gwm0ueu.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <title>sprout &amp; co {% if page.title %}:: {{ page.title }} {% endif %}</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"media="screen">
+
+    <link href="css/style.css" rel="stylesheet" media="screen">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/atom+xml" title="pollen : sprout's blog" href="atom.xml" />
+  </head>
+  <body>
+    <div id='wrap'>
+      {% if page.is_splash %}
+        {% include splash_banner.html %}
+      {% else %}
+        {% include banner.html %}
+      {% endif %}
+
+    <div class='container'>
+      <div class='row'>
+        <div id='content' class='span12'>
+          {{ content }}
+        </div> <!-- ends div.span12 -->
+      </div>
+    </div>
+
+    <div id="push"></div>
+    </div> <!-- ends div#wrap -->
+
+    <footer>
+      <div class='row'>
+        <div class='container'>
+          <div class='span12'>
+            <div class='row'>
+              <div id='footer-quote' class='span8'>
+                <blockquote cite='http://www.davidtinapple.com/illich/1970_deschooling.html'>
+                 "A good educational system should have three purposes: provide all who want to learn with access to available resources at any time in their lives; empower all who want to share what they know to find those who want to learn it from them; and, finally, furnish all who want to present an issue to the public with the opportunity to make their challenge known."
+               </blockquote>
+               <div class='row'>
+                <div class='span5 offset1' id='scrapbook-lede'>
+                  &hellip; interested to see more of what inspires us?  Check out <a href='http://thesprouts.tumblr.com'>our tumblr</a>, a scrapbook of visions of the future of learning.
+                </div>
+                 <div class='quote-author span2'>
+                  <i class='icon-bookmark'></i> Ivan Illich
+                </div>
+              </div>  <!-- ends div.row -->
+                 <div id='sprout-elsewhere'>
+                  <legend>elsewhere</legend>
+                  <div id="lifestream">&nbsp;</div>
+                 </div>
+              </div> <!-- ends div#footer-quote -->
+
+              <div id='footer-connect' class='span4'>
+                <div id='connect'>
+                    <div id='newsletter-container'>
+                    <form action="https://tinyletter.com/thesprouts" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/thesprouts', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                    <legend>subscribe to our newsletter</legend>
+                    <span class="help-block">(and/or hop onto the <a href='https://groups.google.com/group/sprout-discuss'>sprout-discuss</a> list!)</span>
+                    <input type="text" name='email' id='tlemail' placeholder="Your email address">
+                    <input type="hidden" value="1" name="embed"/>
+                    <button type="submit" class="btn"><i class='icon-share-alt'></i></button>
+                  </form>
+                  </div> <!-- ends div#newsletter-container -->
+
+                  <div id='social-container'>
+                    <legend>follow us</legend>
+                    <ul id='elsewhere'>
+                      <li id='twitter'><a href='https://twitter.com/sprouts'><img src='img/twitter.png'></a></li>
+                      
+                      <li id='tumblr'><a href='https://thesprouts.tumblr.com'><img src='img/tumblr.png'></a></li>
+
+                      <li id='facebook'><a href='https://www.facebook.com/somesprouts'><img src='img/facebook.png'></a></li>
+                      
+                      <li id='feed'><a href='/feed.xml'><img src='img/feed.png'></a></li>
+                    </ul>
+                  </div> <!-- ends div#social-container -->
+
+                  <div id='email-container'>
+                    <legend>drop us a line</legend>
+                    <form id='email-us' method='post'>
+                      <fieldset>
+                    <span class='help-block'><a href='mailto:three-two-one.contact@thesprouts.org'>Send us an email</a> or pop off a message right here&hellip;</span>
+                    <textarea rows='5' id='email-message' type="textarea" name='body' placeholder="What's up?"></textarea>
+                    <input id='message-author' type="text" placeholder="Your email address" class='text' name='email'>
+                    <button id='email-us' type="submit" class="btn"><i class='icon-envelope'></i></button>
+                  </fieldset>
+                  </form>
+                  </div> <!-- ends div#email-container -->
+                </form>
+
+
+              </div> <!-- ends div#footer-contact -->
+            </div> <!-- ends div.row -->
+
+          </div> <!-- ends div.span12 -->
+        </div> <!-- ends div.container -->
+      </div> <!-- ends div.row -->
+    </footer>
+
+    <script type='text/javascript'  src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+
+    <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jquery.lifestream/0.3.4/jquery.lifestream.min.js"></script>
+    <script type='text/javascript' src='http://pvdspek.github.com/downloads/jquery.autoellipsis-1.0.10.min.js'></script>
+
+    <script type='text/javascript'>
+      $("#lifestream").lifestream({
+        limit: 7,
+        feedloaded: truncate_streams,
+        list:[
+          {
+            service: "tumblr",
+            user: "thesprouts"
+          },
+          {
+            service: "twitter",
+            user: "sprouts"
+          },
+          {
+            service: "facebook",
+            user: "somesprouts"
+          },
+        ],
+      });
+
+      function truncate_streams() {
+      $("#lifestream ul li").ellipsis();
+      }
+    </script>
+
+    <script type='text/javascript'>
+    $(function() {
+      $("form#email-us").submit(function() {
+        var email = $('input#message-author').val();
+        var body = $('textarea#email-message').val();
+
+        $.ajax({  
+            type: "POST",  
+            url: "/contact",
+            data: "email=" + email + '&body=' + body,
+            success: function() {
+              $('button#email-us').addClass("btn btn-success");
+            },
+            error: function() {
+              $('button#email-us').addClass("btn btn-danger");
+            }
+          });
+        return false;
+      });
+    });
+    </script>
+
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+---
+layout: default
+is_splash: true
+work_features:
+- 
+  id: 'somerville_steam_academy'
+  name: "Somerville STEAM Academy"
+  established: "2012&ndash;"
+  bg_pos: [10, 35]
+  bg_size: 'auto'
+-
+  id: 'sprout_spaghetti_dinners'
+  name: "sprout Spaghetti Dinners"
+  established: "2009&ndash;"
+  bg_pos: [24, 35]
+  bg_size: 'auto'
+- 
+  id: 'signs_of_life'
+  name: "Signs of Life"
+  established: "2012&ndash;"
+  bg_pos: [12, 0]
+  bg_size: 'cover'
+---
+
+<div class='featurette span12' id='work'>
+
+  <div class='featurette-title'>
+    <h2>Our Work</h2>
+    <div class='featurette-details'>
+      We're always looking for sandboxes where we can explore novel ways of supporting playful, scientific investigation (and developing the tools and materials that requires).  Got a lead on something that might interest us? <a href='/connect'>Drop us a line</a>!
+    </div> <!-- ends div.featurette-details -->
+  </div> <!-- ends div.featurette-title -->
+
+  <div class='work-container row'>
+    {% for work in page.work_features %}
+    {% include work_item.html %}
+    {% endfor %}
+  </div> <!-- ends div.work-container.row -->
+
+  <div class='read-more' id='work-read-more'><a href='/work'>explore our portfolio&hellip;</a></div>
+</div> <!-- ends div#work -->
+
+
+<div class='featurette span12' id='about'>
+<hr class='section-divider'>
+
+<div class='featurette-title'>
+  <h2>About Us</h2>
+  
+  <div class='featurette-details'>
+    Our mission is to make science a cultural activity.  We're learning how to design powerful tools &amp; media to support creative, scientific investigation.  Interested in working with us? <a href='/connect'>Let us know!</a>
+  </div> <!-- ends div.featurette-details -->
+</div> <!-- ends div.featurette-title -->
+
+  <div id='headshots-container' class='row'>
+    <div class='bio-container span4'>
+      <div id='alec-resnick' class='who'>
+        <img src='img/us/alec-resnick.png'>
+        <div class='name'>Alec Resnick</div>
+      </div> <!-- ends div#alec-resnick -->
+      <div class='bio'>
+        Alec cares about the <b>tools</b> we use to think, learn, and explore.  Before sprout, he studied math &amp; physics at MIT and co-founded nublabs, an electromechanical design consultancy.
+      </div>
+    </div>
+
+    <div class='bio-container span4'>
+      <div id='shaunalynn-duffy' class='who'>
+        <img src='img/us/shaunalynn-duffy.png'>
+        <div class='name'>Shaunalynn Duffy</div>
+      </div> <!-- ends div#shaunalynn-duffy -->
+      <div class='bio'>
+        Shaunalynn is focused on what makes for a <b>healthy learning community</b>.  Before sprout, she studied environmental engineering &amp; writing at MIT.
+      </div>
+    </div>
+    
+    <div class='bio-container span4'>
+      <div id='michael-nagle' class='who'>
+        <img src='img/us/michael-nagle.png'>
+        <div class='name'>Michael Nagle</div>
+      </div> <!-- ends div#michael-nagle -->
+      <div class='bio'>
+        Nagle's passion is building <b>environments for sustainable inquiry</b> for kids &amp; adults.  Before sprout, he co-founded Camp Kaleidoscope (now <a href='partsandcrafts.org'>Parts &amp; Crafts</a>) and the Kaleidoscope Homeschooling Center.
+      </div>
+    </div>
+
+  </div>
+    <div class='read-more' id='about-read-more'><a href='/about'>get to know our team&hellip;</a></div>
+</div> <!-- ends div#about -->
+
+<div class='featurette span12' id='blog'>
+<hr class='section-divider'>
+
+<div class='featurette-title'>
+<h2>Our Blog</h2>
+  <div class='featurette-details'>
+    Here's where we write up our work in an attempt to dig deeper into what we're doing, trying to distill and analyze our experiences, personal and professional.  Related: to take a look at our scrapbook, check out <a href='http://thesprouts.tumblr.com'>our tumblr</a>. 
+  </div> <!-- ends div.featurette-details -->
+</div> <!-- ends div.featurette-title -->
+<div id='blog-posts' class='row'>
+{% for post in site.posts limit:3 %}
+  <div class='blog-container span4 {% cycle "even", "odd"%}' >
+    <div class='spacer'>
+    <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+    <div class='blog-post-date'>posted {{ post.date | date_to_long_string }}</div>
+    <div class='blog-post-summary'>
+      {{ post.summary }}
+    </div>
+  </div> <!-- ends div.spacer -->
+  </div>
+{% endfor %}
+</div>
+    <div class='read-more' id='about-read-more'><a href='/blog'>peruse the archives&hellip;</a></div>
+</div> <!-- ends div#blog -->

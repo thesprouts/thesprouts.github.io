@@ -1,0 +1,8 @@
+name: Your Blog's Name
+description: A description for your blog
+url: http://your-blog-url.example.com
+
+baseurl: /
+source: ./
+destination: ./_public
+permalink: /:title

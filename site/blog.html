@@ -1,0 +1,67 @@
+---
+layout: default
+title: our blog
+---
+
+<div class='page-summary row'>
+  <div class='span8 offset2'>
+    <div class='page-title'><h2>{{ page.title }}</h2></div>
+    <p>
+    Here's where we try to distill our day-to-day supporting investigation (and designing the tools &amp; media to support inquiry) into something interesting about the future of learning.
+  </p>
+  <p>
+    Check out <a href='http://thesprouts.tumblr.com'>our tumblr</a> for a scrapbook of what inspires us.
+  </p>
+  </div>
+</div> <!-- ends div.page-summary -->
+  
+<hr class='page-summary-delimiter'>
+
+<div id='blog-posts' class='row'>
+{% assign num_front_posts = 3 %}
+{% for post in site.posts limit:num_front_posts %}
+ <div id='{{ post.id }}' class="article span12">
+  <h2><a href='{{ post.url }}'>{{ post.title }}</a></h1>
+
+  <div class='article-info'>
+    {% if post.author %}
+    drafted by <a href='#'>{{ post.author }}</a> on <a href='{{ post.url }}'>{{ post.date | date_to_long_string }}</a>
+    {% endif %}
+  </div> <!-- ends div.article-info -->
+
+  <div class='span12 row'>
+   <div class="summary span8 offset2">
+     {{ post.summary }} 
+   </div> <!-- ends div.summary -->
+  </div>
+
+  <div class='row'>
+  <div class="article-body span10 offset1">
+    {{ post.content }}
+  </div> <!-- ends div.article-body -->
+  </div> <!-- ends div.row -->
+ </div> <!-- ends div.article -->
+{% unless forloop.last %}
+<div class='section-divider'></div>
+{% endunless %}
+{% endfor %}
+</div> <!-- ends div#blog-posts -->
+
+{% if site.posts.size > num_front_posts %}
+<div class='page-end-delimiter span12'></div>
+
+<div class='blog-toc row'>
+ <h2>Archives</h2>
+  {% for post in site.posts offset:num_front_posts %}
+  {% cycle 'add rows': '<div class="blog-toc-container row">', nil, nil %}
+  <div class='blog-toc-card span4 {% cycle "even", "odd" %}'>
+  <h3 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+  <div class='lede-info'>drafted {% if post.author %} by {{ post.author }} {% endif %} on {{ post.date | date_to_long_string }}</div>
+  <div class='lede'>
+    {{ post.summary }}
+  </div>
+  </div>
+  {% cycle 'end rows': nil, nil, '</div> %}
+  {% endfor %}
+</div> <!-- ends div.blog-toc.row -->
+{% endif %}

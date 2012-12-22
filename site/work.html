@@ -1,0 +1,167 @@
+---
+layout: default
+
+title: our work
+
+portfolio_items:
+- 
+  id: 'somerville_steam_academy'
+  name: "Somerville STEAM Academy"
+  established: "2012&ndash;"
+  bg_pos: [10, 35]
+  bg_size: 'auto'
+-
+  id: 'sprout_spaghetti_dinners'
+  name: "sprout Spaghetti Dinners"
+  established: "2009&ndash;"
+  bg_pos: [24, 35]
+  bg_size: 'auto'
+- 
+  id: 'signs_of_life'
+  name: "Signs of Life"
+  established: "2012&ndash;"
+  bg_pos: [12, 0]
+  bg_size: 'cover'
+-
+  id: 'turtle_geometry'
+  name: "Turtle Geometry"
+  established: "2009&ndash;"
+  bg_pos: [48, 0]
+  bg_size: 'cover'
+- 
+  id: 'flutes_and_waves'
+  name: "Flutes &amp; Waves"
+  established: "2010&ndash;"
+  bg_pos: [0,0]
+  bg_size: 'cover'
+-
+  id: 'kinetic_arts_and_crafts'
+  name: "Kinetic Arts &amp; Crafts"
+  established: "2012&ndash;"
+  bg_pos: [45, 0]
+  bg_size: 'cover'
+-
+  id: 'ecomodding_your_home'
+  name: "Ecomodding Your Home"
+  established: "2010"
+  bg_post: [0,0]
+  bg_size: cover
+-
+  id: 'quantified_self'
+  name: "Quantified Self"
+  established: "2011&ndash;"
+  bg_pos: [23, 0]
+  bg_size: 'cover'
+-
+  id: 'mathful_play'
+  name: "Mathful Play"
+  established: "2009&ndash;2011;"
+  bg_pos: [50, 0]
+  bg_size: 'cover'
+-
+  id: 'byg2md'
+  name: "Bring Your Grandma to Math Day"
+  established: "2009&ndash;2012"
+  bg_pos: [22, 0]
+  bg_size: 'cover'
+-
+  id: 'streetbeest'
+  name: "The Streetbeest"
+  established: "2010"
+  bg_pos: [20, 0]
+  bg_size: 'cover'
+-
+  id: 'engineering_the_wind'
+  name: "Engineering the Wind"
+  established: "2010&ndash;2011;"
+  bg_pos: [0, 30]
+  bg_size: 'cover'
+-
+  id: 'simulation_and_nature_in_design'
+  name: "Simulation &amp; Nature in Design"
+  established: "2009&ndash;2010"
+  bg_pos: [79, 0]
+  bg_size: 'cover'
+-
+  id: 'unlocking_locks'
+  name: "Unlocking Locks"
+  established: "2009&ndash;2010"
+  bg_pos: [66, 0]
+  bg_size: 'cover'
+-
+  id: 'science_of_sourdough'
+  name: "Science of Sourdough"
+  established: "2010"
+  bg_pos: [102, 0]
+  bg_size: 'cover'
+-
+  id: 'overthinking_board_games'
+  name: "Overthinking Board Games"
+  established: "2010"
+  bg_pos: [79, 0]
+  bg_size: 'cover'
+-
+  id: 'magnetic_machines'
+  name: "Magnetic Machines"
+  established: "2009&ndash;2010"
+  bg_pos: [66, 0]
+  bg_size: 'cover'
+
+collaborators:
+  - [somerville_public_schools, "http://www.somerville.k12.ma.us/education/components/scrapbook/default.php?sectionid=1"]
+  - [google, "https://www.google.com/edu/cape/"]
+  - [shady_hill_school, "http://shs.org/"]
+  - [parts_and_crafts, "http://partsandcrafts.org/"]
+  - [eliot, "http://www.eliotschool.org/"]
+  - [Umass_boston, "http://www.umb.edu/"]
+  - [city_of_somerville, "http://www.somervillema.gov/"]
+  - [artscience, "http://www.artscienceprize.org/asp/"]
+  - [mit_sloan, "http://mitsloan.mit.edu/"]
+  - [tremont_school, "http://tremontschool.org/"]
+  - [MIT, "http://web.mit.edu/"]
+  - [tufts, "http://www.excollege.tufts.edu/"]
+  - [ginger_io, "http://ginger.io/"]
+  - [mass_dot, "http://www.eot.state.ma.us/developers/"]
+  - [maimonides, "http://rav.org/"]
+  - [artists_in_context, "http://www.artistsincontext.org/"]
+---
+
+<div class='page-summary row'>
+  <div class='span8 offset2'>
+    <div class='page-title'><h2>{{ page.title }}</h2></div>
+    <p>
+    Whether working with companies, universities, schools, or local families&mdash;our focus is finding interesting, flexible contexts where we find opportunities to prototype novel tools, materials, and approaches which support creative, scientific inquiry.
+  </p>
+  <p>
+    Got a lead?  <a href='/connect'>Drop us a line!</a>
+  </p>
+  </div>
+</div> <!-- ends div.page-summary -->
+  
+<hr class='page-summary-delimiter'>
+
+<div id='projects-and-programs' class='page-section'>
+  <h2>Selected Projects &amp; Programs</h2>
+
+  {% for work in page.portfolio_items %}
+  {% cycle 'open work rows': '<div class="work-container row">', nil, nil %}
+  {% include work_item.html %}
+  {% cycle 'close work rows': nil, nil, '</div> <!-- ends div.work-container.row -->' %}
+  {% if forloop.last and forloop.length-forloop.index*(forloop.length/forloop.index) != 0 %}
+  </div> <!-- ends MOD div.work-container.row -->
+  {% endif %}
+  {% endfor %}
+
+<div id='collaborators' class='page-section'>
+  <h2>Selected Collaborators</h2>
+
+  {% for collaborator_pair in page.collaborators %}
+  {% assign collaborator = collaborator_pair | first %}
+  {% assign collaborator_url = collaborator_pair | last %}
+  {% cycle 'open collaborator rows': '<div class="collaborator-container row">', nil, nil, nil %}
+  <div class='collaborator-logo span3'>
+    <a href='{{ collaborator_url }}'><img src={{ 'img/work/collaborators/' | append:collaborator | append:'.png' }}></a>
+  </div>
+  {% cycle 'close collaborator rows': nil, nil, nil, '</div> <!-- ends div.collaborator-container.row -->' %}
+  {% endfor %}
+</div> <!-- ends div#collaborators -->

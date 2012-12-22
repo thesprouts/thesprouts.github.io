@@ -1,0 +1,112 @@
+---
+layout: default
+title: connect
+---
+
+<div class='page-summary row'>
+  <div class='span8 offset2'>
+    <div class='page-title'><h2>{{ page.title }}</h2></div>
+    <p>
+    We are always on the lookout for interesting opportunities and collaborations which give us a chance to understand learning.
+  </p>
+  <p>
+    Curious?  Don't hesitate!  Say hey&mdash;</a>  
+  </p>
+  </div>
+</div> <!-- ends div.page-summary -->
+  
+<hr class='page-summary-delimiter'>
+
+
+<div id='connect-options' class='row'>
+<div id='elsewhere' class='page-section span4'>
+<h2>Elsewhere</h2>
+<div class='elsewhere-option row'>
+  <div id='email' class='elsewhere-icon span1'></div>
+  
+  <div class='span3'>
+    <p class='elsewhere-description'>
+    Looking for us in your inbox? You can <a href='#mailing-list'>sign up for the.grapevine</a> (our newsletter), join <a href='#sprout-discuss'><span class='verbatim'>sprout-discuss</span></a>, or <a href='mailto:three.two.one-contact@thesprouts.org'>email us</a>.
+  </p>
+  </div>
+</div>
+
+
+<div class='elsewhere-option row'>
+  <div id='twitter' class='elsewhere-icon span1'></div>
+  
+  <div class='span3'>
+    <p class='elsewhere-description'>
+    Follow <a href='http://twitter.com/sprouts'>@sprouts</a> for updates.  Or follow <a href='http://twitter.com/aresnick'>Alec (@aresnick)</a>, <a href='http://twitter.com/shduff'>Shaunalynn (@shduff)</a>, and <a href='http://twitter.com/nagle5000'>Nagle (@nagle5000)</a>.
+  </p>
+  </div>
+</div>
+
+
+<div class='elsewhere-option row'>
+  <div id='tumblr' class='elsewhere-icon span1'></div>
+  
+  <div class='span3'>
+    <p class='elsewhere-description'>
+    <a href='http://thesprouts.tumblr.com'>Pollen</a> is our tumblr: a scrapbook for bits &amp; pieces we think say something interesting about the future of learning.
+  </p>
+  </div>
+</div>
+
+
+<div class='elsewhere-option row'>
+  <div id='facebook' class='elsewhere-icon span1'></div>
+  
+  <div class='span3'>
+    <p class='elsewhere-description'>
+    Head over to <a href='https://www.facebook.com/somesprouts'>our Facebook page</a> to keep up with events and everyone else who's interested in keeping up with sprout.
+    </p> 
+  </div>
+</div>
+
+</div> <!--ends #elswhere.page-section --> 
+
+
+<div class='page-section span4'>
+  <h2>Our Studios</h2>
+  <div class='section-summary'>
+  <p>
+    Our studios are a place for us to prototype <a href='/work'>our projects and programs</a>.  They have a mix of light manufacturing, basic wet lab, electrical engineering, and arts &amp; crafts supplies and equipment.
+  </p>
+
+  <p>
+    In the past, we've opened them up to the community as much is convenient.  This past year we welcomed <a href='http://partsandcrafts.org/'>Parts &amp; Crafts</a> to share our space for a few months as they experiment with their Semiconducted Learning Center.  Between that and pending renovations, we've temporarily closed our studios to drop-in, public use.  We plan to re-open them next spring; if you're interested in staying abreast of the schedule, <a href='#newsletter'>sign up for our newsletter</a> or <a href='http://twitter.com/sprouts'>follow @sprouts</a>.
+
+  <p>
+    That said, if you think they'd be useful to you&mdash;especially if you've got a meetup or event or community group looking for a venue&mdash;<a href='mailto:three.two.one-contact@thesprouts.org'>let us know</a>!  We'd love to help out.
+  </p>
+</div> <!-- ends div.section-summary -->
+  {% include small_google_map.html %}
+</div>
+
+
+<div id='support-sprout' class='page-section span4'>
+<h2>Support sprout</h2>
+<div class='section-summary'>
+<p>
+  If you like what sprout does and would like to <em>lend a hand</em>, <a href='mailto:three.two.one-contact@thesprouts.org'>drop us a line</a>.  We always have a few projects in the hopper that could use a hand.  We're especially keen to hear from people interested in co-teaching or co-designing programs &amp; workshops in the spirit of <a href='/work'>our past work</a>.
+</p>
+<p>
+  If you like what sprout does and would like to <em>make a [tax-deductible] donation</em>, great! We're a registered, 501(c)3 nonprofit.  Just enter your information below and we'll email you a receipt and be in touch.  If you've some other type of donation to make <a href='mailto:three.two.one-contact@thesprouts.org'>drop us a line</a>.
+</p>
+</div>
+<hr>
+<form id='donate' class="row form-inline" action="/charge" method="post">
+  <div class='span4'>
+    <i class='icon-envelope'></i><input id='email' name="email" type="text" class="input-small" placeholder="Your email address">
+  </div>
+  <div class='span4'>
+  <span id='dollar'>$</span><input id='donation_amount' name="donation_amount" type="text" class="input-small" placeholder="How much?">
+  <script src="https://button.stripe.com/v1/button.js" class="stripe-button"
+          data-key="pk_live_p4dxHdvEzJ6fmwJ4QQseQLXX  "
+          data-amount=""
+          data-label="Donate"></script>
+        </div>
+</form>
+</div>
+</div>

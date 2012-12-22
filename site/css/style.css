@@ -1,0 +1,853 @@
+body {
+  background-color: #f9fafb;
+
+}
+.page-title {
+/*  background: #eaedf1;*/
+  width: 100%;
+/*  box-shadow: 0px 3px 8px #555;
+*/  font-size: 2.5em;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  line-height: 2em;
+/*  text-shadow: 0px 2px 3px #fff;
+  color: #bfbfbf;*/
+  color: #555;
+}
+
+#content {
+  padding-top: 3em;
+}
+
+
+div.article > h2, .blog-toc > h2 {
+  text-align: center;
+  font-size: 1.75em;
+  font-family: "adelle-1","adelle-2", Georgia, "Times New Roman", serif;
+}
+
+h1 > a:hover, h2 > a:hover, .article-info a:hover {
+  text-decoration: none;
+}
+
+div.article blockquote li {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 0.75em
+}
+
+div.article > h2 {
+  margin-bottom: 0.375em;
+}
+
+.blog-toc > h2 {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+}
+
+.article-info {
+  text-align: center;
+  font-style: italic;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 1.125em;
+  margin-bottom: 1em;
+  line-height: 1.75em;
+}
+
+.summary {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
+.article-body {
+  margin-top: 1.5em;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+.article-body p {
+  margin-bottom: 1em;
+
+}
+
+div.article {
+  font-size: 1.75em;
+  line-height: 1.25em;
+}
+
+.page-end-delimiter {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  border-bottom: 1.5px Grey dashed;
+  height: 1.5px;
+}
+
+#logotype {
+  font-family: "adelle-1","adelle-2", Georgia, serif;
+  font-size: 1.125em;
+  text-align: right;
+  line-height: 1.5em;
+}
+
+#nav {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 0.5em;
+  line-height: 3.25em;
+}
+
+.splash #nav {
+  margin-top: -1.75em;
+}
+
+#nav ul {
+  list-style-type: none;
+  letter-spacing: -0.03125em;
+  text-align: left;
+}
+
+#nav li {
+  display: inline-block;
+  text-align: center;
+  padding: 0em;
+  padding-right: 1.75em;
+  font-size: 1.25em;
+  line-height: 0.375em;
+}
+
+header a, footer a {
+  text-decoration: none;
+  color: #cbd4dc;
+}
+
+
+header a:hover, footer a:hover {
+  text-decoration: none;
+  color: #555;
+  -webkit-transition: color 0.25s ease-in;  
+  -moz-transition: color 0.25s ease-in;  
+  -o-transition: color 0.25s ease-in;  
+  transition: color 0.25s ease-in;
+}
+
+#nav ul li.active > a {
+  color: #555;
+}
+
+
+#logotype a {
+  text-shadow: 0 1px 1px #aaa; 
+  text-decoration: none;
+  color: #333;
+  margin-right: -6px;   
+}
+
+#logotype a:hover {
+  color: black;
+}
+
+.blog-toc .lede {
+ padding: 1.5em;
+}
+
+header {
+  background-color: #13a93f;
+  background-color: rgba(19,169,63,0.9);
+  font-size: 3em;
+  line-height: 1em;
+  box-shadow: inset 0px -3px 5px #555;
+  border-top: 4px solid #3C3C3C;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+header.splash {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+
+.splash #logotype {
+  text-align: right;
+}
+
+#footer-quote {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 0.4125em;
+  line-height: 1.125em;
+  margin-bottom: 1em;
+}
+
+footer blockquote {
+  margin-top: 11.5px;
+  border-left: none;
+}
+
+.quote-author {
+  text-align: right;
+}
+
+.quote-author i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#hero-row {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  border-bottom: 4px solid #333;
+  background-color: #13a93f;
+  background-color: rgba(19,169,63,0.9);
+  font-size: 3em;
+  margin-bottom: 1em;
+  line-height: 1em;
+  box-shadow: inset 0px 3px 5px #555;
+}
+
+footer .help-block {
+  text-align: right;
+  font-size: 0.375em;
+  line-height: 1em;
+  color: #555;
+}
+
+#connect input {
+  margin: 0;
+  width: 304px;
+}
+
+#connect legend {
+
+  text-align: right;
+}
+
+#connect-options em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+ul#elsewhere {
+  text-align: right;
+  margin: 0;
+  list-style: none;
+}
+
+ul#elsewhere li {
+  display: inline;
+  width: 56px;
+}
+
+ul#elsewhere li img {
+  width: 15%;
+  opacity: 0.875;
+}
+
+p.elsewhere-description {
+  margin-top: 0.5em;
+}
+
+ul#elsewhere li img:hover {
+  opacity: 1;
+}
+
+a:hover{
+  -webkit-transition: color 0.25s ease-in;  
+  -moz-transition: color 0.25s ease-in;  
+  -o-transition: color 0.25s ease-in;  
+  transition: color 0.25s ease-in;
+}
+textarea#email-message {
+  margin-top: 11px; /* TODO: hack */
+  width: 356px;
+}
+
+footer legend {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  border-bottom: 1px dashed #ccc;
+}
+
+#footer-connect div {
+  margin-bottom: 0.9375em;
+}
+
+#lifestream {
+  font-size: 0.895em;
+}
+
+
+ul.lifestream {
+  list-style-type: none;
+  margin: 0;
+  width: 90%;
+}
+
+ul.lifestream li {
+  padding-left: 1.75em;
+  margin-bottom: 1em;
+  background-size: 20px 20px;
+  background-repeat:no-repeat;
+  background-position: 0 50%;
+  max-height: 5em;
+}
+
+
+li.lifestream-tumblr {
+  background-image: url("/img/tumblr.png");
+}
+
+li.lifestream-rss {
+  background-image: url('img/rss.png');
+}
+
+li.lifestream-facebook {
+  background-image: url('img/facebook.png');
+}
+
+li.lifestream-twitter {
+  list-style-image: url('img/twitter.png');
+}
+
+#sprout-elsewhere {
+  margin-top: 25.75px;
+}
+
+#scrapbook-lede {
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: right;
+  line-height: 1.375em;
+}
+
+
+#support-sprout hr {
+  margin-top: -0.375em;
+  margin-bottom: 1.55em;
+}
+
+.featurette-title {
+  width: 61.8%;
+  margin-left: 19.1%;
+  margin-right: 19.1%;
+  padding-top: 1em;
+}
+
+.featurette h2 {
+  font-family: "adelle-1","adelle-2", Georgia, "Times New Roman", serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+.featurette hr {
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #fff;
+}
+
+#blog-posts div.section-divider {
+  width: 100%;
+  clear: both;
+  height: 2px;
+  display: inline-block;
+  vertical-align: middle; 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.featurette-details {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 1.25em;
+  line-height: 1.375em;
+  text-align: center;
+}
+
+#hero-summary {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 0.5em;
+  line-height: 1.25em;
+  text-align: justify;
+  margin-top: -2em;
+}
+
+.splash #logotype {
+  margin-top: 0.875em;
+}
+
+.who  img {
+  min-height: 257px;
+}
+.who {
+  text-align: center;
+  float: left;
+  padding: 10px 10px 25px 10px;
+  background: #eee;
+  border: 1px solid #fff;
+  box-shadow: 0px 2px 15px #333;
+  position: relative;
+  margin: 1.5em;
+}
+
+#beth-osullivan.who {
+  transform: rotate(5deg);
+  -ms-transform: rotate(5deg); /* IE 9 */
+  -webkit-transform: rotate(5deg); /* Safari and Chrome */
+  -o-transform: rotate(5deg); /* Opera */
+  -moz-transform: rotate(5deg); /* Firefox */
+}
+
+#bakhtiar-mikhak.who {
+  transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg); /* IE 9 */
+  -webkit-transform: rotate(-7deg); /* Safari and Chrome */
+  -o-transform: rotate(-7deg); /* Opera */
+  -moz-transform: rotate(-7deg); /* Firefox */
+}
+
+#alec-resnick.who {
+  transform: rotate(5deg);
+  -ms-transform: rotate(5deg); /* IE 9 */
+  -webkit-transform: rotate(5deg); /* Safari and Chrome */
+  -o-transform: rotate(5deg); /* Opera */
+  -moz-transform: rotate(5deg); /* Firefox */
+}
+
+#michael-nagle.who {
+  transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg); /* IE 9 */
+  -webkit-transform: rotate(-7deg); /* Safari and Chrome */
+  -o-transform: rotate(-7deg); /* Opera */
+  -moz-transform: rotate(-7deg); /* Firefox */
+}
+
+.bio-container #alec-resnick .name {
+  background:url('/img/us/alec-resnick-name.png') no-repeat center center;
+  background-size: contain;
+  padding-top: 35px;
+}
+.bio-container #michael-nagle .name {
+  background:url('/img/us/michael-nagle-name.png') no-repeat center center;
+  background-size: contain;
+  padding-top: 60px;
+  margin-top: 0.5em;
+  margin-bottom: -1.25em;
+}
+.bio-container #shaunalynn-duffy .name {
+  background:url('/img/us/shaunalynn-duffy-name.png') no-repeat center center;
+  background-size: contain;
+  padding-top: 40px;
+
+}
+
+.bio-container .name {
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.2em;
+}
+
+#headshots-container {
+  margin-top: 2em;
+}
+
+.who {
+  min-width: 300px;
+  clear: both;
+  margin-bottom: 2.5em;
+}
+
+div.name {
+  margin-top: 0.75em;
+}
+
+.work-hero {
+  text-align: center;
+}
+
+.work-artifact {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 250px;
+  width: 250px;
+}
+
+.work-artifact:hover {
+  opacity: 1.0;
+}
+
+.work-artifact {
+  opacity: 0.875;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+  background-size: contain;
+/*  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);*/
+  -moz-box-shadow:    inset 0 0 10px black;
+  -webkit-box-shadow: inset 0 0 10px black;
+  box-shadow:         inset 0 0 10px black;
+}
+
+.work-container.row:first-child {
+  margin-top: 0em;
+}
+
+.work-container.row {
+  margin-top: 6em;
+} 
+
+.work-hero > .name {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  text-align: center;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  margin-top: 2em ;
+  margin-bottom: 1em;
+}
+
+.work-hero > .name > span {
+  padding-right: 0.25em;
+  padding-left: 0.25em;
+  border-bottom: 1px dashed #555;
+}
+
+.work-description {
+  text-align: justify;
+}
+
+.established, .read-more {
+  width: 100%;
+  text-align: right;
+  font-family: "adelle-1","adelle-2", Georgia, "Times New Roman", serif;
+  text-shadow: 0px 2px 3px #fff;
+  color: #ccc;
+}
+
+.read-more {
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+.read-more a:hover {
+  text-decoration: none;
+  color: #555;
+  -webkit-transition: color 0.25s ease-in;  
+  -moz-transition: color 0.25s ease-in;  
+  -o-transition: color 0.25s ease-in;  
+  transition: color 0.25s ease-in;
+}
+
+.established > span {
+  margin-right: 1.5em;
+}
+
+.page-section h2 {
+  font-family: "adelle-1","adelle-2", Georgia, "Times New Roman", serif;
+  text-shadow: 0px 2px 3px #fff;
+  color: #ccc;
+}
+
+.year-delimiter {
+  width: 100%;
+  text-align: center;
+  font-size: 6em;
+  font-family: "adelle-1","adelle-2", Georgia, "Times New Roman", serif;
+  text-shadow: 0px 2px 3px #fff;
+  color: #ccc; 
+  margin-top: 1em;
+}
+
+.year-delimiter hr {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.year-delimiter a:hover {
+  text-decoration: none;
+  color: #555;
+  -webkit-transition: color 0.25s ease-in;  
+  -moz-transition: color 0.25s ease-in;  
+  -o-transition: color 0.25s ease-in;  
+  transition: color 0.25s ease-in;  
+}
+
+.work-hero.archived {
+  opacity: 0.625;
+}
+
+.page-summary .page-title {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.page-title h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+}
+
+h1 { font-size: 5em; }
+
+.featurette-title > h2 {
+  margin-bottom: 0.5em;
+}
+
+.page-section {
+  margin-top: 7em;
+}
+
+#connect-options .page-section h2 {
+  margin-bottom: 0.5em;
+}
+
+.page-section h2 {
+  font-size: 3.5em;
+  margin-bottom: 1em;
+}
+
+.page-summary p {
+  text-align: center;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 1.75em;
+  line-height: 1.125em;
+  margin-top: 1em;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  line-height: 1em;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#collaborators h2 {
+  margin-bottom: 0em;
+}
+
+
+.page-summary {
+  margin-bottom: 3em;
+}
+
+hr.page-summary-delimiter {
+  border-top: 1px solid #ddd;
+  margin-bottom: 4em;
+}
+
+.collaborator-logo {
+  width: 270px;
+  height: 270px;
+  line-height: 270px;
+  text-align: center;
+  opacity: 0.875;
+}
+
+.collaborator-logo img {
+  vertical-align: middle;
+  max-height: 75%;
+  max-width: 75%;
+}
+
+.collaborator-logo:hover {
+  opacity: 1.0;
+}
+
+.blog-toc h3 {
+  text-align: center;
+}
+
+.blog-toc h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size:3.5em;
+  color: #888;
+  text-shadow: 0px 2px 3px #fff;
+} 
+
+.blog-toc-card {
+  height: 370px;
+  max-height: 370px;
+  overflow: hidden;
+}
+.blog-container.even {
+  border-radius: 7px;
+  height: 370px;
+  -moz-box-shadow:     0 0 7px #999;
+  -webkit-box-shadow:  0 0 7px #999;
+  box-shadow:          0 0 7px #999;
+}
+.blog-toc-card.odd, .blog-container.odd {
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.06125);
+  height: 370px;
+}
+
+.blog-toc-card.odd .lede-info {
+  color: #555;
+}
+
+.spacer {
+  padding: 1em;
+}
+
+.featurette #blog-posts {
+  margin-top: 3em;
+}
+.lede-info {
+  padding-right: 1.5em;
+  text-align: right;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  text-shadow: 0px 2px 3px #fff;
+  color: #888;
+}
+
+
+.section-summary {
+  margin-bottom: 2em;
+}
+#connect-options .page-section {
+  text-align: justify;
+}
+
+#sprout-map {
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 5px;
+  -moz-box-shadow:    inset 0 0 10px black;
+  -webkit-box-shadow: inset 0 0 10px black;
+  box-shadow:         inset 0 0 10px black;
+}
+
+#sprout-map iframe {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form#donate > div {
+  margin-bottom: 0.5em;
+}
+form#donate input#email {
+  margin-left: 0.375em;
+  width: 90%;
+}
+
+form#donate input#donation_amount {
+  width: 59%;
+  margin-left: 0.5em;
+}
+
+#dollar { 
+  padding-left: 0.125em;
+  font-size: 1.25em; 
+}
+
+.stripe-button-inner {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#connect-options #elsewhere img {
+  width: 75%;
+  opacity: 0.875;
+}
+
+.elsewhere-option {
+  margin-bottom: 1em;
+}
+
+.verbatim {
+  font-family: Courier;
+}
+
+#connect-options .page-section {
+  margin-top: 0em;
+}
+
+.elsewhere-icon {
+  border-radius: 35px;
+  height: 70px;
+  opacity: 0.875;
+  -moz-box-shadow:    inset 0 0 5px black;
+  -webkit-box-shadow: inset 0 0 5px black;
+  box-shadow:         inset 0 0 5px black;
+
+}
+
+.elsewhere-option #twitter {
+  background: url('/img/twitter.png') no-repeat center center;
+  background-size:contain;
+}
+
+.elsewhere-option #facebook {
+  background: url('/img/facebook.png') no-repeat center center;
+  background-size:contain;
+}
+
+.elsewhere-option #tumblr {
+  background: url('/img/tumblr.png') no-repeat center center;
+  background-size:contain;
+}
+
+.elsewhere-option #email {
+  background: url('/img/email.png') no-repeat center center;
+  background-size:contain;
+}
+
+.blog-container h3 {
+  text-align: center;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+}
+
+.blog-post-date {
+  text-align: right;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  text-shadow: 0px 2px 3px #fff;
+  color: #ccc;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -100px;
+}
+
+#push {
+  height: 200px;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+  height: 600px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

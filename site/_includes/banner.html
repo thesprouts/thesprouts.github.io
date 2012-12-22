@@ -1,0 +1,24 @@
+
+<header id='home'>
+  <div class='container'>
+  <div id='nav-row' class="row">
+    <div id='nav' class="span7 row">
+      {% assign active_page = page.url | remove:'/' | remove:'.html' %}
+      <ul>
+        <li id='work' class='{% if active_page == "work" %}active{% endif %}'><a href='/work'>our work</a></li>
+        <li id='about' class='{% if active_page == "about" %}active{% endif %}'><a href='/about'>about us</a></li>
+        <li id='blog' class='{% if active_page == "blog" %}active{% endif %}'><a href='/blog'>the blog</a></li>
+        <li id='connect' class='{% if active_page == "connect" %}active{% endif %}'><a href='/connect'>connect</a></li>
+      </ul>
+    </div>
+
+    <div id='logotype' class="span5"> <a href='/'>sprout &amp; co.</a> </div>
+
+  </div>
+</div>
+</header>
+<div class='page-title'>
+  <div class='container'>
+    
+  </div>
+</div>
