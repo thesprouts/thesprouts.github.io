@@ -96,18 +96,34 @@ work_features:
     Here's where we write up our work in an attempt to dig deeper into what we're doing, trying to distill and analyze our experiences, personal and professional.  Related: to take a look at our scrapbook, check out <a href='http://thesprouts.tumblr.com'>our tumblr</a>. 
   </div> <!-- ends div.featurette-details -->
 </div> <!-- ends div.featurette-title -->
+
+{% if site.posts.size < 3 %}
+{% assign blog_centering_padding = ((3-site.posts.size)*33.0)/2.0 %}
+<div id='blog-posts' class='row' style='padding-left: {{ 3 | minus: site.posts.size | times: 33.0 | divided_by: 2.0 }}%'>
+{% else %}
 <div id='blog-posts' class='row'>
+{% endif %}
+
 {% for post in site.posts limit:3 %}
   <div class='blog-container span4 {% cycle "even", "odd"%}' >
     <div class='spacer'>
     <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
     <div class='blog-post-date'>posted {{ post.date | date_to_long_string }}</div>
     <div class='blog-post-summary'>
-      {{ post.summary }}
+      <p>
+        {{ post.summary }}
+      </p>
+      <hr>
+      <blockquote cite='{{ post.url }}'>
+      {{ post.content | strip_html | truncate_words: 60 | truncate: 347  }}
+        <div class='fadeout'></div>
+      </blockquote>
     </div>
   </div> <!-- ends div.spacer -->
   </div>
 {% endfor %}
 </div>
-    <div class='read-more' id='about-read-more'><a href='/blog'>peruse the archives&hellip;</a></div>
+{% if site.posts.size > 3 %}}
+<div class='read-more' id='about-read-more'><a href='/blog'>peruse the archives&hellip;</a></div>
+{% endif %}
 </div> <!-- ends div#blog -->

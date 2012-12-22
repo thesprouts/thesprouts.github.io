@@ -1,5 +1,5 @@
 body {
-  background-color: #f9fafb;
+  background-color: #f9fafb; /* = rgba(249,250,251,1) */
 
 }
 .page-title {
@@ -97,6 +97,23 @@ div.article {
   margin-top: -1.75em;
 }
 
+.splash #logotype {
+  text-align: right;
+  margin-top: 0.82em;
+}
+
+.splash #nav ul {
+  text-align: right;
+  margin-top: 0.375em;
+  margin-bottom: -1.5em;
+}
+
+.splash #nav li {
+  padding: 0;
+  padding-left: 1.75em;
+  text-align: right;
+}
+
 #nav ul {
   list-style-type: none;
   letter-spacing: -0.03125em;
@@ -136,7 +153,7 @@ header a:hover, footer a:hover {
   text-shadow: 0 1px 1px #aaa; 
   text-decoration: none;
   color: #333;
-  margin-right: -6px;   
+  margin-right: -2px;
 }
 
 #logotype a:hover {
@@ -368,13 +385,11 @@ li.lifestream-twitter {
   font-size: 0.5em;
   line-height: 1.25em;
   text-align: justify;
-  margin-top: -2em;
 }
 
-.splash #logotype {
-  margin-top: 0.875em;
+#hero-summary p {
+  padding-right: 2.5em;
 }
-
 .who  img {
   min-height: 257px;
 }
@@ -812,8 +827,53 @@ form#donate input#donation_amount {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   text-shadow: 0px 2px 3px #fff;
   color: #ccc;
+  margin-top: -0.5em;
 }
 
+.blog-post-summary {
+  margin-top: 1em;
+  overflow: hidden;
+}
+
+.blog-post-summary hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+.blog-post-summary blockquote {
+  border-left: 3px solid #eee;
+  color: #888;
+  margin: 0;
+  position: relative;
+}
+.fadeout {
+    position: absolute; 
+    bottom: 0em;
+    width:100%;
+    height: 4em;
+    background: -webkit-linear-gradient(
+        rgba(249, 250, 251, 0) 0%,
+        rgba(249, 250, 251, 1) 100%
+    );
+    background: -moz-linear-gradient(
+        rgba(249, 250, 251, 0) 0%,
+        rgba(249, 250, 251, 1) 100%
+    );
+    background: -ms-linear-gradient(
+        rgba(249, 250, 251, 0) 0%,
+        rgba(249, 250, 251, 1) 100%
+    );
+    background: -o-linear-gradient(
+        rgba(249, 250, 251, 0) 0%,
+        rgba(249, 250, 251, 1) 100%
+    );
+    background: linear-gradient(
+        rgba(249, 250, 251, 0) 0%,
+        rgba(249, 250, 251, 1) 100%
+    );
+} 
 
 /* Sticky footer styles
 -------------------------------------------------- */
