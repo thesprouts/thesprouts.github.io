@@ -2,6 +2,9 @@ body {
   background-color: #f9fafb; /* = rgba(249,250,251,1) */
 
 }
+a:hover {
+  text-decoration: none;
+}
 .page-title {
 /*  background: #eaedf1;*/
   width: 100%;
@@ -99,7 +102,7 @@ div.article {
 
 .splash #logotype {
   text-align: right;
-  margin-top: 0.82em;
+  margin-top: 1.25em;
 }
 
 .splash #nav ul {
