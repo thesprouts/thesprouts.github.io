@@ -115,7 +115,8 @@ work_features:
       </p>
       <hr>
       <blockquote cite='{{ post.url }}'>
-      {{ post.content | strip_html | truncate_words: 60 | truncate: 347  }}
+      <span id='liquid-spacing-fix'>&nbsp;</span>
+      {{ post.content | strip_html | truncate_words: 60 | truncate: 347 }}
         <div class='body-fadeout'></div>
       </blockquote>
     </div>
