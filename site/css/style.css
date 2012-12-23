@@ -88,6 +88,9 @@ div.article {
   font-size: 1.125em;
   text-align: right;
   line-height: 1.5em;
+
+  margin-top: -0.375em;
+  padding-bottom: 0.4375em;
 }
 
 #nav {
@@ -96,25 +99,26 @@ div.article {
   line-height: 3.25em;
 }
 
-.splash #nav {
-  margin-top: -1.75em;
-}
-
 .splash #logotype {
   text-align: right;
-  margin-top: 1.25em;
+}
+
+.splash #nav {
+  margin-top: -0.875em;
 }
 
 .splash #nav ul {
   text-align: right;
-  margin-top: 0.375em;
-  margin-bottom: -1.5em;
 }
 
 .splash #nav li {
   padding: 0;
   padding-left: 1.75em;
   text-align: right;
+}
+
+.splash #nav li:first-child {
+  padding-left: 0em;
 }
 
 #nav ul {
@@ -310,6 +314,8 @@ ul.lifestream li {
   background-repeat:no-repeat;
   background-position: 0 50%;
   max-height: 5em;
+  overflow: hidden;
+  position: relative;
 }
 
 
@@ -390,9 +396,6 @@ li.lifestream-twitter {
   text-align: justify;
 }
 
-#hero-summary p {
-  padding-right: 2.5em;
-}
 .who  img {
   min-height: 257px;
 }
@@ -466,7 +469,7 @@ li.lifestream-twitter {
   margin-bottom: -1.5em;
 }
 
-.who {
+#shaunalynn-duffy.who {
   padding-bottom: 0.75em;
 }
 
@@ -867,7 +870,8 @@ form#donate input#donation_amount {
   margin: 0;
   position: relative;
 }
-.fadeout {
+
+.body-fadeout {
     position: absolute; 
     bottom: 0em;
     width:100%;
