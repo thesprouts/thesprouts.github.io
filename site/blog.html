@@ -20,23 +20,23 @@ title: our blog
 <div id='blog-posts' class='row'>
 {% assign num_front_posts = 3 %}
 {% for post in site.posts limit:num_front_posts %}
- <div id='{{ post.id }}' class="article span12">
+ <div id='{{ post.id }}' class="article span10 offset1">
   <h2><a href='{{ post.url }}'>{{ post.title }}</a></h1>
 
-  <div class='article-info'>
+  <div class='row'>
+   <div class="post-summary span8 offset1">
+     {{ post.summary }} 
+   </div> <!-- ends div.summary -->
+     <div class='article-info span8 offset1'>
     {% if post.author %}
     drafted by <a href='#'>{{ post.author }}</a> on <a href='{{ post.url }}'>{{ post.date | date_to_long_string }}</a>
     {% endif %}
   </div> <!-- ends div.article-info -->
 
-  <div class='span12 row'>
-   <div class="summary span8 offset2">
-     {{ post.summary }} 
-   </div> <!-- ends div.summary -->
-  </div>
+ </div>
 
   <div class='row'>
-  <div class="article-body span10 offset1">
+  <div class="article-body span8 offset1">
     {{ post.content }}
   </div> <!-- ends div.article-body -->
   </div> <!-- ends div.row -->
