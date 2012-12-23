@@ -458,6 +458,22 @@ li.lifestream-twitter {
 
 }
 
+#board .bio-container .name {
+  height: 100%;
+  font-size: 1.5em;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  margin-top: 1em;
+  margin-bottom: -1.5em;
+}
+
+.who {
+  padding-bottom: 0.75em;
+}
+
+#board .who {
+  padding-bottom: 3.875em;
+}
+
 .bio-container .name {
   height: 0;
   overflow: hidden;
