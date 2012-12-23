@@ -32,10 +32,15 @@ h1 > a:hover, h2 > a:hover, .article-info a:hover {
   text-decoration: none;
 }
 
+div.article blockquote ol, div.article blockquote ul {
+  margin-left: 2em;
+}
+
 div.article blockquote li {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
-  margin-bottom: 0.75em
+  margin-bottom: 0.75em;
+  line-height: 1.375em;
 }
 
 div.article > h2 {
@@ -47,18 +52,20 @@ div.article > h2 {
 }
 
 .article-info {
-  text-align: center;
+  text-align: right;
   font-style: italic;
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
-  font-size: 1.125em;
-  margin-bottom: 1em;
+  font-size: 0.875em;
   line-height: 1.75em;
+  margin-top: 0.75em;
 }
 
-.summary {
+.post-summary {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   font-size: 1.25em;
   line-height: 1.25em;
+  text-align: justify;
+  margin-top: 0.5em;
 }
 
 .article-body {
@@ -88,7 +95,9 @@ div.article {
   font-size: 1.125em;
   text-align: right;
   line-height: 1.5em;
+}
 
+.splash #logotype {
   margin-top: -0.375em;
   padding-bottom: 0.4375em;
 }
@@ -410,6 +419,9 @@ li.lifestream-twitter {
   margin: 1.5em;
 }
 
+#shaunalynn-duffy.who {
+  margin-bottom: 3.1875em;
+}
 #beth-osullivan.who {
   transform: rotate(5deg);
   -ms-transform: rotate(5deg); /* IE 9 */
@@ -440,6 +452,13 @@ li.lifestream-twitter {
   -webkit-transform: rotate(-7deg); /* Safari and Chrome */
   -o-transform: rotate(-7deg); /* Opera */
   -moz-transform: rotate(-7deg); /* Firefox */
+  margin-bottom: 2.75em;
+}
+
+.bio {
+  font-size: 1.25em;
+  line-height: 1.375em;
+  text-align: justify;
 }
 
 .bio-container #alec-resnick .name {
@@ -553,6 +572,9 @@ div.name {
 
 .work-description {
   text-align: justify;
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.375em;
 }
 
 .established, .read-more {
@@ -641,6 +663,12 @@ h1 { font-size: 5em; }
   margin-top: 7em;
 }
 
+#connect-options p {
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.375em;
+}
+
 #connect-options .page-section h2 {
   margin-bottom: 0.5em;
 }
@@ -651,10 +679,10 @@ h1 { font-size: 5em; }
 }
 
 .page-summary p {
-  text-align: center;
+  text-align: justify;
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   font-size: 1.75em;
-  line-height: 1.125em;
+  line-height: 1.25em;
   margin-top: 1em;
 }
 
@@ -862,6 +890,11 @@ form#donate input#donation_amount {
   margin-bottom: 10px;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
+}
+
+.article blockquote p {
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .blog-post-summary blockquote {
