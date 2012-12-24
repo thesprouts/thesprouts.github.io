@@ -909,33 +909,6 @@ form#donate input#donation_amount {
 
 #liquid-spacing-fix { margin-right: -0.625em; }
 
-.green-fadeout {
-    position: absolute; 
-    bottom: 0em;
-    width:100%;
-    height: 4em;
-    background: -webkit-linear-gradient(
-        rgba(19, 169, 63, 0) 0%,
-        rgba(19, 169, 63, 1) 100%
-    );
-    background: -moz-linear-gradient(
-        rgba(19, 169, 63, 0) 0%,
-        rgba(19, 169, 63, 1) 100%
-    );
-    background: -ms-linear-gradient(
-        rgba(19, 169, 63, 0) 0%,
-        rgba(19, 169, 63, 1) 100%
-    );
-    background: -o-linear-gradient(
-        rgba(19, 169, 63, 0) 0%,
-        rgba(19, 169, 63, 1) 100%
-    );
-    background: linear-gradient(
-        rgba(19, 169, 63, 0) 0%,
-        rgba(19, 169, 63, 1) 100%
-    );
-}
-
 .body-fadeout {
     position: absolute; 
     bottom: 0em;
