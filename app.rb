@@ -20,7 +20,7 @@ get '/robots.txt' do
   send_static('robots.txt')
 end
 
-get '/feed.xml' do
+get '/feed' do
   send_static('feed.xml')
 end
 
