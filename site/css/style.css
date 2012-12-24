@@ -314,11 +314,14 @@ ul.lifestream {
   list-style-type: none;
   margin: 0;
   width: 90%;
+  max-height: 350px;
+  overflow: hidden;
 }
+
 
 ul.lifestream li {
   padding-left: 1.75em;
-  margin-bottom: 1em;
+  margin-bottom: 1.25em;
   background-size: 20px 20px;
   background-repeat:no-repeat;
   background-position: 0 50%;
@@ -332,16 +335,16 @@ li.lifestream-tumblr {
   background-image: url("/img/tumblr.png");
 }
 
-li.lifestream-rss {
-  background-image: url('img/rss.png');
+li.lifestream-feed {
+  background-image: url("/img/feed.png");
 }
 
 li.lifestream-facebook {
-  background-image: url('img/facebook.png');
+  background-image: url("/img/facebook.png");
 }
 
 li.lifestream-twitter {
-  list-style-image: url('img/twitter.png');
+  background-image: url("/img/twitter.png");
 }
 
 #sprout-elsewhere {
@@ -905,6 +908,33 @@ form#donate input#donation_amount {
 }
 
 #liquid-spacing-fix { margin-right: -0.625em; }
+
+.green-fadeout {
+    position: absolute; 
+    bottom: 0em;
+    width:100%;
+    height: 4em;
+    background: -webkit-linear-gradient(
+        rgba(19, 169, 63, 0) 0%,
+        rgba(19, 169, 63, 1) 100%
+    );
+    background: -moz-linear-gradient(
+        rgba(19, 169, 63, 0) 0%,
+        rgba(19, 169, 63, 1) 100%
+    );
+    background: -ms-linear-gradient(
+        rgba(19, 169, 63, 0) 0%,
+        rgba(19, 169, 63, 1) 100%
+    );
+    background: -o-linear-gradient(
+        rgba(19, 169, 63, 0) 0%,
+        rgba(19, 169, 63, 1) 100%
+    );
+    background: linear-gradient(
+        rgba(19, 169, 63, 0) 0%,
+        rgba(19, 169, 63, 1) 100%
+    );
+}
 
 .body-fadeout {
     position: absolute; 

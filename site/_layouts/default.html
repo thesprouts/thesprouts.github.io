@@ -110,9 +110,10 @@
     <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jquery.lifestream/0.3.4/jquery.lifestream.min.js"></script>
     <script type='text/javascript' src='http://pvdspek.github.com/downloads/jquery.autoellipsis-1.0.10.min.js'></script>
 
+    {% raw %}
     <script type='text/javascript'>
       $("#lifestream").lifestream({
-        limit: 7,
+        limit: 6,
         feedloaded: truncate_streams,
         list:[
           {
@@ -121,11 +122,16 @@
           },
           {
             service: "twitter",
-            user: "sprouts"
+            user: "sprouts",
+            template: { posted: "<a href='${complete_url}'>tweeted</a> {{html tweet}}" }
           },
           {
             service: "facebook",
             user: "somesprouts"
+          },
+          {
+            service: "rss",
+            user: "http://alecresnick.tumblr.com/rss"
           },
         ],
       });
@@ -163,5 +169,6 @@
       });
     </script>
     <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+    {% endraw %}
   </body>
 </html>
