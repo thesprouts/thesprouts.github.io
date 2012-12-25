@@ -307,6 +307,7 @@ footer legend {
 
 #lifestream {
   font-size: 0.895em;
+  height: 352px;
 }
 
 
@@ -314,13 +315,8 @@ ul.lifestream {
   list-style-type: none;
   margin: 0;
   width: 90%;
-  max-height: 350px;
+  max-height: 352px;
   overflow: hidden;
-}
-
-
-ul.lifestream li div {
-  height: 4em;
 }
 
 ul.lifestream li {
@@ -329,7 +325,7 @@ ul.lifestream li {
   background-size: 20px 20px;
   background-repeat:no-repeat;
   background-position: 0 50%;
-  max-height: 5em;
+  max-height: 4em;
   overflow: hidden;
   position: relative;
 }
@@ -769,6 +765,40 @@ hr.page-summary-delimiter {
 
 .spacer {
   padding: 1em;
+}
+
+.book {
+  font-style: italic;
+}
+
+.article p span.lede {
+  font-variant: small-caps;
+}
+
+.img .caption {
+  position: absolute;
+  text-align: right;
+  max-height: 2em;
+  min-height: 1em;
+  background-color:rgba(248, 249, 250, 0.75);
+  bottom: 0;
+  font-size: .625em;
+  line-height: 1em;
+  padding: 0.5em;
+  color: #333;
+  width: 95%; /* Why doesn't 100% work? */
+}
+
+.article .img {
+  position: relative;
+  margin-right: 1em;
+  display: block;
+  float: left;
+  background-size: cover;
+  border-radius: 7.5px;
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 0px 0px 7.5px rgba(0,0,0,0.75);
 }
 
 .featurette #blog-posts {

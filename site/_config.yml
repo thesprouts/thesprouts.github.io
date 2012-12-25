@@ -6,3 +6,5 @@ baseurl: /
 source: ./
 destination: ./_public
 permalink: /:title
+
+blog_media: /img/blog/
