@@ -28,6 +28,10 @@ get '/' do
   send_static 'index.html'
 end
 
+get '/blog/:name' do
+  send_static File.join('blog', params[:name].to_s, 'index.html')
+end
+
 get '/:name' do
   send_static params[:name].to_s +  '.html'
 end
