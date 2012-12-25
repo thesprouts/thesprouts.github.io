@@ -158,14 +158,12 @@
             });
 
             if (cutline) {
-              console.log("CUT!");
               cutline.nextAll().remove();
               cutline.remove();
             }
           };
 
       $(window).load( function() {
-        console.log("window loaded");
         $("#lifestream > ul").cutOverflow()
       });
 
