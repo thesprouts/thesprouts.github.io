@@ -1,6 +1,6 @@
 <style type='text/css'>
 #{{ work.id }} .work-artifact {
-  {% assign background_img_url = 'img/work/' | append:work.id | append: '.png' %}
+  {% assign background_img_url = '/img/work/' | append:work.id | append: '.png' %}
   background: url('{{ background_img_url }}') no-repeat;
   background-position: {{ work.bg_pos | first }}% {{ work.bg_pos | last }}%;
   background-size: {{ work.bg_size }};
