@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'bundler'
 
-Bundler.require
+Bundler.require :default, (ENV["RACK_ENV"] || "development").to_sym
 
 set :public_folder, './site/_public'
 
