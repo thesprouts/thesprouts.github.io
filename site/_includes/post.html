@@ -1,0 +1,25 @@
+{% unless post %}
+  {% assign post = page %}
+{% endunless %}
+
+<div id='{{ post.id }}' class="article span10 offset1">
+ <h2><a href='{{ post.url }}'>{{ post.title }}</a></h1>
+
+ <div class='row'>
+  <div class="post-summary span8 offset1">
+    {{ post.summary }} 
+  </div> <!-- ends div.summary -->
+    <div class='article-info span8 offset1'>
+   {% if post.author %}
+   drafted by <a href='#'>{{ post.author }}</a> on <a href='{{ post.url }}'>{{ post.date | date_to_long_string }}</a>
+   {% endif %}
+ </div> <!-- ends div.article-info -->
+
+</div>
+
+ <div class='row'>
+ <div class="article-body span8 offset1">
+   {{ post.content }}
+ </div> <!-- ends div.article-body -->
+ </div> <!-- ends div.row -->
+</div> <!-- ends div.article -->

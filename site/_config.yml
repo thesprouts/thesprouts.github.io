@@ -2,9 +2,7 @@ name: "sprout & co's blog"
 description: dispatches from the future of learning
 url: http://thesprouts.org/blog
 
-baseurl: /
+baseurl: /blog
 source: ./
 destination: ./_public
-permalink: /:title
-
-blog_media: /img/blog/
+permalink: /blog/:title
