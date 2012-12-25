@@ -114,9 +114,7 @@ work_features:
         {{ post.summary }}
       </p>
       <hr>
-      <blockquote cite='{{ post.url }}'>
-      <span id='liquid-spacing-fix'>&nbsp;</span>
-      {{ post.content | strip_html | truncate_words: 60 | truncate: 347 }}
+      <blockquote>{{ post.content | lede_filter | strip_html | truncate_words: 60 | truncate: 347 | strip_regex: '/^[^A-Za-z]+/', '/[\n]+/' }}
         <div class='body-fadeout'></div>
       </blockquote>
     </div>

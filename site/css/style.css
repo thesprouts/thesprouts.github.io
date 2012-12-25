@@ -941,8 +941,6 @@ form#donate input#donation_amount {
   position: relative;
 }
 
-#liquid-spacing-fix { margin-right: -0.625em; }
-
 .body-fadeout {
     position: absolute; 
     bottom: 0em;
