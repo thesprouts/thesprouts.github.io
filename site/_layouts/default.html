@@ -113,7 +113,7 @@
     {% raw %}
     <script type='text/javascript'>
       $("#lifestream").lifestream({
-        limit: 6,
+        limit: 10,
         feedloaded: truncate_streams,
         list:[
           {
@@ -134,6 +134,39 @@
             user: "http://alecresnick.tumblr.com/feed"
           },
         ],
+      });
+
+      $.fn.cutOverflow = function() {
+          var children = $(this).find('> *');
+
+          var maxHeight = $(this).height();
+          var childrenHeight = 0;
+
+          var cutline = null;
+
+          children.each(
+            function(index) {
+              child = $(this);
+
+              if (childrenHeight + child.height() > maxHeight) {
+                cutline = child;
+                return false;
+              }
+              else{
+                childrenHeight += child.outerHeight(true);
+              }
+            });
+
+            if (cutline) {
+              console.log("CUT!");
+              cutline.nextAll().remove();
+              cutline.remove();
+            }
+          };
+
+      $(window).load( function() {
+        console.log("window loaded");
+        $("#lifestream > ul").cutOverflow()
       });
 
       function truncate_streams() {
