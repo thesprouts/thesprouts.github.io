@@ -26,3 +26,6 @@ doc/
 
 # jekyll
 site/_public/
+
+# Compass
+.sass-cache/
