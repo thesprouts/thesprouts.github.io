@@ -319,6 +319,10 @@ ul.lifestream {
 }
 
 
+ul.lifestream li div {
+  height: 4em;
+}
+
 ul.lifestream li {
   padding-left: 1.75em;
   margin-bottom: 1.25em;
