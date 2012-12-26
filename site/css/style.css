@@ -283,6 +283,10 @@ p.elsewhere-description {
 
 ul#elsewhere li img:hover {
   opacity: 1;
+  -webkit-transition: opacity 0.125s ease-in;  
+  -moz-transition: opacity 0.125s ease-in;  
+  -o-transition: opacity 0.125s ease-in;  
+  transition: opacity 0.125s ease-in;
 }
 
 a:hover{
@@ -305,6 +309,11 @@ footer legend {
   margin-bottom: 0.9375em;
 }
 
+#footer-connect ul#elsewhere li a div {
+  display: inline-block;
+  margin-bottom: 0em;
+}
+
 #lifestream {
   font-size: 0.895em;
   height: 352px;
@@ -314,13 +323,12 @@ footer legend {
 ul.lifestream {
   list-style-type: none;
   margin: 0;
-  width: 90%;
+  width: 95%;
   max-height: 352px;
   overflow: hidden;
 }
 
 ul.lifestream li {
-  padding-left: 1.75em;
   margin-bottom: 1.25em;
   background-size: 20px 20px;
   background-repeat:no-repeat;
@@ -330,21 +338,27 @@ ul.lifestream li {
   position: relative;
 }
 
-
-li.lifestream-tumblr {
-  background-image: url("/img/tumblr.png");
+ul.lifestream li > div {
+  display: table;
 }
 
-li.lifestream-feed {
-  background-image: url("/img/feed.png");
+ul.lifestream .icon {
+  position: absolute;
+  top: 50%;
+  height: 30px;
+  margin-top: -15px;
+  display: inline-block;
+  float: left;
+  border-radius: 15px;
+  opacity: 0.875;
+  box-shadow: inset 0 0px 3px #888;
 }
 
-li.lifestream-facebook {
-  background-image: url("/img/facebook.png");
-}
-
-li.lifestream-twitter {
-  background-image: url("/img/twitter.png");
+.elsewhere-story {
+  padding-left: 38px; /* = 30px + 0.5em */
+  display: table-cell;
+  vertical-align: middle;
+  height: 30px;
 }
 
 #sprout-elsewhere {
@@ -423,6 +437,7 @@ li.lifestream-twitter {
 }
 
 #shaunalynn-duffy.who {
+  margin-top: 2em;
   margin-bottom: 3.1875em;
 }
 #beth-osullivan.who {
@@ -455,7 +470,7 @@ li.lifestream-twitter {
   -webkit-transform: rotate(-7deg); /* Safari and Chrome */
   -o-transform: rotate(-7deg); /* Opera */
   -moz-transform: rotate(-7deg); /* Firefox */
-  margin-bottom: 2.75em;
+  margin-bottom: 2.875em;
 }
 
 .bio {
@@ -464,23 +479,16 @@ li.lifestream-twitter {
   text-align: justify;
 }
 
-.bio-container #alec-resnick .name {
-  background:url('/img/us/alec-resnick-name.png') no-repeat center center;
-  background-size: contain;
-  padding-top: 35px;
+#headshots-container .headshot {
+  opacity: 0.875;
 }
-.bio-container #michael-nagle .name {
-  background:url('/img/us/michael-nagle-name.png') no-repeat center center;
-  background-size: contain;
-  padding-top: 60px;
-  margin-top: 0.5em;
-  margin-bottom: -1.25em;
-}
-.bio-container #shaunalynn-duffy .name {
-  background:url('/img/us/shaunalynn-duffy-name.png') no-repeat center center;
-  background-size: contain;
-  padding-top: 40px;
 
+#headshots-container .headshot:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.125s ease-in;  
+  -moz-transition: opacity 0.125s ease-in;  
+  -o-transition: opacity 0.125s ease-in;  
+  transition: opacity 0.125s ease-in;
 }
 
 #board .bio-container .name {
@@ -489,6 +497,10 @@ li.lifestream-twitter {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   margin-top: 1em;
   margin-bottom: -1.5em;
+}
+
+#michael-nagle.who .name {
+  margin-bottom: -1.25em;
 }
 
 #shaunalynn-duffy.who {
@@ -500,7 +512,6 @@ li.lifestream-twitter {
 }
 
 .bio-container .name {
-  height: 0;
   overflow: hidden;
   width: 100%;
   text-align: center;
@@ -534,6 +545,10 @@ div.name {
 
 .work-artifact:hover {
   opacity: 1.0;
+  -webkit-transition: opacity 0.125s ease-in;  
+  -moz-transition: opacity 0.125s ease-in;  
+  -o-transition: opacity 0.125s ease-in;  
+  transition: opacity 0.125s ease-in;
 }
 
 .work-artifact {
@@ -541,7 +556,6 @@ div.name {
   border-radius: 125px;
   -webkit-border-radius: 125px;
   -moz-border-radius: 125px;
-  background-size: contain;
 /*  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);*/
@@ -697,6 +711,16 @@ h1 {
   vertical-align: middle;
 }
 
+.vertical-centering.outer {height: 270px; overflow: hidden; position: relative; display: table; position: static;}
+
+.vertical-centering.middle {display: table-cell; vertical-align: middle; width: 100%; position: static;}
+
+<!--[if IE]>
+.vertical-centering.middle {position: absolute; top: 50%;} /* for quirk explorer only*/
+
+.collaborator {position: relative; top: -50%} /* for quirk explorer only */
+<![endif]-->
+
 #collaborators h2 {
   margin-bottom: 0em;
 }
@@ -717,6 +741,8 @@ hr.page-summary-delimiter {
   line-height: 270px;
   text-align: center;
   opacity: 0.875;
+  display: table;
+  position: relative;
 }
 
 .collaborator-logo img {
@@ -727,6 +753,10 @@ hr.page-summary-delimiter {
 
 .collaborator-logo:hover {
   opacity: 1.0;
+  -webkit-transition: opacity 0.125s ease-in;  
+  -moz-transition: opacity 0.125s ease-in;  
+  -o-transition: opacity 0.125s ease-in;  
+  transition: opacity 0.125s ease-in;
 }
 
 .blog-toc h3 {
@@ -882,26 +912,6 @@ form#donate input#donation_amount {
   -webkit-box-shadow: inset 0 0 5px black;
   box-shadow:         inset 0 0 5px black;
 
-}
-
-.elsewhere-option #twitter {
-  background: url('/img/twitter.png') no-repeat center center;
-  background-size:contain;
-}
-
-.elsewhere-option #facebook {
-  background: url('/img/facebook.png') no-repeat center center;
-  background-size:contain;
-}
-
-.elsewhere-option #tumblr {
-  background: url('/img/tumblr.png') no-repeat center center;
-  background-size:contain;
-}
-
-.elsewhere-option #email {
-  background: url('/img/email.png') no-repeat center center;
-  background-size:contain;
 }
 
 .blog-container h3 {
