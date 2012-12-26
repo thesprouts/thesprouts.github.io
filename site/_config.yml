@@ -6,3 +6,5 @@ baseurl: /
 source: ./
 destination: ./_public
 permalink: /blog/:title
+
+exclude: [config.rb, sprites.scss]
