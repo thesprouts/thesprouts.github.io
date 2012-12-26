@@ -116,9 +116,10 @@ collaborators:
   {% include work_item.html %}
   {% cycle 'close work rows': nil, nil, '</div> <!-- ends div.work-container.row -->' %}
   {% if forloop.last and forloop.length-forloop.index*(forloop.length/forloop.index) != 0 %}
-  </div> <!-- ends MOD div.work-container.row -->
+  </div> <!-- ends div.work-container.row -->
   {% endif %}
   {% endfor %}
+</div> <!-- ends div#projects-and-programs -->
 
 <div id='collaborators' class='page-section'>
   <h2>Selected Collaborators</h2>
@@ -136,5 +137,8 @@ collaborators:
     </a>
   </div>
   {% cycle 'close collaborator rows': nil, nil, nil, '</div> <!-- ends div.collaborator-container.row -->' %}
+  {% if forloop.last and forloop.length-forloop.index*(forloop.length/forloop.index) != 0 %}
+  </div> <!-- ends div.collaborator-container.row -->
+  {% endif %}
   {% endfor %}
 </div> <!-- ends div#collaborators -->

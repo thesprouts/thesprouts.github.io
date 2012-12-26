@@ -17,24 +17,23 @@
     <link rel="alternate" type="application/atom+xml" title="pollen : sprout's blog" href="atom.xml" />
   </head>
   <body>
-    <div id='wrap'>
       {% if page.is_splash %}
         {% include splash_banner.html %}
       {% else %}
         {% include banner.html %}
       {% endif %}
 
+    <div id='wrap'>
     <div class='container'>
       <div class='row'>
         <div id='content' class='span12'>
           {{ content }}
-        </div> <!-- ends div.span12 -->
-      </div>
-    </div>
+        </div> <!-- ends div#content -->
+      </div> <!-- ends div.row -->
+    </div> <!-- ends div.container -->
 
     <div id="push"></div>
     </div> <!-- ends div#wrap -->
-
     <footer>
       <div class='row'>
         <div class='container'>
