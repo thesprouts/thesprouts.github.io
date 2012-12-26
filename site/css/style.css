@@ -196,6 +196,10 @@ header.splash {
   padding-bottom: 0.6875em;
 }
 
+header #nav ul {
+  margin-left: 0;
+}
+
 .splash #logotype {
   text-align: right;
 }

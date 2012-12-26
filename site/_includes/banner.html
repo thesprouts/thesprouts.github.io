@@ -2,7 +2,7 @@
 <header id='home'>
   <div class='container'>
   <div id='nav-row' class="row">
-    <div id='nav' class="span7 row">
+    <div id='nav' class="span7">
       {% assign active_page = page.url | remove:'/' | remove:'.html' %}
       <ul>
         <li id='work' class='{% if active_page == "work" %}active{% endif %}'><a href='/work'>our work</a></li>
@@ -17,8 +17,3 @@
   </div>
 </div>
 </header>
-<div class='page-title'>
-  <div class='container'>
-    
-  </div>
-</div>
