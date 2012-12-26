@@ -1,0 +1,20 @@
+$us-sprite-dimensions: true;
+$us-layout: smart;
+@import "us/*.png";
+@include all-us-sprites;
+
+$work-sprite-dimensions: true;
+$work-layout: smart;
+@import "work/*.png";
+@include all-work-sprites;
+
+
+$collaborators-sprite-dimensions: true;
+$collaborators-layout: smart;
+@import "work/collaborators/*.png";
+@include all-collaborators-sprites;
+
+$web-sprite-dimensions: true;
+$web-layout: smart;
+@import "web/*.png";
+@include all-web-sprites;
