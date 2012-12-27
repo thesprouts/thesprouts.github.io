@@ -55,6 +55,7 @@ post '/contact' do
   email = params[:email]
   body = params[:body]
 
+  if development? then p "Emailing "+ email + " with " + body end
   Pony.mail(:to => recipient, 
     :from => email, 
     :subject => "Inquiry via thesprouts.org from #{email}", 
