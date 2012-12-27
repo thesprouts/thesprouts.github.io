@@ -108,97 +108,18 @@
     - /_assets/js/bootstrap.min.js
     - /_assets/js/jquery.lifestream.min.js
     - /_assets/js/jquery.autoellipsis-1.0.10.min.js
+    - /_assets/js/contact_form.js
+    - /_assets/js/lifestream.js
     {% endjavascript_asset_tag %}
 
     {% raw %}
-    <script type='text/javascript'>
-      $("#lifestream").lifestream({
-        limit: 10,
-        feedloaded: truncate_streams,
-        list:[
-          {
-            service: "tumblr",
-            user: "thesprouts",
-            template: { posted: "<div class='icon web-tumblr-small'></div> <div class='elsewhere-story'>posted a ${type} <a href='${url}'>${title}</a></div>"}
-          },
-          {
-            service: "twitter",
-            user: "sprouts",
-            template: { posted: "<div class='icon web-twitter-small'></div> <div class='elsewhere-story'><a href='${complete_url}'>tweeted</a> {{html tweet}}</div>" }
-          },
-          {
-            service: "facebook",
-            user: "somesprouts",
-            template: { wall_post: "<div class='icon web-facebook-small'></div> <div class='elsewhere-story'>posted on sprout's wall: <a href='${link}'>${title}</a></div>"}
-          },
-          {
-            service: "rss",
-            user: "http://alecresnick.tumblr.com/feed",
-            template: { posted: "<div class='icon web-feed-small'></div> <div class='elsewhere-story'>posted <a href='${link}'>${title}</a></div>" }
-          },
-        ],
-      });
-
-      $.fn.cutOverflow = function() {
-          var children = $(this).find('> *');
-
-          var maxHeight = $(this).height();
-          var childrenHeight = 0;
-
-          var cutline = null;
-
-          children.each(
-            function(index) {
-              child = $(this);
-
-              if (childrenHeight + child.height() > maxHeight) {
-                cutline = child;
-                return false;
-              }
-              else{
-                childrenHeight += child.outerHeight(true);
-              }
-            });
-
-            if (cutline) {
-              cutline.nextAll().remove();
-              cutline.remove();
-            }
-          };
-
-      $(window).load( function() {
-        $("#lifestream > ul").cutOverflow()
-      });
-
-      function truncate_streams() {
-      $("#lifestream ul li").ellipsis();
-      }
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML.js">
     </script>
-
-    <script type='text/javascript'>
-    $(function() {
-      $("form#email-us").submit(function() {
-        var email = $('input#message-author').val();
-        var body = $('textarea#email-message').val();
-
-        $.ajax({  
-            type: "POST",  
-            url: "/contact",
-            data: "email=" + email + '&body=' + body,
-            success: function() {
-              $('button#email-us').addClass("btn btn-success");
-            },
-            error: function() {
-              $('button#email-us').addClass("btn btn-danger");
-            }
-          });
-        return false;
-      });
-    });
-    </script>
-
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
+        showMathMenu: false,
+        delayStartupUntil: "onload",
+        showProcessingMessages: false,
         messageStyle: "none",
       });
     </script>
