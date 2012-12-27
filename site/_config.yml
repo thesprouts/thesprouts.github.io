@@ -7,4 +7,8 @@ source: ./
 destination: ./_public
 permalink: /blog/:title
 
-exclude: [config.rb, sprites.scss]
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets
+  gzip: true
