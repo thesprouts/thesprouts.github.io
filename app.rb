@@ -4,11 +4,21 @@ require 'bundler'
 Bundler.require :default, (ENV["RACK_ENV"] || "development").to_sym
 
 set :public_folder, './site/_public'
+set :static_cache_control, [:public, :max_age => 31557600]
+
 
 helpers do
   def send_static(path)
-    puts "Looking for " + File.join(settings.public_folder, path)
-    send_file File.join(settings.public_folder, path)
+    full_path = File.join(settings.public_folder, path)
+    
+    if development? then puts "Looking for " + full_path end
+
+    if File.exist?(full_path)
+      etag Digest::SHA1.hexdigest (full_path + File.size(full_path).to_s + File.mtime(full_path).to_s)
+      send_file full_path
+    else
+      not_found
+    end
   end
 end
 
