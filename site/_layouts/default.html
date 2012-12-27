@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="//use.typekit.net/gwm0ueu.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
     <title>sprout &amp; co {% if page.title %}:: {{ page.title }} {% endif %}</title>
-    <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet"media="screen">
 
-    <link href="/css/sprites.css" rel="stylesheet" media="screen">
-    <link href="/css/style.css" rel="stylesheet" media="screen">
+    {% css_asset_tag app %}
+    - /_assets/css/bootstrap.min.css
+    - /_assets/css/bootstrap-responsive.css
+    - /_assets/css/sprites.css
+    - /_assets/css/style.css
+    {% endcss_asset_tag %}
+
+    {% include typekit.html %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
-
     <link rel="alternate" type="application/atom+xml" title="pollen : sprout's blog" href="atom.xml" />
   </head>
   <body>
@@ -104,11 +103,12 @@
       </div> <!-- ends div.row -->
     </footer>
 
-    <script type='text/javascript'  src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type='text/javascript' src="/js/bootstrap.min.js"></script>
-
-    <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/jquery.lifestream/0.3.4/jquery.lifestream.min.js"></script>
-    <script type='text/javascript' src='//pvdspek.github.com/downloads/jquery.autoellipsis-1.0.10.min.js'></script>
+    {% javascript_asset_tag app %}
+    - /_assets/js/jquery.min.js
+    - /_assets/js/bootstrap.min.js
+    - /_assets/js/jquery.lifestream.min.js
+    - /_assets/js/jquery.autoellipsis-1.0.10.min.js
+    {% endjavascript_asset_tag %}
 
     {% raw %}
     <script type='text/javascript'>
@@ -202,7 +202,6 @@
         messageStyle: "none",
       });
     </script>
-    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
     {% endraw %}
   </body>
 </html>
