@@ -1,0 +1,19 @@
+$us-sprite-dimensions: true;
+$us-layout: horizontal;
+@import "us/*.png";
+@include all-us-sprites;
+
+$work-sprite-dimensions: true;
+$work-layout: horizontal;
+@import "work/*.png";
+@include all-work-sprites;
+
+$collaborators-sprite-dimensions: true;
+$collaborators-layout: horizontal;
+@import "work/collaborators/*.png";
+@include all-collaborators-sprites;
+
+$web-sprite-dimensions: true;
+$web-layout: horizontal;
+@import "web/*.png";
+@include all-web-sprites;
