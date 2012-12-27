@@ -21,8 +21,8 @@ $("#lifestream").lifestream({
       service: "rss",
       user: "http://alecresnick.tumblr.com/feed",
       template: { posted: "<div class='icon web-feed-small'></div> <div class='elsewhere-story'>posted <a href='${link}'>${title}</a></div>" }
-    },
-  ],
+    }
+  ]
 });
 
 $.fn.cutOverflow = function() {
