@@ -1,3 +1,5 @@
+require 'to_regexp'
+
 module Jekyll
   module StripRegex
     def strip_regex(input, *regexes_to_strip)
