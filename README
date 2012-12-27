@@ -1,0 +1,17 @@
+# README
+
+This repository contains the source for [sprout & co's website](http://thesprouts.org).  If you're having trouble or have spotted an issue the site, please [let us know](mailto:three.two.one-contact@thesprouts.org).
+
+## Overview
+
+sprout's site is statically generated using [jekyll](http://jekyllrb.com/) and served up via [Sinatra](http://www.sinatrarb.com/) on [Heroku](http://www.heroku.com/).
+
+### Developing on `thesprouts.org`
+
+To get started working on sprout's site, I recommend you [set up rvm](https://rvm.io/rvm/install/).  Once this is set up, you should be able to:
+
+    git clone git@github.com:thesprouts/thesprouts.org.git
+    cd thesprouts.org
+    rackup -s thin
+
+We recommend using [thin](http://code.macournoyer.com/thin/) because of [a minor annoyance with WEBrick](http://stackoverflow.com/questions/7082364/what-does-warn-could-not-determine-content-length-of-response-body-mean-and-h).
