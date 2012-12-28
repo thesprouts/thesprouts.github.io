@@ -233,6 +233,7 @@ footer blockquote {
 footer {
   padding-top: 1em;
   padding-bottom: 1em;
+  margin-bottom: -1em; /* TODO hack, why needed? */
   border-bottom: 4px solid #333;
   background-color: #13a93f;
   background-color: rgba(19,169,63,0.9);
