@@ -8,14 +8,11 @@
 #
 
 module Jekyll
-
-  #
   # Polymorphic Monkey-Patching
   #
   # Page, Post, and StaticFile have very different interfaces, but this plugin
   # needs to process all three.  Here, I add methods to each class to create
   # a common interface.
-  #
 
   class StaticFile
     # Expose two attributes that are visible on Page/Post.
