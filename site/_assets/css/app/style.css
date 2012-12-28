@@ -181,6 +181,7 @@ header a:hover, footer a:hover {
 }
 
 header {
+  width: 100%; /* for mobile */
   background-color: #13a93f;
   background-color: rgba(19,169,63,0.9);
   font-size: 3em;
@@ -446,6 +447,29 @@ ul.lifestream .icon {
   margin-top: 2em;
   margin-bottom: 3.1875em;
 }
+@media (max-width: 480px) {
+  #hero-summary {
+    max-width: 480px;
+    margin-right: 0px;
+  }
+
+  #hero-summary p {
+    margin-right: 0px;
+  }
+
+  .splash #logotype {
+    text-align: center;
+  }
+  .splash #nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .splash #nav ul li {
+    font-size: 0.975em;
+  }
+}
+
 @media (min-width: 1200px) {
   #beth-osullivan.who {
     transform: rotate(5deg);
@@ -991,6 +1015,7 @@ form#donate input#donation_amount {
 
 html,
 body {
+  padding: 0; /* for mobile devices */
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
