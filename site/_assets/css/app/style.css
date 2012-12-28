@@ -233,12 +233,10 @@ footer blockquote {
 footer {
   padding-top: 1em;
   padding-bottom: 1em;
-
   border-bottom: 4px solid #333;
   background-color: #13a93f;
   background-color: rgba(19,169,63,0.9);
   font-size: 3em;
-  margin-bottom: 1em;
   line-height: 1em;
   box-shadow: inset 0px 3px 5px #555;
 }
