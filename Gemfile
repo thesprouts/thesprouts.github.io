@@ -1,15 +1,9 @@
 source :rubygems
 
 gem 'sinatra'
-
 gem 'jekyll', '0.12.0' # need 0.12.0 for include: functionality
-
 gem 'pony'             # email for contact, donation form
-
-gem 'dalli'            # memcached client
-gem 'rack-cache'       # caching for heroku
 gem 'closure-compiler' # compression for jekyll-asset-pipeline
-
 gem 'rubypants'        # smarty-pants gem for typography
 
 
