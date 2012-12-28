@@ -11,4 +11,4 @@ asset_pipeline:
   bundle: true
   compress: true
   output_path: assets
-  gzip: true
+  gzip: false
