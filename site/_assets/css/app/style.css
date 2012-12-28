@@ -448,9 +448,19 @@ ul.lifestream .icon {
   margin-bottom: 3.1875em;
 }
 @media (max-width: 480px) {
+  header {
+    padding: 0;
+  }
+
+  header hr {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #fff;
+    display: block;
+  }
   #hero-summary {
     max-width: 480px;
     margin-right: 0px;
+    margin-top: 0.75em;
   }
 
   #hero-summary p {
@@ -458,19 +468,31 @@ ul.lifestream .icon {
   }
 
   .splash #logotype {
+    position: absolute;
+    top: 0.375em;
     text-align: center;
+    width: 100%;
   }
+  
+  .splash #nav {
+    margin: 0em;
+  }
+
   .splash #nav ul {
+    line-height: 1em;
     padding: 0;
     margin: 0;
     text-align: center;
   }
   .splash #nav ul li {
-    font-size: 0.975em;
+    font-size: 1.08886em;
   }
 }
 
 @media (min-width: 1200px) {
+  header hr {
+    display: none;
+  }
   #beth-osullivan.who {
     transform: rotate(5deg);
     -ms-transform: rotate(5deg); /* IE 9 */
