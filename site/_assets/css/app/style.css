@@ -443,37 +443,39 @@ ul.lifestream .icon {
   margin-top: 2em;
   margin-bottom: 3.1875em;
 }
-#beth-osullivan.who {
-  transform: rotate(5deg);
-  -ms-transform: rotate(5deg); /* IE 9 */
-  -webkit-transform: rotate(5deg); /* Safari and Chrome */
-  -o-transform: rotate(5deg); /* Opera */
-  -moz-transform: rotate(5deg); /* Firefox */
-}
+@media (min-width: 1200px) {
+  #beth-osullivan.who {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari and Chrome */
+    -o-transform: rotate(5deg); /* Opera */
+    -moz-transform: rotate(5deg); /* Firefox */
+  }
 
-#bakhtiar-mikhak.who {
-  transform: rotate(-7deg);
-  -ms-transform: rotate(-7deg); /* IE 9 */
-  -webkit-transform: rotate(-7deg); /* Safari and Chrome */
-  -o-transform: rotate(-7deg); /* Opera */
-  -moz-transform: rotate(-7deg); /* Firefox */
-}
+  #bakhtiar-mikhak.who {
+    transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Safari and Chrome */
+    -o-transform: rotate(-7deg); /* Opera */
+    -moz-transform: rotate(-7deg); /* Firefox */
+  }
 
-#alec-resnick.who {
-  transform: rotate(5deg);
-  -ms-transform: rotate(5deg); /* IE 9 */
-  -webkit-transform: rotate(5deg); /* Safari and Chrome */
-  -o-transform: rotate(5deg); /* Opera */
-  -moz-transform: rotate(5deg); /* Firefox */
-}
+  #alec-resnick.who {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari and Chrome */
+    -o-transform: rotate(5deg); /* Opera */
+    -moz-transform: rotate(5deg); /* Firefox */
+  }
 
-#michael-nagle.who {
-  transform: rotate(-7deg);
-  -ms-transform: rotate(-7deg); /* IE 9 */
-  -webkit-transform: rotate(-7deg); /* Safari and Chrome */
-  -o-transform: rotate(-7deg); /* Opera */
-  -moz-transform: rotate(-7deg); /* Firefox */
-  margin-bottom: 2.875em;
+  #michael-nagle.who {
+    transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Safari and Chrome */
+    -o-transform: rotate(-7deg); /* Opera */
+    -moz-transform: rotate(-7deg); /* Firefox */
+    margin-bottom: 2.875em;
+  }
 }
 
 .bio {
