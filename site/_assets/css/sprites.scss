@@ -1,18 +1,26 @@
+// disable tiny browsershare
+$experimental-support-for-opera:false;
+$experimental-support-for-khtml:false;
+
+// photos of us and our board
 $us-sprite-dimensions: true;
 $us-layout: horizontal;
 @import "us/*.png";
 @include all-us-sprites;
 
+// images of our projects
 $work-sprite-dimensions: true;
 $work-layout: horizontal;
 @import "work/*.png";
 @include all-work-sprites;
 
+// collaborator logos
 $collaborators-sprite-dimensions: true;
 $collaborators-layout: horizontal;
 @import "work/collaborators/*.png";
 @include all-collaborators-sprites;
 
+// images to use throughout the site
 $web-sprite-dimensions: true;
 $web-layout: horizontal;
 @import "web/*.png";
