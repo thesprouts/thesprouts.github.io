@@ -12,6 +12,7 @@ end
 group :development do
   gem 'jekyll', '0.12.0' # need 0.12.0 for include: functionality
   gem 'closure-compiler' # compression for jekyll-asset-pipeline
+  gem 'yui-compressor'
 
   gem 'thin'                  # re: speed, WARN re: content length, preferred > WEBrick
   gem 'sinatra-reloader'      # auto-reload upon filechange
