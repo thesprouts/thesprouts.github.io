@@ -1,0 +1,140 @@
+#connect {
+  input {
+    margin: 0;
+    width: 304px;
+  }
+  legend {
+    text-align: right;
+  }
+}
+
+#connect-options em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+ul#elsewhere {
+  text-align: right;
+  margin: 0;
+  list-style: none;
+  li {
+    display: inline;
+    width: 56px;
+    img {
+      width: 15%;
+      opacity: 0.875;
+    }
+  }
+}
+
+.elsewhere-description p {
+  margin-top: 0.5em;
+}
+
+ul#elsewhere li img:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.125s ease-in;
+  -moz-transition: opacity 0.125s ease-in;
+  -o-transition: opacity 0.125s ease-in;
+  transition: opacity 0.125s ease-in;
+}
+
+#connect-options .page-section {
+  text-align: justify;
+}
+
+#sprout-map {
+  text-align: center;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 0 10px black;
+  -webkit-box-shadow: inset 0 0 10px black;
+  box-shadow: inset 0 0 10px black;
+}
+
+form#donate {
+  > div {
+    margin-bottom: 0.5em;
+  }
+  input {
+    &#email {
+      margin-left: 0.375em;
+      width: 90%;
+    }
+    &#donation_amount {
+      width: 60%;
+      margin-left: 0.5em;
+    }
+  }
+}
+
+#dollar {
+  padding-left: 0.125em;
+  font-size: 1.25em;
+}
+
+.stripe-button-inner {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#connect-options #elsewhere img {
+  width: 75%;
+  opacity: 0.875;
+}
+
+.elsewhere-option {
+  margin-bottom: 1em;
+}
+
+.verbatim {
+  font-family: Courier;
+}
+
+#connect-options .page-section {
+  margin-top: 0em;
+}
+
+.elsewhere-icon {
+  border-radius: 35px;
+  height: 70px;
+  opacity: 0.875;
+  -moz-box-shadow: inset 0 0 5px black;
+  -webkit-box-shadow: inset 0 0 5px black;
+  box-shadow: inset 0 0 5px black;
+}
+
+#connect-options {
+  p {
+    font-size: 1.125em;
+    font-weight: 300;
+    line-height: 1.375em;
+  }
+  .page-section h2 {
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .elsewhere-icon {
+    display: inline-block;
+  }
+  .elsewhere-description {
+    display: inline-block;
+    width: 75%;
+  }
+  #connect-options .page-section {
+    margin-bottom: 3em;
+  }
+  form#donate input {
+    &#email {
+      margin: 0;
+      margin-left: 5px;
+      width: 89%;
+    }
+    &#donation_amount {
+      margin: 0;
+      margin-left: 5px;
+      width: 52%;
+    }
+  }
+}

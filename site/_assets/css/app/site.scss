@@ -1,0 +1,486 @@
+body {
+  background-color: #f9fafb;
+  /* = rgba(249,250,251,1) */
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.page-title {
+  width: 100%;
+  font-size: 2.5em;
+}
+
+#content {
+  padding-top: 3em;
+}
+
+#logotype {
+  font-family: "adelle-1", "adelle-2", Georgia, serif;
+  font-size: 1.125em;
+  text-align: right;
+  line-height: 1.5em;
+}
+
+.splash #logotype {
+  margin-top: -0.375em;
+  padding-bottom: 0.4375em;
+}
+
+#nav {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 0.5em;
+  line-height: 3.25em;
+}
+
+.splash {
+  #logotype {
+    text-align: right;
+  }
+  #nav {
+    margin-top: -0.875em;
+    ul {
+      text-align: right;
+    }
+    li {
+      padding: 0;
+      padding-left: 1.75em;
+      text-align: right;
+      &:first-child {
+        padding-left: 0em;
+      }
+    }
+  }
+}
+
+#nav {
+  ul {
+    list-style-type: none;
+    letter-spacing: -0.03125em;
+    text-align: left;
+  }
+  li {
+    display: inline-block;
+    text-align: center;
+    padding: 0em;
+    padding-right: 1.75em;
+    font-size: 1.25em;
+    line-height: 0.375em;
+  }
+}
+
+header a, footer a {
+  text-decoration: none;
+  color: #cbd4dc;
+}
+
+header a:hover, footer a:hover {
+  text-decoration: none;
+  color: #555;
+  -webkit-transition: color 0.25s ease-in;
+  -moz-transition: color 0.25s ease-in;
+  -o-transition: color 0.25s ease-in;
+  transition: color 0.25s ease-in;
+}
+
+#nav ul li.active > a {
+  color: #555;
+}
+
+#logotype a {
+  text-shadow: 0 1px 1px #aaaaaa;
+  text-decoration: none;
+  color: #333;
+  margin-right: -2px;
+  &:hover {
+    color: black;
+  }
+}
+
+header {
+  width: 100%;
+  /* for mobile */
+  background-color: #13a93f;
+  background-color: rgba(19, 169, 63, 0.9);
+  font-size: 3em;
+  line-height: 1em;
+  box-shadow: inset 0px -3px 5px #555555;
+  border-top: 4px solid #3c3c3c;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  &.splash {
+    padding-top: 1.25em;
+    padding-bottom: 0.6875em;
+  }
+  #nav ul {
+    margin-left: 0;
+  }
+}
+
+.splash #logotype {
+  text-align: right;
+}
+
+.fadeout {
+  position: absolute;
+  bottom: 0em;
+  width: 100%;
+  height: 50%;
+  background: -webkit-linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
+  background: -moz-linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
+  background: -ms-linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
+  background: -o-linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
+  background: linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
+}
+
+#footer-quote {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 0.4125em;
+  line-height: 1.125em;
+  margin-bottom: 1em;
+}
+
+footer blockquote {
+  margin-top: 11.5px;
+  border-left: none;
+}
+
+footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: -1em;
+  /* TODO hack, why needed? */
+  border-bottom: 4px solid #333333;
+  background-color: #13a93f;
+  background-color: rgba(19, 169, 63, 0.9);
+  font-size: 3em;
+  line-height: 1em;
+  box-shadow: inset 0px 3px 5px #555555;
+  .help-block {
+    text-align: right;
+    font-size: 0.375em;
+    line-height: 1em;
+    color: #555;
+  }
+}
+
+textarea#email-message {
+  margin-top: 11px;
+  /* TODO: hack */
+  width: 356px;
+}
+
+footer legend {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  border-bottom: 1px dashed #cccccc;
+}
+
+#footer-connect {
+  div {
+    margin-bottom: 0.9375em;
+  }
+  ul#elsewhere li a div {
+    display: inline-block;
+    margin-bottom: 0em;
+  }
+}
+
+#lifestream {
+  font-size: 0.895em;
+  height: 352px;
+}
+
+ul.lifestream {
+  list-style-type: none;
+  margin: 0;
+  width: 95%;
+  max-height: 352px;
+  overflow: hidden;
+  li {
+    margin-bottom: 1.25em;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    max-height: 4em;
+    overflow: hidden;
+    position: relative;
+    > div {
+      display: table;
+    }
+  }
+  .icon {
+    position: absolute;
+    top: 50%;
+    height: 30px;
+    margin-top: -15px;
+    display: inline-block;
+    float: left;
+    border-radius: 15px;
+    opacity: 0.875;
+    box-shadow: inset 0 0px 3px #888888;
+  }
+}
+
+.elsewhere-story {
+  padding-left: 38px;
+  /* = 30px + 0.5em */
+  display: table-cell;
+  vertical-align: middle;
+  height: 30px;
+}
+
+#sprout-elsewhere {
+  margin-top: 25.75px;
+}
+
+#scrapbook-lede {
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: right;
+  line-height: 1.375em;
+}
+
+#support-sprout hr {
+  margin-top: -0.375em;
+  margin-bottom: 1.55em;
+}
+
+.section-summary {
+  margin-bottom: 2em;
+}
+
+.vertical-centering {
+  &.outer {
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+    display: table;
+    position: static;
+  }
+  &.middle {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    position: static;
+  }
+}
+
+.page-summary {
+  margin-bottom: 3em;
+}
+
+hr.page-summary-delimiter {
+  border-top: 1px solid #dddddd;
+  margin-bottom: 4em;
+}
+
+.page-section h2 {
+  font-size: 3.25em;
+  margin-bottom: 1em;
+}
+
+.page-summary p, .featurette-details p {
+  text-align: justify;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 1.75em;
+  line-height: 1.25em;
+  margin-top: 1em;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  line-height: 1em;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+.page-section {
+  margin-top: 7em;
+}
+
+
+.page-title h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+.page-summary .page-title {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.page-section h2 {
+  font-family: "adelle-1", "adelle-2", Georgia, "Times New Roman", serif;
+  text-shadow: 0px 2px 3px white;
+  color: #ccc;
+}
+
+h1 > a:hover, h2 > a:hover, .article-info a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  -webkit-transition: color 0.25s ease-in;
+  -moz-transition: color 0.25s ease-in;
+  -o-transition: color 0.25s ease-in;
+  transition: color 0.25s ease-in;
+}
+
+.quote-author {
+  text-align: right;
+  i {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+
+hr.section-divider {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html, body {
+  padding: 0;
+  /* for mobile devices */
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -100px;
+}
+
+#push {
+  height: 200px;
+}
+
+/* Set the fixed height of the footer here */
+
+footer {
+  height: 600px;
+}
+
+
+@media (max-width: 480px) {
+  #content {
+    padding-top: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  header.splash {
+    padding: 0;
+    padding-top: 1.25em;
+    padding-bottom: 0.25em;
+  }
+  footer {
+    margin: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  footer {
+    height: 1650px;
+  }
+  footer {
+    input#tlemail {
+      width: 76%;
+    }
+    fieldset {
+      width: 100%;
+    }
+    textarea#email-message {
+      width: 95%;
+    }
+    input#message-author {
+      width: 76%;
+    }
+  }
+  #nav ul li:first-child {
+    padding-left: 0em;
+  }
+  
+  header hr {
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid white;
+    display: block;
+  }
+  header.non-splash {
+    padding: 0;
+    padding-top: 1.25em;
+    padding-bottom: 0.25em;
+    height: 2em;
+  }
+  .non-splash {
+    #logotype {
+      position: absolute;
+      top: 0.375em;
+      text-align: center;
+      width: 100%;
+    }
+    #nav {
+      margin: 0em;
+      margin-top: 1em;
+      position: absolute;
+      width: 100%;
+      top: 3em;
+      ul {
+        line-height: 1em;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        li {
+          font-size: 0.875em;
+          padding-left: 0.75em;
+          padding-right: 0em;
+        }
+      }
+    }
+  }
+  .splash {
+    #logotype {
+      position: absolute;
+      top: 0.375em;
+      text-align: center;
+      width: 100%;
+    }
+    #nav {
+      margin: 0em;
+      position: absolute;
+      width: 100%;
+      top: 3em;
+      ul {
+        line-height: 1em;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        li {
+          font-size: 0.875em;
+          padding-left: 0.75em;
+        }
+      }
+    }
+  }
+}

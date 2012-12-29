@@ -1,0 +1,201 @@
+div.article {
+  blockquote {
+    ol, ul {
+      margin-left: 2em;
+    }
+    li {
+      font-size: 1em;
+      font-weight: 300;
+      margin-bottom: 0.75em;
+      line-height: 1.375em;
+    }
+  }
+  > h2 {
+    margin-bottom: 0.375em;
+  }
+}
+
+.blog-toc > h2 {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+}
+
+.article-info {
+  text-align: right;
+  font-style: italic;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 0.875em;
+  line-height: 1.75em;
+  margin-top: 0.75em;
+}
+
+.post-summary {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  text-align: justify;
+  margin-top: 0.5em;
+}
+
+.article-body {
+  margin-top: 2em;
+  font-family: Helvetica, Verdana, sans-serif;
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+div.article {
+  font-size: 1.75em;
+  line-height: 1.25em;
+}
+
+.page-end-delimiter {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  border-bottom: 1.5px Grey dashed;
+  height: 1.5px;
+}
+
+.blog-container h3 {
+  text-align: center;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+}
+
+.blog-post-date {
+  text-align: right;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  text-shadow: 0px 2px 3px white;
+  color: #ccc;
+  margin-top: -0.5em;
+}
+
+.blog-post-summary {
+  margin-top: 1em;
+  overflow: hidden;
+  hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid white;
+  }
+}
+
+.article blockquote p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.blog-toc {
+  h3 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 3.5em;
+    color: #888;
+    text-shadow: 0px 2px 3px white;
+  }
+}
+
+.blog-toc-card {
+  height: 370px;
+  max-height: 370px;
+  overflow: hidden;
+}
+
+.blog-container.even {
+  border-radius: 7px;
+  height: 370px;
+  -moz-box-shadow: 0 0 7px #999999;
+  -webkit-box-shadow: 0 0 7px #999999;
+  box-shadow: 0 0 7px #999999;
+}
+
+#blog-posts > .blog-container[class*='span4'] {
+  height: 100%;
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-toc-card.odd, .blog-container.odd {
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.06125);
+  height: 370px;
+}
+
+.blog-toc-card.odd .lede-info {
+  color: #555;
+}
+
+.spacer {
+  padding: 1em;
+}
+
+.book {
+  font-style: italic;
+}
+
+.article p span.lede {
+  font-variant: small-caps;
+}
+
+.img .caption {
+  position: absolute;
+  text-align: right;
+  max-height: 2em;
+  min-height: 1em;
+  background-color: rgba(248, 249, 250, 0.75);
+  bottom: 0;
+  font-size: .625em;
+  line-height: 1em;
+  padding: 0.5em;
+  color: #333;
+  width: 95%;
+  /* Why doesn't 100% work? */
+}
+
+.article {
+  .img {
+    position: relative;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    display: block;
+    float: left;
+    background-size: cover;
+    border-radius: 7.5px;
+    width: 300px;
+    height: 300px;
+    box-shadow: inset 0px 0px 7.5px rgba(0, 0, 0, 0.75);
+  }
+  p {
+    display: inline-block;
+    float: left;
+  }
+}
+
+div.article > h2, .blog-toc > h2 {
+  text-align: center;
+  font-size: 1.75em;
+  font-family: "adelle-1", "adelle-2", Georgia, "Times New Roman", serif;
+}
+
+#blog-posts div.section-divider {
+  width: 100%;
+  clear: both;
+  height: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid white;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+@media (max-width: 480px) {
+  .article blockquote {
+    padding-left: 0.25em;
+  }
+}

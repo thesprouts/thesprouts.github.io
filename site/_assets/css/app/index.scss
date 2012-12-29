@@ -1,0 +1,91 @@
+.blog-toc .lede {
+  padding: 1.5em;
+}
+
+.blog-post-summary blockquote {
+  border-left: 3px solid #eeeeee;
+  color: #888;
+  margin: 0;
+  position: relative;
+}
+
+.featurette #blog-posts {
+  margin-top: 3em;
+}
+
+.featurette-title > h2 {
+  margin-bottom: 0.5em;
+}
+
+
+h2.featurette-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+a h2.featurette-title:hover {
+  color: #555;
+  -webkit-transition: color 0.25s ease-in;
+  -moz-transition: color 0.25s ease-in;
+  -o-transition: color 0.25s ease-in;
+  transition: color 0.25s ease-in;
+}
+
+.page-title, h2.featurette-title {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  line-height: 2em;
+  color: #888;
+  line-height: 1em;
+}
+
+.featurette-title {
+  width: 61.8%;
+  margin-left: 19.1%;
+  margin-right: 19.1%;
+}
+
+.featurette-details {
+  margin-left: 19.1%;
+  margin-right: 19.1%;
+}
+
+.featurette {
+  h2 {
+    font-family: "adelle-1", "adelle-2", Georgia, "Times New Roman", serif;
+    text-align: center;
+    font-size: 4em;
+  }
+  hr {
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid white;
+  }
+}
+
+.featurette-details {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 1.25em;
+  line-height: 1.375em;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .work-hero {
+    margin-bottom: 0em;
+    margin-top: 3em;
+  }
+  .read-more {
+    margin-top: 0em;
+  }
+
+  .featurette-details {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  #blog-posts {
+    padding: 0em;
+    width: 100%;
+  }
+  ul#elsewhere {
+    padding-left: 2em;
+  }
+}
