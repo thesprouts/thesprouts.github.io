@@ -14,6 +14,13 @@ work_features:
   id: 'signs_of_life'
   name: "Signs of Life"
   established: "2012&ndash;"
+us:
+-
+  id: 'alec-resnick'
+-
+  id: 'shaunalynn-duffy'
+-
+  id: 'michael-nagle'
 ---
 
 <div class='featurette' id='work'>
@@ -47,37 +54,11 @@ work_features:
   </div> <!-- ends div.featurette-details -->
 
   <div id='headshots-container' class='row'>
-    <div class='bio-container span4'>
-      <div id='alec-resnick' class='who'>
-        <div class='headshot us-alec-resnick'></div>
-        <div class='us-alec-resnick-name name'></div>
-      </div> <!-- ends div#alec-resnick -->
-      <div class='bio hyphenate'>
-        Alec cares about the <b>tools</b> we use to think, learn, and explore.  Before sprout, he studied math &amp; physics at MIT and co-founded nublabs, an electromechanical design consultancy.
-      </div>
-    </div>
+    {% for who in page.us %}
+    {% include who_item.html %}
+    {% endfor %}
+  </div> <!-- ends div#headshots-container -->
 
-    <div class='bio-container span4'>
-      <div id='shaunalynn-duffy' class='who'>
-        <div class='headshot us-shaunalynn-duffy'></div>
-        <div class='us-shaunalynn-duffy-name name'></div>
-      </div> <!-- ends div#shaunalynn-duffy -->
-      <div class='bio hyphenate'>
-        Shaunalynn is focused on what makes for a <b>healthy learning community</b>.  Before sprout, she studied environmental engineering &amp; writing at MIT.
-      </div>
-    </div>
-    
-    <div class='bio-container span4'>
-      <div id='michael-nagle' class='who'>
-        <div class='headshot us-michael-nagle'></div>
-        <div class='us-michael-nagle-name name'></div>
-      </div> <!-- ends div#michael-nagle -->
-      <div class='bio hyphenate'>
-        Nagle's passion is building <b>environments for sustainable inquiry</b> for kids &amp; adults.  Before sprout, he co-founded Camp Kaleidoscope (now <a href='partsandcrafts.org'>Parts &amp; Crafts</a>) and the Kaleidoscope Homeschooling Center.
-      </div>
-    </div>
-
-  </div>
     <div class='read-more' id='about-read-more'><a href='/about'>get to know our team&hellip;</a></div>
 </div> <!-- ends div#about -->
 

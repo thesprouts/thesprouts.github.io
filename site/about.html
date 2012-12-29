@@ -1,6 +1,23 @@
 ---
 title: about us
 layout: default
+us:
+-
+  id: 'alec-resnick'
+-
+  id: 'shaunalynn-duffy'
+-
+  id: 'michael-nagle'
+board:
+-
+  name: "Bakhtiar Mikhak"
+  id: 'bakhtiar-mikhak'
+-
+  name: "John Bell"
+  id: 'john-bell'
+-
+  name: "Beth O'Sullivan"
+  id: 'beth-osullivan'
 ---
 
 <div class='page-summary row'>
@@ -25,73 +42,15 @@ layout: default
 
 <div id='team' class='row page-section'>
   <h2>Our Team</h2>
-  
-<div class='bio-container span4'>
-      <div id='alec-resnick' class='who'>
-        <div class='headshot us-alec-resnick'></div>
-        <div class='us-alec-resnick-name name'></div>
-      </div> <!-- ends div#alec-resnick -->
-      <div class='bio'>
-        Alec cares about <b>tools</b> we use to think and explore.  Specifically compelled by the potential of computation to transform how we investigate, before sprout, he studied math &amp; physics at MIT and then co-founded nublabs, an electromechanical design consultancy.
-      </div>
-    </div>
-
-    <div class='bio-container span4'>
-      <div id='shaunalynn-duffy' class='who'>
-        <div class='headshot us-shaunalynn-duffy'></div>
-        <div class='us-shaunalynn-duffy-name name'></div>
-      </div> <!-- ends div#shaunalynn-duffy -->
-      <div class='bio'>
-        Shaunalynn cares about what makes for a <b>healthy learning community</b> and new structures to enable community-driven investigation.  Before sprout, she studied environmental engineering &amp; writing before being drawn to public performance &amp; music.
-      </div>
-    </div>
-    
-    <div class='bio-container span4'>
-      <div id='michael-nagle' class='who'>
-        <div class='headshot us-michael-nagle'></div>
-        <div class='us-michael-nagle-name name'></div>
-      </div> <!-- ends div#michael-nagle -->
-      <div class='bio'>
-        Nagle's passion is building <b>environments for sustainable inquiry</b> for both kids &amp; adults.  Before sprout, he studied theoretical math at MIT, co-founded Camp Kaleidoscope (now <a href='partsandcrafts.org'>Parts &amp; Crafts</a>), and started the Kaleidoscope Homeschooling Center.
-      </div>
-    </div>
-
-
+  {% for who in page.us %}
+    {% include signed_who_item.html %}
+  {% endfor %}
 </div> <!-- ends div#team -->
 
 
 <div id='board' class='row page-section'>
   <h2>Our Board</h2>
-  <div class='bio-container span4'>
-    <div id='bakhtiar-mikhak' class='who'>
-      <div class='headshot us-bakhtiar-mikhak'></div>
-      <div class='name'>Bakhtiar Mikhak</div>
-    </div> <!-- ends div#alec-resnick -->
-    <div class='bio'>
-      Bakhtiar is a visiting scientist at the <a href='http://media.mit.edu'>MIT Media Lab</a> where he founded the <a href='http://gig.media.mit.edu/'>Grassroots Invention Group</a>, served as technical director for the <a href='http://www.pienetwork.org/'>PIE Network</a>, and led outreach in the <a href='http://fab.cba.mit.edu/'>Fab Lab program</a>.  He was also a founding Board Member of the <a href='http://www.ccscambridge.org/'>Community Charter School of Cambridge</a> and now works at <a href='http://mediamods.com'>MediaModifications</a> developing software to expose and enhance the structure of media.
-    </div> <!-- ends div.bio -->
-  </div> <!-- ends div.bio-container -->
-
-
-  <div class='bio-container span4'>
-    <div id='john-bell' class='who'>
-      <div class='headshot us-john-bell'></div>
-      <div class='name'>John Bell</div>
-    </div> <!-- ends div#john-bell -->
-    <div class='bio'>
-      John co-founded the <a href='http://www.greatsmallworks.org/'>Great Small Works</a> theater company: a New York City collective of artists working to keep theater at the heart of social life. He is also a founder and coordinator of the <a href='http://honkfest.org/'>HONK! Festival</a>. John is currently a fellow at <a href='http://act.mit.edu/'>MIT's Program in Art, Culture, and Technology</a> and director of the <a href='http://bimp.uconn.edu/'>Ballard Institute and Museum of Puppetry</a> at the University of Connecticut.
-    </div> <!-- ends div.bio -->
-  </div> <!-- ends div.bio-container -->
-
-
-  <div class='bio-container span4'>
-    <div id='beth-osullivan' class='who'>
-      <div class='headshot us-beth-osullivan'></div>
-      <div class='name'>Beth O'Sullivan</div>
-    </div> <!-- ends div#beth-osullivan -->
-    <div class='bio'>
-      Beth co-founded the <a href='http://scienceclubforgirls.org/'>Science Club for Girls</a>: a program that brings hands-on science clubs to 600 girls in the Boston area, working to close the socioeconomic and gender gaps in science. She also founded and directs the Mathemagics Workshop, which has created a series of games &amp; activities designed to bring playful <em>mathematics</em> back into childrens' experience of math.
-    </div> <!-- ends div.bio -->
-  </div> <!-- ends div.bio-container -->
+  {% for who in page.board %}
+    {% include who_item.html %}
+  {% endfor %}
 </div> <!-- ends div#board -->
-</div> <!-- ends div#about -->
