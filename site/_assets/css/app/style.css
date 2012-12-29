@@ -14,10 +14,20 @@ a:hover {
   font-size: 2.5em;
 }
 
+a h2.featurette-title:hover {
+  color: #555;
+  -webkit-transition: color 0.25s ease-in;  
+  -moz-transition: color 0.25s ease-in;  
+  -o-transition: color 0.25s ease-in;  
+  transition: color 0.25s ease-in;
+
+}
+
 .page-title, h2.featurette-title {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   line-height: 2em;
-  color: #555;
+  color: #888;
+  line-height: 1em;
 }
 
 #content {
@@ -406,6 +416,11 @@ ul.lifestream .icon {
 .featurette hr {
   border-top: 2px solid #eee;
   border-bottom: 2px solid #fff;
+}
+
+hr.section-divider {
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 #blog-posts div.section-divider {
