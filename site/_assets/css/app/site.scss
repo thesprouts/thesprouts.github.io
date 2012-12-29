@@ -1,6 +1,16 @@
+@import "compass/css3/transition";
+@import "compass/css3/images";
+
+@mixin rgba-background($color, $opacity) {
+  background: $color;
+  background: rgba($color, $opacity);
+}
+
+$body-background: #f9fafb;
+$museo: "museo-slab-1", "museo-slab-2", Georgia, serif;
+
 body {
-  background-color: #f9fafb;
-  /* = rgba(249,250,251,1) */
+  background-color: $body-background;
 }
 
 a:hover {
@@ -34,26 +44,6 @@ a:hover {
   line-height: 3.25em;
 }
 
-.splash {
-  #logotype {
-    text-align: right;
-  }
-  #nav {
-    margin-top: -0.875em;
-    ul {
-      text-align: right;
-    }
-    li {
-      padding: 0;
-      padding-left: 1.75em;
-      text-align: right;
-      &:first-child {
-        padding-left: 0em;
-      }
-    }
-  }
-}
-
 #nav {
   ul {
     list-style-type: none;
@@ -70,35 +60,34 @@ a:hover {
   }
 }
 
-header a, footer a {
-  text-decoration: none;
-  color: #cbd4dc;
-}
+header, footer {
+  a {
+    text-decoration: none;
+    color: #cbd4dc;
 
-header a:hover, footer a:hover {
-  text-decoration: none;
-  color: #555;
-  -webkit-transition: color 0.25s ease-in;
-  -moz-transition: color 0.25s ease-in;
-  -o-transition: color 0.25s ease-in;
-  transition: color 0.25s ease-in;
-}
-
-#nav ul li.active > a {
-  color: #555;
-}
-
-#logotype a {
-  text-shadow: 0 1px 1px #aaaaaa;
-  text-decoration: none;
-  color: #333;
-  margin-right: -2px;
-  &:hover {
-    color: black;
+    &:hover {
+      text-decoration: none;
+      color: #555;
+      @include transition(color 0.25s ease-in);
+    }
   }
 }
 
 header {
+  #logotype a {
+  text-shadow: 0 1px 1px #aaaaaa;
+  text-decoration: none;
+  color: #333;
+  margin-right: -2px;
+    &:hover {
+      color: black;
+    }
+  }
+
+  #nav ul li.active > a {
+    color: #555;
+  }
+
   width: 100%;
   /* for mobile */
   background-color: #13a93f;
@@ -109,17 +98,33 @@ header {
   border-top: 4px solid #3c3c3c;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
+  
   &.splash {
     padding-top: 1.25em;
     padding-bottom: 0.6875em;
+    #logotype {
+      text-align: right;
+    }
+
+    #nav {
+      margin-top: -0.875em;
+      ul {
+        text-align: right;
+      }
+      li {
+        padding: 0;
+        padding-left: 1.75em;
+        text-align: right;
+        &:first-child {
+          padding-left: 0em;
+        }
+      }
+    }
   }
+
   #nav ul {
     margin-left: 0;
   }
-}
-
-.splash #logotype {
-  text-align: right;
 }
 
 .fadeout {
@@ -127,23 +132,7 @@ header {
   bottom: 0em;
   width: 100%;
   height: 50%;
-  background: -webkit-linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
-  background: -moz-linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
-  background: -ms-linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
-  background: -o-linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
-  background: linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%);
-}
-
-#footer-quote {
-  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
-  font-size: 0.4125em;
-  line-height: 1.125em;
-  margin-bottom: 1em;
-}
-
-footer blockquote {
-  margin-top: 11.5px;
-  border-left: none;
+  @include background(linear-gradient(rgba(249, 250, 251, 0) 0%, rgba(249, 250, 251, 1) 100%));
 }
 
 footer {
@@ -163,87 +152,99 @@ footer {
     line-height: 1em;
     color: #555;
   }
-}
 
-textarea#email-message {
-  margin-top: 11px;
-  /* TODO: hack */
-  width: 356px;
-}
-
-footer legend {
-  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
-  border-bottom: 1px dashed #cccccc;
-}
-
-#footer-connect {
-  div {
-    margin-bottom: 0.9375em;
+  blockquote {
+    margin-top: 11.5px;
+    border-left: none;
   }
-  ul#elsewhere li a div {
-    display: inline-block;
-    margin-bottom: 0em;
+
+  #footer-quote {
+    font-family: $museo;
+    font-size: 0.4125em;
+    line-height: 1.125em;
+    margin-bottom: 1em;
   }
-}
 
-#lifestream {
-  font-size: 0.895em;
-  height: 352px;
-}
+  textarea#email-message {
+    margin-top: 11px;
+    /* TODO: hack */
+    width: 356px;
+  }
 
-ul.lifestream {
-  list-style-type: none;
-  margin: 0;
-  width: 95%;
-  max-height: 352px;
-  overflow: hidden;
-  li {
-    margin-bottom: 1.25em;
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position: 0 50%;
-    max-height: 4em;
-    overflow: hidden;
-    position: relative;
-    > div {
-      display: table;
+  legend {
+    font-family: $museo;
+    border-bottom: 1px dashed #cccccc;
+  }
+
+  #footer-connect {
+    div {
+      margin-bottom: 0.9375em;
+    }
+    ul#elsewhere li a div {
+      display: inline-block;
+      margin-bottom: 0em;
     }
   }
-  .icon {
-    position: absolute;
-    top: 50%;
-    height: 30px;
-    margin-top: -15px;
-    display: inline-block;
-    float: left;
-    border-radius: 15px;
-    opacity: 0.875;
-    box-shadow: inset 0 0px 3px #888888;
+
+  #lifestream {
+    font-size: 0.895em;
+    height: 352px;
   }
-}
 
-.elsewhere-story {
-  padding-left: 38px;
-  /* = 30px + 0.5em */
-  display: table-cell;
-  vertical-align: middle;
-  height: 30px;
-}
+  ul.lifestream {
+    list-style-type: none;
+    margin: 0;
+    width: 95%;
+    max-height: 352px;
+    overflow: hidden;
+    li {
+      margin-bottom: 1.25em;
+      background-size: 20px 20px;
+      background-repeat: no-repeat;
+      background-position: 0 50%;
+      max-height: 4em;
+      overflow: hidden;
+      position: relative;
+      > div {
+        display: table;
+      }
+    }
+    .icon {
+      position: absolute;
+      top: 50%;
+      height: 30px;
+      margin-top: -15px;
+      display: inline-block;
+      float: left;
+      border-radius: 15px;
+      opacity: 0.875;
+      box-shadow: inset 0 0px 3px #888888;
+    }
+  }
 
-#sprout-elsewhere {
-  margin-top: 25.75px;
-}
+  .elsewhere-story {
+    padding-left: 38px;
+    /* = 30px + 0.5em */
+    display: table-cell;
+    vertical-align: middle;
+    height: 30px;
+  }
 
-#scrapbook-lede {
-  font-size: 0.75em;
-  font-style: italic;
-  text-align: right;
-  line-height: 1.375em;
-}
+  #sprout-elsewhere {
+    margin-top: 25.75px;
+  }
 
-#support-sprout hr {
-  margin-top: -0.375em;
-  margin-bottom: 1.55em;
+  #scrapbook-lede {
+    font-size: 0.75em;
+    font-style: italic;
+    text-align: right;
+    line-height: 1.375em;
+  }
+
+  #support-sprout hr {
+    margin-top: -0.375em;
+    margin-bottom: 1.55em;
+  }
 }
 
 .section-summary {
@@ -377,13 +378,6 @@ html, body {
   height: 200px;
 }
 
-/* Set the fixed height of the footer here */
-
-footer {
-  height: 600px;
-}
-
-
 @media (max-width: 480px) {
   #content {
     padding-top: 0em;
@@ -421,7 +415,7 @@ footer {
   #nav ul li:first-child {
     padding-left: 0em;
   }
-  
+
   header hr {
     border-top: 2px solid #eeeeee;
     border-bottom: 2px solid white;
