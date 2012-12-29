@@ -73,7 +73,6 @@ GEM
     sinatra-reloader (1.0)
       sinatra-contrib
     syntax (1.0.0)
-    text-hyphen (1.4.1)
     thin (1.5.0)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -105,7 +104,6 @@ DEPENDENCIES
   rubypants
   sinatra
   sinatra-reloader
-  text-hyphen
   thin
   to_regexp
   unicorn
