@@ -705,12 +705,6 @@ h1 {
 
 .vertical-centering.middle {display: table-cell; vertical-align: middle; width: 100%; position: static;}
 
-<!--[if IE]>
-.vertical-centering.middle {position: absolute; top: 50%;} /* for quirk explorer only*/
-
-.vertical-centering.inner {position: relative; top: -50%} /* for quirk explorer only */
-<![endif]-->
-
 #collaborators h2 {
   margin-bottom: 0em;
 }
