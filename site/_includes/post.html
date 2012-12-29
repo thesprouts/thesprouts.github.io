@@ -11,7 +11,7 @@
   </div> <!-- ends div.summary -->
     <div class='article-info span8 offset1'>
    {% if post.author %}
-   drafted by <a href='#'>{{ post.author }}</a> on <a href='{{ post.url }}'>{{ post.date | date_to_long_string }}</a>
+   drafted by {% if post.author_url %}<a href='{{ post.author_url }}'> {{ post.author }}</a> {% else %} {{ post.author }} {% endif %} on <a href='{{ post.url }}'>{{ post.date | date_to_long_string }}</a>
    {% endif %}
  </div> <!-- ends div.article-info -->
 
