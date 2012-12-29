@@ -11,7 +11,7 @@
     <span> {{ work.name }} </span>
   </div> <!-- ends div.name -->
 
-  <div class='work-description'>
+  <div class='work-description hyphenate'>
     {% assign description_path = 'work/' | append:work.id | append:'.html' %}
     {% include {{ description_path }} %}
   </div> <!-- ends div.work-description -->

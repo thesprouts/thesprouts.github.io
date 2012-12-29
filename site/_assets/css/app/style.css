@@ -281,7 +281,7 @@ ul#elsewhere li img {
   opacity: 0.875;
 }
 
-p.elsewhere-description {
+.elsewhere-description p {
   margin-top: 0.5em;
 }
 
@@ -389,6 +389,12 @@ ul.lifestream .icon {
   padding-top: 1em;
 }
 
+.featurette-details {
+  margin-left: 19.1%;
+  margin-right: 19.1%;
+
+}
+
 .featurette h2 {
   font-family: "adelle-1","adelle-2", Georgia, "Times New Roman", serif;
   text-align: center;
@@ -443,90 +449,6 @@ ul.lifestream .icon {
   margin: 1.5em;
 }
 
-#shaunalynn-duffy.who {
-  margin-top: 2em;
-  margin-bottom: 3.1875em;
-}
-@media (max-width: 480px) {
-  header {
-    padding: 0;
-  }
-
-  header hr {
-    border-top: 2px solid #eee;
-    border-bottom: 2px solid #fff;
-    display: block;
-  }
-  #hero-summary {
-    max-width: 480px;
-    margin-right: 0px;
-    margin-top: 0.75em;
-  }
-
-  #hero-summary p {
-    margin-right: 0px;
-  }
-
-  .splash #logotype {
-    position: absolute;
-    top: 0.375em;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .splash #nav {
-    margin: 0em;
-  }
-
-  .splash #nav ul {
-    line-height: 1em;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-  .splash #nav ul li {
-    font-size: 1.08886em;
-  }
-}
-
-@media (min-width: 1200px) {
-  header hr {
-    display: none;
-  }
-  #beth-osullivan.who {
-    transform: rotate(5deg);
-    -ms-transform: rotate(5deg); /* IE 9 */
-    -webkit-transform: rotate(5deg); /* Safari and Chrome */
-    -o-transform: rotate(5deg); /* Opera */
-    -moz-transform: rotate(5deg); /* Firefox */
-  }
-
-  #bakhtiar-mikhak.who {
-    transform: rotate(-7deg);
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Safari and Chrome */
-    -o-transform: rotate(-7deg); /* Opera */
-    -moz-transform: rotate(-7deg); /* Firefox */
-  }
-
-  #alec-resnick.who {
-    transform: rotate(5deg);
-    -ms-transform: rotate(5deg); /* IE 9 */
-    -webkit-transform: rotate(5deg); /* Safari and Chrome */
-    -o-transform: rotate(5deg); /* Opera */
-    -moz-transform: rotate(5deg); /* Firefox */
-  }
-
-  #michael-nagle.who {
-    transform: rotate(-7deg);
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Safari and Chrome */
-    -o-transform: rotate(-7deg); /* Opera */
-    -moz-transform: rotate(-7deg); /* Firefox */
-    margin-bottom: 2.875em;
-  }
-}
-
 .bio {
   font-size: 1.25em;
   line-height: 1.375em;
@@ -551,14 +473,6 @@ ul.lifestream .icon {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   margin-top: 1em;
   margin-bottom: -1.5em;
-}
-
-#michael-nagle.who .name {
-  margin-bottom: -1.25em;
-}
-
-#shaunalynn-duffy.who {
-  padding-bottom: 0.75em;
 }
 
 #board .who {
@@ -633,6 +547,7 @@ div.name {
   text-transform: uppercase;
   margin-top: 2em ;
   margin-bottom: 1em;
+  line-height: 1.375em;
 }
 
 .work-hero > .name > span {
@@ -642,6 +557,7 @@ div.name {
 }
 
 .work-description {
+  hyphens: auto;
   text-align: justify;
   font-size: 1.125em;
   font-weight: 300;
@@ -745,7 +661,7 @@ h1 { font-size: 5em; }
 }
 
 .page-section h2 {
-  font-size: 3.5em;
+  font-size: 3.25em;
   margin-bottom: 1em;
 }
 
@@ -772,7 +688,7 @@ h1 {
 <!--[if IE]>
 .vertical-centering.middle {position: absolute; top: 50%;} /* for quirk explorer only*/
 
-.collaborator {position: relative; top: -50%} /* for quirk explorer only */
+.vertical-centering.inner {position: relative; top: -50%} /* for quirk explorer only */
 <![endif]-->
 
 #collaborators h2 {
@@ -837,6 +753,15 @@ hr.page-summary-delimiter {
   -webkit-box-shadow:  0 0 7px #999;
   box-shadow:          0 0 7px #999;
 }
+
+#blog-posts > .blog-container[class*='span4'] {
+  height: 100%;
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .blog-toc-card.odd, .blog-container.odd {
   border-radius: 7px;
   background-color: rgba(0, 0, 0, 0.06125);
@@ -876,6 +801,7 @@ hr.page-summary-delimiter {
 .article .img {
   position: relative;
   margin-right: 1em;
+  margin-bottom: 1em;
   display: block;
   float: left;
   background-size: cover;
@@ -883,6 +809,11 @@ hr.page-summary-delimiter {
   width: 300px;
   height: 300px;
   box-shadow: inset 0px 0px 7.5px rgba(0,0,0,0.75);
+}
+
+.article p {
+  display: inline-block;
+  float: left;
 }
 
 .featurette #blog-posts {
@@ -1060,12 +991,256 @@ footer {
   height: 600px;
 }
 
-/* Lastly, apply responsive CSS fixes as necessary */
-@media (max-width: 767px) {
+@media (max-width: 480px) {
+  .work-hero {
+    margin-bottom: 0em;
+  }
+  .read-more {
+    margin-top: 0em;
+  }
+  #content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  } 
+  .work-hero {
+    margin-bottom: 3em;
+  }
+  header.splash {
+    padding: 0;
+    padding-top: 1.25em;
+    padding-bottom: 0.25em;
+  }
+
   footer {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  header hr {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #fff;
+    display: block;
+  }
+
+  #hero-summary {
+    font-size: 0.375em;
+    max-width: 480px;
+    margin-right: 0px;
+    margin-top: 2.75em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  #hero-summary p {
+    margin-right: 0px;
+  }
+
+  header.non-splash {
+    padding: 0;
+    padding-top: 1.25em;
+    padding-bottom: 0.25em;
+    height: 2em;
+  }
+  .non-splash #logotype {
+      position: absolute;
+      top: 0.375em;
+      text-align: center;
+      width: 100%;
+  }
+
+  .non-splash #nav {
+    margin: 0em;
+    margin-top: 1em;
+    position: absolute;
+    width: 100%;
+    top: 3em;
+  }
+
+  .non-splash #nav ul {
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .non-splash #nav ul li {
+    font-size: 0.875em;
+    padding-left: 0.75em;
+    padding-right: 0em;
+  }
+
+  .splash #logotype {
+    position: absolute;
+    top: 0.375em;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .splash #nav {
+    margin: 0em;
+    position: absolute;
+    width: 100%;
+    top: 3em;
+  }
+
+  .splash #nav ul {
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .splash #nav ul li {
+    font-size: 0.875em;
+    padding-left: 0.75em;
+  }
+
+  .featurette-details {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  .bio-container {
+    margin-bottom: 1.5em;
+  }
+
+  .bio-container .who {
+    margin-left: -0.5em;
+    margin-bottom: 1em;
+  }
+
+  .bio-container .bio {
+    text-align: center;
+  }
+
+  #blog-posts {
+    padding: 0em;
+    width: 100%;
+  }
+
+  footer {
+    height: 1650px  ;
+  }
+
+  ul#elsewhere {
+    padding-left: 2em;
+  }
+
+  footer input#tlemail {
+    width: 76%;
+  }
+  footer fieldset {
+    width: 100%;
+  }
+
+  footer textarea#email-message {
+    width: 95%;
+  }
+
+  footer input#message-author {
+    width: 76%;
+  }
+
+  .collaborator-logo {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+
+  #collaborators .collaborator-logo a > .vertical-centering.outer {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+
+  #nav ul li:first-child {
+    padding-left: 0em;
+  }
+
+  .work-container.row {
+    margin-top: 0em;
+  }
+
+  .collaborator-logo {
+    padding-bottom: 3em;
+  }
+
+  .article blockquote {
+    padding-left: 0.25em;
+  }
+
+  .elsewhere-icon {
+    display: inline-block;
+  }
+
+  .elsewhere-description {
+    display: inline-block;
+    width: 75%;
+  }
+
+  #connect-options .page-section {
+    margin-bottom: 3em;
+  }
+
+  form#donate input#email {
+    margin: 0;
+    margin-left: 5px;
+    width: 89%;
+  }
+  form#donate input#donation_amount {
+    margin: 0;
+    margin-left: 5px;
+    width: 52%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  #shaunalynn-duffy.who {
+    margin-top: 2em;
+    margin-bottom: 3.1875em;
+  }
+
+  #michael-nagle.who .name {
+    margin-bottom: -1.25em;
+  }
+
+  #shaunalynn-duffy.who {
+    padding-bottom: 0.75em;
+  }
+
+  header hr {
+    display: none;
+  }
+  #beth-osullivan.who {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari and Chrome */
+    -o-transform: rotate(5deg); /* Opera */
+    -moz-transform: rotate(5deg); /* Firefox */
+  }
+
+  #bakhtiar-mikhak.who {
+    transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Safari and Chrome */
+    -o-transform: rotate(-7deg); /* Opera */
+    -moz-transform: rotate(-7deg); /* Firefox */
+  }
+
+  #alec-resnick.who {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari and Chrome */
+    -o-transform: rotate(5deg); /* Opera */
+    -moz-transform: rotate(5deg); /* Firefox */
+  }
+
+  #michael-nagle.who {
+    transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Safari and Chrome */
+    -o-transform: rotate(-7deg); /* Opera */
+    -moz-transform: rotate(-7deg); /* Firefox */
+    margin-bottom: 2.875em;
   }
 }

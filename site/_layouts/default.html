@@ -3,7 +3,7 @@ layout: base
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>sprout &amp; co {% if page.title %}:: {{ page.title }} {% endif %}</title>
 
@@ -47,9 +47,15 @@ layout: base
     - /_assets/js/jquery.autoellipsis-1.0.10.min.js
     - /_assets/js/contact_form.js
     - /_assets/js/lifestream.js
+    - /_assets/js/hyphenator.js
+    - /_assets/js/en-us.js
     {% endjavascript_asset_tag %}
 
     {% raw %}
+    <script type="text/javascript">
+      Hyphenator.setRemoteLoading(false);
+      Hyphenator.run();
+    </script>
     <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML.js">
     </script>
     <script type="text/x-mathjax-config">
