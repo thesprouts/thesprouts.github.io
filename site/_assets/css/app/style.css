@@ -986,8 +986,12 @@ footer {
 }
 
 @media (max-width: 480px) {
+  #content {
+    padding-top: 0em;
+  }
   .work-hero {
     margin-bottom: 0em;
+    margin-top: 3em;
   }
   .read-more {
     margin-top: 0em;
@@ -996,9 +1000,7 @@ footer {
     padding-left: 0.5em;
     padding-right: 0.5em;
   } 
-  .work-hero {
-    margin-bottom: 3em;
-  }
+
   header.splash {
     padding: 0;
     padding-top: 1.25em;
