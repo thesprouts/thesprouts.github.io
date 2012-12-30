@@ -1,110 +1,94 @@
 ---
 layout: default
 title: connect
+channels:
+-
+  id: email
+  description: "You can <a href='#mailing-list'>sign up for the.grapevine</a> (our newsletter), join the <a href='#sprout-discuss'><span class='verbatim'>sprout-discuss</span></a> list, or <a href='mailto:three.two.one-contact@thesprouts.org'>email us</a> anytime."
+-
+  id: twitter
+  description: "<a href='http://twitter.com/sprouts'>@sprouts</a> for updates; <a href='http://twitter.com/aresnick'>@aresnick</a> for Alec; <a href='http://twitter.com/shduff'>@shduff</a> for Shaunalynn; and <a href='http://twitter.com/nagle5000'>@nagle5000</a> for Nagle."
+-
+  id: tumblr
+  description: "<a href='http://thesprouts.tumblr.com'>pollen</a> is our tumblr: a scrapbook for bits &amp; pieces we think say something interesting about the future of learning."
+-
+  id: facebook
+  description: "Head over to <a href='https://www.facebook.com/somesprouts'>our Facebook page</a> to keep up with events and other fans &amp; friends of sprout."
 ---
 
 <div class='page-summary row'>
   <div class='span8 offset2'>
-    <div class='page-title'><h2>{{ page.title }}</h2></div>
-    <p>
-    We're always on the lookout for opportunities &amp; collaborations which give us a chance to understand learning.
-  </p>
-  <p>
-    Curious?  Don't hesitate!  Say hey&mdash;</a>  
-  </p>
+    <h2 class='page-title'>{{ page.title }}</h2>
+      <p>
+        We're always on the lookout for opportunities &amp; collaborations which give us a chance to understand learning.  Curious?  Don't hesitate!  Say hey&mdash;</a>  
+      </p>
   </div>
 </div> <!-- ends div.page-summary -->
-  
+
+
 <hr class='page-summary-delimiter'>
 
 
 <div id='connect-options' class='row'>
-<div id='elsewhere' class='page-section span4'>
-<h2>Elsewhere</h2>
-<div class='elsewhere-option row'>
-  <div id='email' class='vertical-centering inner web-email elsewhere-icon span1'></div>
-  <div class='elsewhere-description span3'>
-    <p class='hyphenate'>
-      You can <a href='#mailing-list'>sign up for the.grapevine</a> (our newsletter), join the <a href='#sprout-discuss'><span class='verbatim'>sprout-discuss</span></a> list, or <a href='mailto:three.two.one-contact@thesprouts.org'>email us</a> anytime.
-    </p>
-  </div>
-</div>
+
+  <div id='elsewhere' class='page-section span4'>
+    <h2>Elsewhere</h2>
+
+    {% for channel in page.channels %}
+      {% include elsewhere_option.html %}
+    {% endfor %}
+
+  </div> <!--ends #elswhere.page-section --> 
 
 
-<div class='elsewhere-option row'>
-  <div id='twitter' class='elsewhere-icon web-twitter span1'></div>
-  
-  <div class='elsewhere-description span3'>
-    <p class='hyphenate'>
-    <a href='http://twitter.com/sprouts'>@sprouts</a> for updates; <a href='http://twitter.com/aresnick'>@aresnick</a> for Alec; <a href='http://twitter.com/shduff'>@shduff</a> for Shaunalynn; and <a href='http://twitter.com/nagle5000'>@nagle5000</a> for Nagle.
-  </p>
-  </div>
-</div>
+  <div id='our-studios' class='page-section span4'>
+    <h2>Our Studios</h2>
+
+    <div class='section-summary hyphenate'>
+      <p>
+        Our studios are a place for us to prototype <a href='/work'>our projects and programs</a>.  They have a mix of light manufacturing, arts &amp; crafts, wet lab, and electrical engineering equipment.
+      </p>
+
+      <p>
+        This past year we welcomed <a href='http://partsandcrafts.org/'>Parts &amp; Crafts</a> to share our space as they experiment with their <a href='http://partsandcrafts.org/?page_id=1263'>Center for Semi-Conducted Learning</a>.  Between that and pending renovations, we've temporarily closed our studios to drop-in use 'til next spring.  But, if you think they'd be useful to you&mdash;especially if you've got a meetup or event or community group looking for a venue&mdash;<a href='mailto:three.two.one-contact@thesprouts.org'>let us know</a>!
+      </p>
+    </div> <!-- ends .section-summary -->
+
+    <a href='http://goo.gl/maps/nAvfW'>
+      <div id='sprout-map' class='web-sprout-map'></div>
+    </a>
+  </div> <!-- ends #our-studios -->
 
 
-<div class='elsewhere-option row'>
-  <div id='tumblr' class='web-tumblr elsewhere-icon span1'></div>
-  
-  <div class='elsewhere-description span3'>
-    <p class='hyphenate'>
-    <a href='http://thesprouts.tumblr.com'>Pollen</a> is our tumblr: a scrapbook for bits &amp; pieces we think say something interesting about the future of learning.
-  </p>
-  </div>
-</div>
+  <div id='support-sprout' class='page-section span4'>
+    <h2>Support sprout</h2>
 
+    <div class='section-summary hyphenate'>
+      <p>
+        If you like what sprout does and would like to <em>get involved</em>, <a href='mailto:three.two.one-contact@thesprouts.org'>drop us a line</a>.  We always have a few projects in the hopper that could use a hand.  We're especially keen to hear from people interested in coordinating or designing programs &amp; workshops in the spirit of <a href='/work'>our past work</a>.
+      </p>
+      <p>
+        If you like what sprout does and would like to <em>make a [tax-deductible] donation</em>, great! We are a registered, 501(c)3 nonprofit and would love to hear from you.  Or if you're ready to donate, just enter your information below and we'll email you a receipt and be in touch.  If you have any questions or if you've some other type of donation (<i>e.g.</i> equipment) to make, <a href='mailto:three.two.one-contact@thesprouts.org'>drop us a line</a>.
+      </p>
+    </div> <!-- ends .section-summary -->
 
-<div class='elsewhere-option row'>
-  <div id='facebook' class='web-facebook elsewhere-icon span1'></div>
-  
-  <div class='elsewhere-description span3'>
-    <p class='hyphenate'>
-    Head over to <a href='https://www.facebook.com/somesprouts'>our Facebook page</a> to keep up with events and other fans &amp; friends of sprout.
-    </p> 
-  </div>
-</div>
+    <hr>
 
-</div> <!--ends #elswhere.page-section --> 
+    <form id='donate' class="row form-inline" action="/charge" method="post">
 
+      <div id='email-container' class='span4'>
+        <i class='icon-envelope'></i><input id='email' name="email" type="text" class="input-small" placeholder="Your email address">
+      </div> <!-- ends #email-container -->
 
-<div class='page-section span4'>
-  <h2>Our Studios</h2>
-  <div class='section-summary hyphenate'>
-  <p>
-    Our studios are a place for us to prototype <a href='/work'>our projects and programs</a>.  They have a mix of light manufacturing, arts &amp; crafts, wet lab, and electrical engineering equipment.
-  </p>
+      <div id='donation-container' class='span4'>
+        <span id='dollar'>$</span><input id='donation_amount' name="donation_amount" type="text" class="input-small" placeholder="How much?">
+        
+        <script src="https://button.stripe.com/v1/button.js" class="stripe-button"
+              data-key="pk_live_p4dxHdvEzJ6fmwJ4QQseQLXX  "
+              data-amount=""
+              data-label="Donate"></script>
+      </div> <!-- ends #donation-container -->
+    </form> <!-- ends #donate -->
+  </div> <!-- ends #support-sprout -->
 
-  <p>
-    This past year we welcomed <a href='http://partsandcrafts.org/'>Parts &amp; Crafts</a> to share our space as they experiment with their <a href='http://partsandcrafts.org/?page_id=1263'>Center for Semi-Conducted Learning</a>.  Between that and pending renovations, we've temporarily closed our studios to drop-in use 'til next spring.  But, if you think they'd be useful to you&mdash;especially if you've got a meetup or event or community group looking for a venue&mdash;<a href='mailto:three.two.one-contact@thesprouts.org'>let us know</a>!
-  </p>
-</div> <!-- ends div.section-summary -->
-<a href='http://goo.gl/maps/nAvfW'>
-  {% include small_google_map.html %}
-</a>
-</div>
-
-
-<div id='support-sprout' class='page-section span4'>
-<h2>Support sprout</h2>
-<div class='section-summary hyphenate'>
-<p>
-  If you like what sprout does and would like to <em>get involved</em>, <a href='mailto:three.two.one-contact@thesprouts.org'>drop us a line</a>.  We always have a few projects in the hopper that could use a hand.  We're especially keen to hear from people interested in coordinating or designing programs &amp; workshops in the spirit of <a href='/work'>our past work</a>.
-</p>
-<p>
-  If you like what sprout does and would like to <em>make a [tax-deductible] donation</em>, great! We are a registered, 501(c)3 nonprofit and would love to hear from you.  Or if you're ready to donate, just enter your information below and we'll email you a receipt and be in touch.  If you have any questions or if you've some other type of donation (<i>e.g.</i> equipment) to make, <a href='mailto:three.two.one-contact@thesprouts.org'>drop us a line</a>.
-</p>
-</div>
-<hr>
-<form id='donate' class="row form-inline" action="/charge" method="post">
-  <div class='span4'>
-    <i class='icon-envelope'></i><input id='email' name="email" type="text" class="input-small" placeholder="Your email address">
-  </div>
-  <div class='span4'>
-  <span id='dollar'>$</span><input id='donation_amount' name="donation_amount" type="text" class="input-small" placeholder="How much?">
-  <script src="https://button.stripe.com/v1/button.js" class="stripe-button"
-          data-key="pk_live_p4dxHdvEzJ6fmwJ4QQseQLXX  "
-          data-amount=""
-          data-label="Donate"></script>
-        </div>
-</form>
-</div>
-</div>
+</div> <!-- ends #connect-options -->

@@ -25,74 +25,90 @@ us:
 
 <div class='featurette' id='work'>
 
-    <a href='/work'><h2 class='featurette-title'>Our Work</h2></a>
-    <div class='featurette-details'>
-      <p class='hyphenate'>
-      We&#8217;re always looking for sandboxes where we can explore novel ways of supporting playful, scientific investigation&mdash;and developing the tools and materials that requires.  Got a lead on something that might interest us? <a href='/connect'>Let us know</a>!
-    </p>
-    </div> <!-- ends div.featurette-details -->
+    <h2 class='featurette-title'><a href='/work'>Our Work</a></h2>
+
+    <div class='featurette-details hyphenate'>
+      <p>
+        We&#8217;re always looking for sandboxes where we can explore novel ways of supporting playful, scientific investigation&mdash;and developing the tools and materials that requires.  Got a lead on something that might interest us? <a href='/connect'>Let us know</a>!
+      </p>
+    </div> <!-- ends .featurette-details -->
 
   <div class='work-container row'>
     {% for work in page.work_features %}
-    {% include work_item.html %}
+      {% include work_item.html %}
     {% endfor %}
-  </div> <!-- ends div.work-container.row -->
+  </div> <!-- ends .work-container.row -->
 
   <div class='read-more' id='work-read-more'><a href='/work'>explore our portfolio&hellip;</a></div>
-</div> <!-- ends div#work -->
+
+</div> <!-- ends .featurette#work -->
+
+
+<hr class='section-divider'>
 
 
 <div class='featurette' id='about'>
-<hr class='section-divider'>
-
-  <a href='/about'><h2 class='featurette-title'>About Us</h2></a>
+  <h2 class='featurette-title'><a href='/about'>About Us</a></h2>
   
-  <div class='featurette-details'>
-    <p class='hyphenate'>
-    sprout grew from our collective desire for rich, social learning experiences.  That desire has become a driving interest in the design of tools &amp; media to support creative, scientific investigation.  Interested in working with us? <a href='/connect'>Let us know!</a>
-  </p>
-  </div> <!-- ends div.featurette-details -->
+  <div class='featurette-details hyphenate'>
+    <p>
+      sprout grew from our collective desire for rich, social learning experiences.  That desire has become a driving interest in the design of tools &amp; media to support creative, scientific investigation.  Interested in working with us? <a href='/connect'>Let us know!</a>
+    </p>
+  </div> <!-- ends .featurette-details -->
 
   <div id='headshots-container' class='row'>
     {% for who in page.us %}
-    {% include who_item.html %}
+      {% include signed_who_item.html %}
     {% endfor %}
-  </div> <!-- ends div#headshots-container -->
+  </div> <!-- ends #headshots-container -->
 
     <div class='read-more' id='about-read-more'><a href='/about'>get to know our team&hellip;</a></div>
-</div> <!-- ends div#about -->
+</div> <!-- ends #about -->
 
-<div class='featurette' id='blog'>
+
 <hr class='section-divider'>
 
-<a href='/blog'><h2 class='featurette-title'>Our Blog</h2></a>
-  <div class='featurette-details'>
-    <p class='hyphenate'>
-    Here&#8217;s where we write about our work in an attempt to better understand our experiences, both personal &amp; professional.  Related: over at <a href='http://thesprouts.tumblr.com'>our tumblr</a>, you can find something of a scrapbook of inspiring and provocative tidbits we run across.
-  </p>
-  </div> <!-- ends div.featurette-details -->
+
+<div class='featurette' id='blog'>
+  <h2 class='featurette-title'><a href='/blog'>Our Blog</a></h2>
+
+  <div class='featurette-details hyphenate'>
+    <p>
+      Here&#8217;s where we write about our work in an attempt to better understand our experiences, both personal &amp; professional.  Related: over at <a href='http://thesprouts.tumblr.com'>our tumblr</a>, you can find something of a scrapbook of inspiring and provocative tidbits we run across.
+    </p>
+  </div> <!-- ends .featurette-details -->
 
 <div id='blog-posts' class='row'>
 {% for post in site.posts limit:3 %}
-  <div class='blog-container span4 {% cycle "even", "odd"%}' >
-    <div class='spacer'>
-    <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
-    <div class='blog-post-date'>posted {{ post.date | date_to_long_string }}</div>
-    <div class='blog-post-summary'>
-      <p>
-        {{ post.summary }}
-      </p>
-      <hr>
+  <div class='blog-container span4 {% cycle "even", "odd"%}'>
 
-      <blockquote>{{ post.content | lede_filter | strip_html | truncatewords: post.excerpt_length | truncate: 347 | strip_regex: '/^[^A-Za-z]+/', '/[\n]+/' }}
-        <div class='fadeout'></div>
-      </blockquote>
-    </div>
-  </div> <!-- ends div.spacer -->
-  </div>
+    <div class='spacer'>
+
+      <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+
+      <div class='blog-post-date'>posted {{ post.date | date_to_long_string }}</div>
+
+      <div class='blog-post-summary'>
+        <p>
+          {{ post.summary }}
+        </p>
+        
+        <hr>
+
+        <!-- nutty blockquote behavior: extra carriage return screws with whitespace -->
+        <blockquote>{{ post.content | lede_filter | strip_html | truncatewords: post.excerpt_length | truncate: 347 | strip_regex: '/^[^A-Za-z]+/', '/[\n]+/' }}
+          <div class='fadeout'></div>
+        </blockquote>
+      </div> <!-- ends .blog-post-summary -->
+
+    </div> <!-- ends div.spacer -->
+
+  </div> <!-- ends .blog-container -->
 {% endfor %}
-</div>
+</div> <!-- ends #blog-posts -->
+
+
 {% if site.posts.size > 3 %}}
-<div class='read-more' id='about-read-more'><a href='/blog'>peruse the archives&hellip;</a></div>
+  <div class='read-more' id='about-read-more'><a href='/blog'>peruse the archives&hellip;</a></div>
 {% endif %}
 </div> <!-- ends div#blog -->

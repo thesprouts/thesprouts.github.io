@@ -1,10 +1,16 @@
-<div class='bio-container span4'>
-  <div id='{{ who.id }}' class='who'>
+{% assign bio_file = 'us/' | append: who.id | append: '.html' %}
+
+<!-- ... begins {{ who.id }} ... -->
+<div id='{{ who.id }}' class='bio-entry span4'>
+  <div class='who'>
     <div class='headshot us-{{ who.id }}'></div>
+    
     <div class='name'>{{ who.name }}</div>
   </div> <!-- ends div#{{ who.id }} -->
-  <div class='bio hyphenate'>
-    {% assign bio_file = 'us/' | append: who.id | append: '.html' %}
-    {% include bio_file %}
+  
+  <div class='bio'>
+    <p class='hyphenate'>  
+      {% include bio_file %}
+    </p>
   </div> <!-- ends div.bio -->
 </div>

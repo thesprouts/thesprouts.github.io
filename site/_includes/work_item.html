@@ -1,7 +1,9 @@
 {% assign sprite_class = 'work-' | append:work.id %}
 
-<div class='work-hero span4' id='{{ work.id }}'>
-  <div class='{{ sprite_class }} work-artifact work'></div><!-- ends div.work-artifact -->
+<!-- ... {{ work.id }} ... -->
+<div class='work-entry span4' id='{{ work.id }}'>
+
+  <div class='{{ sprite_class }} work-artifact'></div><!-- ends div.work-artifact -->
 
   <div class='established'>
     <span> {{ work.established }} </span>
@@ -11,8 +13,11 @@
     <span> {{ work.name }} </span>
   </div> <!-- ends div.name -->
 
-  <div class='work-description hyphenate'>
-    {% assign description_path = 'work/' | append:work.id | append:'.html' %}
-    {% include {{ description_path }} %}
+  <div class='work-description'>
+    <p class='hyphenate'>
+      {% assign description_path = 'work/' | append:work.id | append:'.html' %}
+      {% include {{ description_path }} %}
+    </p>
   </div> <!-- ends div.work-description -->
-</div> <!-- ends div.work-hero#{{work.id}} -->
+
+</div> <!-- ends div.work-entry#{{work.id}} -->

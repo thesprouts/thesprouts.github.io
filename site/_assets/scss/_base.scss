@@ -1,0 +1,15 @@
+@import "compass/css3";
+
+@mixin rgba-background($color, $opacity) {
+  background: $color;
+  background: rgba($color, $opacity);
+}
+
+$museo: "museo-slab-1", "museo-slab-2", Georgia, serif;
+$adelle: "adelle-1", "adelle-2", Georgia, serif;
+
+$body-background: #f9fafb;
+$sprout-green: rgb(19, 169, 63);
+$dark-grey: #333;
+$grey: #555;
+$light-grey: #888;

@@ -9,13 +9,13 @@ layout: base
     {% css_asset_tag app %}
     - /_assets/css/vendor/bootstrap.min.css
     - /_assets/css/vendor/bootstrap-responsive.css
-    - /_assets/css/app/sprites.css
-    - /_assets/css/app/site.css
-    - /_assets/css/app/index.css
-    - /_assets/css/app/about.css
-    - /_assets/css/app/work.css
-    - /_assets/css/app/blog.css
-    - /_assets/css/app/connect.css
+    - /_assets/css/sprites.css
+    - /_assets/css/site.css
+    - /_assets/css/index.css
+    - /_assets/css/about.css
+    - /_assets/css/work.css
+    - /_assets/css/blog.css
+    - /_assets/css/connect.css
     {% endcss_asset_tag %}
 
     {% include typekit.html %}
@@ -57,7 +57,7 @@ layout: base
 
     {% raw %}
     <script type="text/javascript">
-      Hyphenator.setRemoteLoading(false);
+      Hyphenator.enableRemoteLoading = false;
       Hyphenator.run();
     </script>
     <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML.js">

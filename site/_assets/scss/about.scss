@@ -1,0 +1,105 @@
+@import "base.scss";
+
+@media (max-width: 480px) {
+    .bio-entry {
+    margin-bottom: 1.5em;
+    .who {
+      margin-left: -0.5em;
+      margin-bottom: 1em;
+    }
+    .bio {
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  #shaunalynn-duffy.who {
+    margin-top: 2em;
+    margin-bottom: 3.1875em;
+  }
+  #michael-nagle.who .name {
+    margin-bottom: -1.25em;
+  }
+  #shaunalynn-duffy.who {
+    padding-bottom: 0.75em;
+  }
+  header hr {
+    display: none;
+  }
+  #beth-osullivan.who {
+    @include transform(rotate(5deg));
+  }
+  #bakhtiar-mikhak.who {
+    @include transform(rotate(-7deg));
+  }
+  #alec-resnick.who {
+    @include transform(rotate(5deg));
+  }
+  #michael-nagle.who {
+    @include transform(rotate(-7deg));
+    margin-bottom: 2.875em;
+  }
+}
+
+.who {
+  img {
+    min-height: 257px;
+  }
+  text-align: center;
+  float: left;
+  padding: 10px 10px 25px 10px;
+  background: #eee;
+  border: 1px solid white;
+  box-shadow: 0px 2px 15px $dark-grey;
+  position: relative;
+  margin: 1.5em;
+}
+
+.bio {
+  font-size: 1.25em;
+  line-height: 1.375em;
+  text-align: justify;
+}
+
+#headshots-container .headshot {
+  opacity: 0.875;
+  &:hover {
+    opacity: 1;
+    @include transition(opacity 0.125s ease-in);
+  }
+}
+
+#board {
+  .bio-entry .name {
+    height: 100%;
+    font-size: 1.5em;
+    font-family: $museo;
+    margin-top: 1em;
+    margin-bottom: -1.5em;
+  }
+  .who {
+    padding-bottom: 3.875em;
+  }
+}
+
+.bio-entry .name {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.2em;
+}
+
+#headshots-container {
+  margin-top: 2em;
+}
+
+.who {
+  min-width: 300px;
+  clear: both;
+  margin-bottom: 2.5em;
+}
+
+.name {
+  margin-top: 0.75em;
+}

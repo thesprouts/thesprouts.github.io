@@ -1,3 +1,5 @@
+@import "base.scss";
+
 #connect {
   input {
     margin: 0;
@@ -33,10 +35,7 @@ ul#elsewhere {
 
 ul#elsewhere li img:hover {
   opacity: 1;
-  -webkit-transition: opacity 0.125s ease-in;
-  -moz-transition: opacity 0.125s ease-in;
-  -o-transition: opacity 0.125s ease-in;
-  transition: opacity 0.125s ease-in;
+  @include transition(opacity 0.125s ease-in);
 }
 
 #connect-options .page-section {
@@ -45,10 +44,8 @@ ul#elsewhere li img:hover {
 
 #sprout-map {
   text-align: center;
-  border-radius: 5px;
-  -moz-box-shadow: inset 0 0 10px black;
-  -webkit-box-shadow: inset 0 0 10px black;
-  box-shadow: inset 0 0 10px black;
+  @include border-radius(5px);
+  @include box-shadow(inset 0 0 10px black);
 }
 
 form#donate {
@@ -95,12 +92,10 @@ form#donate {
 }
 
 .elsewhere-icon {
-  border-radius: 35px;
+  @include border-radius(35px);
   height: 70px;
   opacity: 0.875;
-  -moz-box-shadow: inset 0 0 5px black;
-  -webkit-box-shadow: inset 0 0 5px black;
-  box-shadow: inset 0 0 5px black;
+  @include box-shadow(inset 0 0 5px black);
 }
 
 #connect-options {
@@ -112,6 +107,10 @@ form#donate {
   .page-section h2 {
     margin-bottom: 0.5em;
   }
+}
+
+#support-sprout hr {
+  margin-top: -1em;
 }
 
 @media (max-width: 480px) {

@@ -1,19 +1,26 @@
-
+<!-- ... begins header ... -->
 <header id='home' class='non-splash'>
   <div class='container'>
-  <div id='nav-row' class="row">
-    <div id='nav' class="span7">
-      {% assign active_page = page.url | remove:'/' | remove:'.html' %}
-      <ul>
-        <li id='work' class='{% if active_page == "work" %}active{% endif %}'><a href='/work'>our work</a></li>
-        <li id='about' class='{% if active_page == "about" %}active{% endif %}'><a href='/about'>about us</a></li>
-        <li id='blog' class='{% if active_page == "blog" %}active{% endif %}'><a href='/blog'> blog</a></li>
-        <li id='connect' class='{% if active_page == "connect" %}active{% endif %}'><a href='/connect'>connect</a></li>
-      </ul>
-    </div> <!-- ends div#nav -->
+    <div id='nav-row' class="row">
+      <div id='nav' class="span7">
+        {% assign active_page = page.url | remove:'/' | remove:'.html' %}
+        <ul>
+          <li id='work' class='{% if active_page == "work" %}active{% endif %}'><a href='/work'>our work</a></li>
 
-    <div id='logotype' class="span5"> <a href='/'>sprout &amp; co.</a> </div>
+          <li id='about' class='{% if active_page == "about" %}active{% endif %}'><a href='/about'>about us</a></li>
+          
+          <li id='blog' class='{% if active_page == "blog" %}active{% endif %}'><a href='/blog'> blog</a></li>
+          
+          <li id='connect' class='{% if active_page == "connect" %}active{% endif %}'><a href='/connect'>connect</a></li>
+        </ul>
+      </div> <!-- ends div#nav -->
 
-  </div> <!-- ends div#nav-row -->
-</div> <!-- ends div.container -->
+      <div id='logotype' class="span5">
+        <a href='/'>sprout &amp; co.</a>
+      </div> <!-- ends #logotype -->
+
+    </div> <!-- ends div#nav-row -->
+
+  </div> <!-- ends div.container -->
+  
 </header>

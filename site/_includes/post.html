@@ -2,24 +2,28 @@
   {% assign post = page %}
 {% endunless %}
 
-<div id='{{ post.id }}' class="article span10 offset1">
- <h2><a href='{{ post.url }}'>{{ post.title }}</a></h1>
+<!-- ... begins {{ post.id }} ... -->
 
- <div class='row'>
-  <div class="post-summary span8 offset1 hyphenate">
-    {{ post.summary }} 
-  </div> <!-- ends div.summary -->
+<div id='{{ post.id }}' class='article span10 offset1'>
+  
+ <h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
+
+  <div class='metapost-container row'>
+    <div class='post-summary span8 offset1 hyphenate'>
+      {{ post.summary }} 
+    </div> <!-- ends div.summary -->
+
     <div class='article-info span8 offset1'>
-   {% if post.author %}
-   drafted by {% if post.author_url %}<a href='{{ post.author_url }}'> {{ post.author }}</a> {% else %} {{ post.author }} {% endif %} on <a href='{{ post.url }}'>{{ post.date | date_to_long_string }}</a>
-   {% endif %}
- </div> <!-- ends div.article-info -->
+     {% if post.author %}
+      drafted by {% if post.author_url %}<a href='{{ post.author_url }}'> {{ post.author }}</a> {% else %} {{ post.author }} {% endif %} on <a href='{{ post.url }}'>{{ post.date | date_to_long_string }}</a>
+     {% endif %}
+    </div> <!-- ends div.article-info -->
+  </div> <!-- ends .metapost-container -->
 
-</div>
+  <div class='article-container row'>
+    <div class='article-body span8 offset1 hyphenate'>
+      {{ post.content }}
+    </div> <!-- ends .article-body -->
+  </div> <!-- ends .article-container -->
 
- <div class='row'>
- <div class="article-body span8 offset1 hyphenate">
-   {{ post.content }}
- </div> <!-- ends div.article-body -->
- </div> <!-- ends div.row -->
 </div> <!-- ends div.article -->
