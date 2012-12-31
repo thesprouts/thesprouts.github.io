@@ -7,6 +7,11 @@ set :root, File.dirname(__FILE__)
 set :public_folder, './site/_public'
 set :static_cache_control, [:public, :max_age => 31557600]
 
+
+before do
+  content_type 'text/html; charset=UTF-8'
+end
+
 helpers do
   def send_static(path)
     full_path = File.join(settings.public_folder, path)
