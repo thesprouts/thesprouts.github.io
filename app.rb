@@ -9,7 +9,7 @@ set :static_cache_control, [:public, :max_age => 31557600]
 
 
 before do
-  content_type 'text/html; charset=UTF-8'
+  content_type 'text/html', :charset => 'utf-8'
 end
 
 helpers do
