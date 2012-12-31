@@ -74,6 +74,11 @@ h2.featurette-title a:hover {
   .featurette-details {
     margin-left: 0em;
     margin-right: 0em;
+
+    p {
+      font-size: 1.25em;
+      line-height: 1.125em;
+    }
   }
   #blog-posts {
     padding: 0em;

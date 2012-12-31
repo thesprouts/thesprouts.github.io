@@ -4,7 +4,8 @@
     .bio-entry {
     margin-bottom: 1.5em;
     .who {
-      margin-left: -0.5em;
+      padding: 8.65px 8.65px 25px 8.65px;
+      margin-left: -0.45em;
       margin-bottom: 1em;
     }
     .bio {
@@ -14,6 +15,10 @@
 }
 
 @media (min-width: 1200px) {
+  .bio-entry {
+    margin-bottom: 2.75em;
+  }
+
   #shaunalynn-duffy.who {
     margin-top: 2em;
     margin-bottom: 3.1875em;

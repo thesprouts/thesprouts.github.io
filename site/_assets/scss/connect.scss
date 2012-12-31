@@ -114,12 +114,18 @@ form#donate {
 }
 
 @media (max-width: 480px) {
+  .web-sprout-map {
+    width: 100%;
+  }
   .elsewhere-icon {
     display: inline-block;
   }
   .elsewhere-description {
     display: inline-block;
     width: 75%;
+    position: relative;
+    top: -1.125em;
+    margin-left: 0.375em;
   }
   #connect-options .page-section {
     margin-bottom: 3em;

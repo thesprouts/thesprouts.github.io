@@ -12,6 +12,7 @@ a:hover {
 .page-title {
   width: 100%;
   font-size: 4em;
+  margin-top: 1em;
   margin-bottom: 0.75em;
 }
 
@@ -145,7 +146,7 @@ footer {
   .help-block {
     text-align: right;
     font-size: 0.375em;
-    line-height: 1em;
+    line-height: 1.125em;
     color: #555;
   }
 
@@ -366,12 +367,13 @@ html, body {
 
 @media (max-width: 480px) {
   #content {
+    font-size: 0.8em;
     padding-top: 0em;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
 
-  #motto {
+  header.splash #mission {
     font-size: 0.375em;
     max-width: 480px;
     margin-right: 0px;
@@ -410,8 +412,10 @@ html, body {
       width: 76%;
     }
   }
-  #nav ul li:first-child {
-    padding-left: 0em;
+  header.non-splash, header.splash {
+    #nav ul li:first-child {
+      padding-left: 0em;
+    }
   }
 
   header hr {
@@ -425,7 +429,7 @@ html, body {
     padding-bottom: 0.25em;
     height: 2em;
   }
-  .non-splash {
+  header.non-splash {
     #logotype {
       position: absolute;
       top: 0.375em;
@@ -451,7 +455,7 @@ html, body {
       }
     }
   }
-  .splash {
+  header.splash {
     #logotype {
       position: absolute;
       top: 0.375em;
