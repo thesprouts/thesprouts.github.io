@@ -2187,7 +2187,7 @@ h2.featurette-title a:hover {
     text-align: center;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
   /* line 18, ../scss/about.scss */
   .bio-entry {
     margin-bottom: 2.75em;
