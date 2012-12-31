@@ -1728,11 +1728,11 @@ footer span.legend {
   border-bottom: 1px dashed #cccccc;
 }
 /* line 181, ../scss/site.scss */
-footer #footer-connect div {
+footer #footer-connect-container div {
   margin-bottom: 0.9375em;
 }
 /* line 184, ../scss/site.scss */
-footer #footer-connect ul#elsewhere li a div {
+footer #footer-connect-container ul#elsewhere li a div {
   display: inline-block;
   margin-bottom: 0em;
 }
@@ -2728,7 +2728,7 @@ div.article > h2, .blog-toc > h2 {
 }
 
 /* line 4, ../scss/connect.scss */
-#connect input {
+#footer-connect input {
   margin: 0;
   width: 304px;
 }
