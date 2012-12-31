@@ -173,15 +173,23 @@ footer {
   }
 
   .legend {
+    text-align: right;
     font-size: 0.5em;
     width: 100%;
     font-family: $museo;
     border-bottom: 1px dashed #cccccc;
   }
 
+  #sprout-elsewhere .legend {
+    font-size: 1.25em;
+    line-height: 1.25em;
+    text-align: left;
+    margin-bottom: 1em;
+  }
+
   #footer-connect-container {
     div {
-      margin-bottom: 0.9375em;
+      margin-bottom: 0.645em;
     }
     ul#elsewhere li a div {
       display: inline-block;
