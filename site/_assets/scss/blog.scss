@@ -106,6 +106,7 @@ div.article {
   @include border-radius(7px);
   height: 370px;
   @include box-shadow(0 0 7px #999);
+  behavior: url(/assets/PIE.htc);
 }
 
 #blog-posts > .blog-container[class*='span4'] {
@@ -120,6 +121,7 @@ div.article {
   border-radius: 7px;
   @include rgba-background(rgb(0, 0, 0), 0.06125);
   height: 370px;
+  behavior: url(/assets/PIE.htc);
 }
 
 .blog-toc-card.odd .lede-info {
@@ -151,6 +153,7 @@ div.article {
   color: #333;
   width: 95%; /* Why doesn't 100% work? */
   box-shadow: 0px -3.75px 3.75px -1.625px rgba(0, 0, 0, 0.75);
+  behavior: url(/assets/PIE.htc);
 }
 
 .article {
@@ -163,6 +166,7 @@ div.article {
     width: 300px;
     height: 300px;
     @include box-shadow(inset 0px 0px 7.5px rgba(0, 0, 0, 0.75));
+    behavior: url(/assets/PIE.htc);
   }
 }
 

@@ -46,6 +46,7 @@ ul#elsewhere li img:hover {
   text-align: center;
   @include border-radius(5px);
   @include box-shadow(inset 0 0 10px black);
+  behavior: url(/assets/PIE.htc);
 }
 
 form#donate {
@@ -96,6 +97,7 @@ form#donate {
   height: 70px;
   opacity: 0.875;
   @include box-shadow(inset 0 0 5px black);
+  behavior: url(/assets/PIE.htc);
 }
 
 #connect-options {
