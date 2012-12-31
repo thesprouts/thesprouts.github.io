@@ -2817,7 +2817,7 @@ form#donate input#donation_amount {
 }
 
 /* line 75, ../scss/connect.scss */
-#connect-options #elsewhere img {
+#connect-options #elsewhere-option img {
   width: 75%;
   opacity: 0.875;
 }
@@ -2864,7 +2864,7 @@ form#donate input#donation_amount {
 }
 
 /* line 111, ../scss/connect.scss */
-#support-sprout hr {
+#support-sprout-option hr {
   margin-top: -1em;
 }
 
