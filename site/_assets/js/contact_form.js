@@ -1,5 +1,5 @@
 $(function() {
-  $("form#email-us").submit(function() {
+  $("form#email-us-form").submit(function() {
     var email = $('input#message-author').val();
     var body = $('textarea#email-message').val();
 
@@ -8,10 +8,10 @@ $(function() {
         url: "/contact",
         data: "email=" + email + '&body=' + body,
         success: function() {
-          $('button#email-us').addClass("btn btn-success");
+          $('button#email-us-button').addClass("btn btn-success");
         },
         error: function() {
-          $('button#email-us').addClass("btn btn-danger");
+          $('button#email-us-button').addClass("btn btn-danger");
         }
       });
     return false;
