@@ -1541,15 +1541,16 @@ a:hover {
 .page-title {
   width: 100%;
   font-size: 4em;
+  margin-top: 1em;
   margin-bottom: 0.75em;
 }
 
-/* line 18, ../scss/site.scss */
+/* line 19, ../scss/site.scss */
 #content {
   padding-top: 3em;
 }
 
-/* line 22, ../scss/site.scss */
+/* line 23, ../scss/site.scss */
 #logotype {
   font-family: "adelle-1", "adelle-2", Georgia, serif;
   font-size: 1.125em;
@@ -1557,38 +1558,38 @@ a:hover {
   line-height: 1.5em;
 }
 
-/* line 29, ../scss/site.scss */
+/* line 30, ../scss/site.scss */
 #mission {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   font-size: 0.5em;
   line-height: 1.25em;
   text-align: justify;
 }
-/* line 30, ../scss/site.scss */
+/* line 31, ../scss/site.scss */
 #mission p {
   max-width: 531px;
 }
 
-/* line 39, ../scss/site.scss */
+/* line 40, ../scss/site.scss */
 .splash #logotype {
   margin-top: -0.375em;
   padding-bottom: 0.4375em;
 }
 
-/* line 44, ../scss/site.scss */
+/* line 45, ../scss/site.scss */
 #nav {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   font-size: 0.5em;
   line-height: 3.25em;
 }
 
-/* line 51, ../scss/site.scss */
+/* line 52, ../scss/site.scss */
 #nav ul {
   list-style-type: none;
   letter-spacing: -0.03125em;
   text-align: left;
 }
-/* line 56, ../scss/site.scss */
+/* line 57, ../scss/site.scss */
 #nav li {
   display: inline-block;
   text-align: center;
@@ -1598,21 +1599,21 @@ a:hover {
   line-height: 0.375em;
 }
 
-/* line 66, ../scss/site.scss */
+/* line 67, ../scss/site.scss */
 header, footer {
   background: #13a93f;
   background: rgba(19, 169, 63, 0.9);
 }
-/* line 68, ../scss/site.scss */
+/* line 69, ../scss/site.scss */
 header a, footer a {
   color: #cbd4dc;
 }
-/* line 71, ../scss/site.scss */
+/* line 72, ../scss/site.scss */
 header a:hover, footer a:hover {
   color: #555;
 }
 
-/* line 77, ../scss/site.scss */
+/* line 78, ../scss/site.scss */
 header {
   width: 100%;
   font-size: 3em;
@@ -1622,54 +1623,54 @@ header {
   padding-top: 0.75em;
   padding-bottom: 0.75em;
 }
-/* line 78, ../scss/site.scss */
+/* line 79, ../scss/site.scss */
 header #logotype a {
   text-shadow: 0 1px 1px #aaaaaa;
   text-decoration: none;
   color: #333333;
   margin-right: -2px;
 }
-/* line 83, ../scss/site.scss */
+/* line 84, ../scss/site.scss */
 header #logotype a:hover {
   color: black;
 }
-/* line 88, ../scss/site.scss */
+/* line 89, ../scss/site.scss */
 header #nav ul li.active > a {
   color: #555;
 }
-/* line 100, ../scss/site.scss */
+/* line 101, ../scss/site.scss */
 header.splash {
   padding-top: 1.25em;
   padding-bottom: 0.6875em;
 }
-/* line 103, ../scss/site.scss */
+/* line 104, ../scss/site.scss */
 header.splash #logotype {
   text-align: right;
 }
-/* line 107, ../scss/site.scss */
+/* line 108, ../scss/site.scss */
 header.splash #nav {
   margin-top: -0.875em;
 }
-/* line 109, ../scss/site.scss */
+/* line 110, ../scss/site.scss */
 header.splash #nav ul {
   text-align: right;
 }
-/* line 112, ../scss/site.scss */
+/* line 113, ../scss/site.scss */
 header.splash #nav li {
   padding: 0;
   padding-left: 1.75em;
   text-align: right;
 }
-/* line 116, ../scss/site.scss */
+/* line 117, ../scss/site.scss */
 header.splash #nav li:first-child {
   padding-left: 0em;
 }
-/* line 123, ../scss/site.scss */
+/* line 124, ../scss/site.scss */
 header #nav ul {
   margin-left: 0;
 }
 
-/* line 128, ../scss/site.scss */
+/* line 129, ../scss/site.scss */
 .fadeout {
   position: absolute;
   bottom: 0em;
@@ -1682,7 +1683,7 @@ header #nav ul {
   background: linear-gradient(rgba(249, 250, 251, 0) 0%, #f9fafb 100%);
 }
 
-/* line 136, ../scss/site.scss */
+/* line 137, ../scss/site.scss */
 footer {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -1693,51 +1694,51 @@ footer {
   line-height: 1em;
   box-shadow: inset 0px 3px 5px #555555;
 }
-/* line 145, ../scss/site.scss */
+/* line 146, ../scss/site.scss */
 footer .help-block {
   text-align: right;
   font-size: 0.375em;
-  line-height: 1em;
+  line-height: 1.125em;
   color: #555;
 }
-/* line 152, ../scss/site.scss */
+/* line 153, ../scss/site.scss */
 footer blockquote {
   margin-top: 11.5px;
   border-left: none;
 }
-/* line 157, ../scss/site.scss */
+/* line 158, ../scss/site.scss */
 footer #footer-quote {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   font-size: 0.4125em;
   line-height: 1.125em;
   margin-bottom: 1em;
 }
-/* line 164, ../scss/site.scss */
+/* line 165, ../scss/site.scss */
 footer textarea#email-message {
   margin-top: 11px;
   /* TODO: hack */
   width: 356px;
 }
-/* line 170, ../scss/site.scss */
+/* line 171, ../scss/site.scss */
 footer legend {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   border-bottom: 1px dashed #cccccc;
 }
-/* line 176, ../scss/site.scss */
+/* line 177, ../scss/site.scss */
 footer #footer-connect div {
   margin-bottom: 0.9375em;
 }
-/* line 179, ../scss/site.scss */
+/* line 180, ../scss/site.scss */
 footer #footer-connect ul#elsewhere li a div {
   display: inline-block;
   margin-bottom: 0em;
 }
-/* line 185, ../scss/site.scss */
+/* line 186, ../scss/site.scss */
 footer #lifestream {
   font-size: 0.895em;
   height: 352px;
 }
-/* line 190, ../scss/site.scss */
+/* line 191, ../scss/site.scss */
 footer ul.lifestream {
   list-style-type: none;
   margin: 0;
@@ -1745,7 +1746,7 @@ footer ul.lifestream {
   max-height: 352px;
   overflow: hidden;
 }
-/* line 196, ../scss/site.scss */
+/* line 197, ../scss/site.scss */
 footer ul.lifestream li {
   margin-bottom: 1.25em;
   background-size: 20px 20px;
@@ -1755,11 +1756,11 @@ footer ul.lifestream li {
   overflow: hidden;
   position: relative;
 }
-/* line 204, ../scss/site.scss */
+/* line 205, ../scss/site.scss */
 footer ul.lifestream li > div {
   display: table;
 }
-/* line 208, ../scss/site.scss */
+/* line 209, ../scss/site.scss */
 footer ul.lifestream .icon {
   position: absolute;
   top: 50%;
@@ -1771,7 +1772,7 @@ footer ul.lifestream .icon {
   opacity: 0.875;
   box-shadow: inset 0 0px 3px #888888;
 }
-/* line 221, ../scss/site.scss */
+/* line 222, ../scss/site.scss */
 footer .elsewhere-story {
   padding-left: 38px;
   /* = 30px + 0.5em */
@@ -1779,29 +1780,29 @@ footer .elsewhere-story {
   vertical-align: middle;
   height: 30px;
 }
-/* line 229, ../scss/site.scss */
+/* line 230, ../scss/site.scss */
 footer #sprout-elsewhere {
   margin-top: 25.75px;
 }
-/* line 233, ../scss/site.scss */
+/* line 234, ../scss/site.scss */
 footer #scrapbook-lede {
   font-size: 0.75em;
   font-style: italic;
   text-align: right;
   line-height: 1.375em;
 }
-/* line 240, ../scss/site.scss */
+/* line 241, ../scss/site.scss */
 footer #support-sprout hr {
   margin-top: -0.375em;
   margin-bottom: 1.55em;
 }
 
-/* line 246, ../scss/site.scss */
+/* line 247, ../scss/site.scss */
 .section-summary {
   margin-bottom: 2em;
 }
 
-/* line 251, ../scss/site.scss */
+/* line 252, ../scss/site.scss */
 .vertical-centering.outer {
   height: 270px;
   overflow: hidden;
@@ -1809,7 +1810,7 @@ footer #support-sprout hr {
   display: table;
   position: static;
 }
-/* line 258, ../scss/site.scss */
+/* line 259, ../scss/site.scss */
 .vertical-centering.middle {
   display: table-cell;
   vertical-align: middle;
@@ -1817,25 +1818,25 @@ footer #support-sprout hr {
   position: static;
 }
 
-/* line 267, ../scss/site.scss */
+/* line 268, ../scss/site.scss */
 hr.page-summary-delimiter {
   border-top: 1px solid #dddddd;
   margin-top: 3em;
   margin-bottom: 3em;
 }
 
-/* line 273, ../scss/site.scss */
+/* line 274, ../scss/site.scss */
 h2.page-section {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
 }
 
-/* line 278, ../scss/site.scss */
+/* line 279, ../scss/site.scss */
 .page-section h2 {
   font-size: 3.25em;
   margin-bottom: 1em;
 }
 
-/* line 283, ../scss/site.scss */
+/* line 284, ../scss/site.scss */
 .page-summary p, .featurette-details p {
   text-align: justify;
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
@@ -1844,7 +1845,7 @@ h2.page-section {
   margin-top: 1em;
 }
 
-/* line 291, ../scss/site.scss */
+/* line 292, ../scss/site.scss */
 h1 {
   margin-bottom: 0.5em;
   line-height: 1em;
@@ -1853,52 +1854,52 @@ h1 {
   vertical-align: middle;
 }
 
-/* line 300, ../scss/site.scss */
+/* line 301, ../scss/site.scss */
 .page-section {
   margin-bottom: 7em;
 }
 
-/* line 304, ../scss/site.scss */
+/* line 305, ../scss/site.scss */
 h1, h2 {
   text-align: center;
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
 }
 
-/* line 309, ../scss/site.scss */
+/* line 310, ../scss/site.scss */
 h1 {
   font-size: 5em;
 }
 
-/* line 313, ../scss/site.scss */
+/* line 314, ../scss/site.scss */
 .page-summary .page-title {
   width: 100%;
   text-align: center;
   text-transform: capitalize;
 }
 
-/* line 319, ../scss/site.scss */
+/* line 320, ../scss/site.scss */
 .page-section h2 {
   font-family: "adelle-1", "adelle-2", Georgia, serif;
   text-shadow: 0px 2px 3px white;
   color: #ccc;
 }
 
-/* line 325, ../scss/site.scss */
+/* line 326, ../scss/site.scss */
 h1 > a:hover, h2 > a:hover, .article-info a:hover {
   text-decoration: none;
 }
 
-/* line 329, ../scss/site.scss */
+/* line 330, ../scss/site.scss */
 .quote-author {
   text-align: right;
 }
-/* line 331, ../scss/site.scss */
+/* line 332, ../scss/site.scss */
 .quote-author i {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 338, ../scss/site.scss */
+/* line 339, ../scss/site.scss */
 hr.section-divider {
   margin-top: 4em;
   margin-bottom: 4em;
@@ -1906,7 +1907,7 @@ hr.section-divider {
 
 /* Sticky footer styles
 -------------------------------------------------- */
-/* line 346, ../scss/site.scss */
+/* line 347, ../scss/site.scss */
 html, body {
   padding: 0;
   /* for mobile devices */
@@ -1915,7 +1916,7 @@ html, body {
 }
 
 /* Wrapper for page content to push down footer */
-/* line 355, ../scss/site.scss */
+/* line 356, ../scss/site.scss */
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -1924,21 +1925,22 @@ html, body {
   margin: 0 auto -100px;
 }
 
-/* line 363, ../scss/site.scss */
+/* line 364, ../scss/site.scss */
 #push {
   height: 200px;
 }
 
 @media (max-width: 480px) {
-  /* line 368, ../scss/site.scss */
+  /* line 369, ../scss/site.scss */
   #content {
+    font-size: 0.8em;
     padding-top: 0em;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
 
-  /* line 374, ../scss/site.scss */
-  #motto {
+  /* line 376, ../scss/site.scss */
+  header.splash #mission {
     font-size: 0.375em;
     max-width: 480px;
     margin-right: 0px;
@@ -1946,60 +1948,60 @@ html, body {
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
-  /* line 381, ../scss/site.scss */
-  #motto p {
+  /* line 383, ../scss/site.scss */
+  header.splash #mission p {
     margin-right: 0px;
   }
 
-  /* line 386, ../scss/site.scss */
+  /* line 388, ../scss/site.scss */
   header.splash {
     padding: 0;
     padding-top: 1.25em;
     padding-bottom: 0.25em;
   }
 
-  /* line 391, ../scss/site.scss */
+  /* line 393, ../scss/site.scss */
   footer {
     margin: 0;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
 
-  /* line 396, ../scss/site.scss */
+  /* line 398, ../scss/site.scss */
   footer {
     height: 1650px;
   }
 
-  /* line 400, ../scss/site.scss */
+  /* line 402, ../scss/site.scss */
   footer input#tlemail {
     width: 76%;
   }
-  /* line 403, ../scss/site.scss */
+  /* line 405, ../scss/site.scss */
   footer fieldset {
     width: 100%;
   }
-  /* line 406, ../scss/site.scss */
+  /* line 408, ../scss/site.scss */
   footer textarea#email-message {
     width: 95%;
   }
-  /* line 409, ../scss/site.scss */
+  /* line 411, ../scss/site.scss */
   footer input#message-author {
     width: 76%;
   }
 
-  /* line 413, ../scss/site.scss */
-  #nav ul li:first-child {
+  /* line 416, ../scss/site.scss */
+  header.non-splash #nav ul li:first-child, header.splash #nav ul li:first-child {
     padding-left: 0em;
   }
 
-  /* line 417, ../scss/site.scss */
+  /* line 421, ../scss/site.scss */
   header hr {
     border-top: 2px solid #eeeeee;
     border-bottom: 2px solid white;
     display: block;
   }
 
-  /* line 422, ../scss/site.scss */
+  /* line 426, ../scss/site.scss */
   header.non-splash {
     padding: 0;
     padding-top: 1.25em;
@@ -2007,58 +2009,58 @@ html, body {
     height: 2em;
   }
 
-  /* line 429, ../scss/site.scss */
-  .non-splash #logotype {
+  /* line 433, ../scss/site.scss */
+  header.non-splash #logotype {
     position: absolute;
     top: 0.375em;
     text-align: center;
     width: 100%;
   }
-  /* line 435, ../scss/site.scss */
-  .non-splash #nav {
+  /* line 439, ../scss/site.scss */
+  header.non-splash #nav {
     margin: 0em;
     margin-top: 1em;
     position: absolute;
     width: 100%;
     top: 3em;
   }
-  /* line 441, ../scss/site.scss */
-  .non-splash #nav ul {
+  /* line 445, ../scss/site.scss */
+  header.non-splash #nav ul {
     line-height: 1em;
     padding: 0;
     margin: 0;
     text-align: center;
   }
-  /* line 446, ../scss/site.scss */
-  .non-splash #nav ul li {
+  /* line 450, ../scss/site.scss */
+  header.non-splash #nav ul li {
     font-size: 0.875em;
     padding-left: 0.75em;
     padding-right: 0em;
   }
 
-  /* line 455, ../scss/site.scss */
-  .splash #logotype {
+  /* line 459, ../scss/site.scss */
+  header.splash #logotype {
     position: absolute;
     top: 0.375em;
     text-align: center;
     width: 100%;
   }
-  /* line 461, ../scss/site.scss */
-  .splash #nav {
+  /* line 465, ../scss/site.scss */
+  header.splash #nav {
     margin: 0em;
     position: absolute;
     width: 100%;
     top: 3em;
   }
-  /* line 466, ../scss/site.scss */
-  .splash #nav ul {
+  /* line 470, ../scss/site.scss */
+  header.splash #nav ul {
     line-height: 1em;
     padding: 0;
     margin: 0;
     text-align: center;
   }
-  /* line 471, ../scss/site.scss */
-  .splash #nav ul li {
+  /* line 475, ../scss/site.scss */
+  header.splash #nav ul li {
     font-size: 0.875em;
     padding-left: 0.75em;
   }
@@ -2151,14 +2153,19 @@ h2.featurette-title a:hover {
     margin-left: 0em;
     margin-right: 0em;
   }
-
   /* line 78, ../scss/index.scss */
+  .featurette-details p {
+    font-size: 1.25em;
+    line-height: 1.125em;
+  }
+
+  /* line 83, ../scss/index.scss */
   #blog-posts {
     padding: 0em;
     width: 100%;
   }
 
-  /* line 82, ../scss/index.scss */
+  /* line 87, ../scss/index.scss */
   ul#elsewhere {
     padding-left: 2em;
   }
@@ -2171,37 +2178,43 @@ h2.featurette-title a:hover {
   }
   /* line 6, ../scss/about.scss */
   .bio-entry .who {
-    margin-left: -0.5em;
+    padding: 8.65px 8.65px 25px 8.65px;
+    margin-left: -0.45em;
     margin-bottom: 1em;
   }
-  /* line 10, ../scss/about.scss */
+  /* line 11, ../scss/about.scss */
   .bio-entry .bio {
     text-align: center;
   }
 }
 @media (min-width: 1200px) {
-  /* line 17, ../scss/about.scss */
+  /* line 18, ../scss/about.scss */
+  .bio-entry {
+    margin-bottom: 2.75em;
+  }
+
+  /* line 22, ../scss/about.scss */
   #shaunalynn-duffy.who {
     margin-top: 2em;
     margin-bottom: 3.1875em;
   }
 
-  /* line 21, ../scss/about.scss */
+  /* line 26, ../scss/about.scss */
   #michael-nagle.who .name {
     margin-bottom: -1.25em;
   }
 
-  /* line 24, ../scss/about.scss */
+  /* line 29, ../scss/about.scss */
   #shaunalynn-duffy.who {
     padding-bottom: 0.75em;
   }
 
-  /* line 27, ../scss/about.scss */
+  /* line 32, ../scss/about.scss */
   header hr {
     display: none;
   }
 
-  /* line 30, ../scss/about.scss */
+  /* line 35, ../scss/about.scss */
   #beth-osullivan.who {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
@@ -2210,7 +2223,7 @@ h2.featurette-title a:hover {
     transform: rotate(5deg);
   }
 
-  /* line 33, ../scss/about.scss */
+  /* line 38, ../scss/about.scss */
   #bakhtiar-mikhak.who {
     -webkit-transform: rotate(-7deg);
     -moz-transform: rotate(-7deg);
@@ -2219,7 +2232,7 @@ h2.featurette-title a:hover {
     transform: rotate(-7deg);
   }
 
-  /* line 36, ../scss/about.scss */
+  /* line 41, ../scss/about.scss */
   #alec-resnick.who {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
@@ -2228,7 +2241,7 @@ h2.featurette-title a:hover {
     transform: rotate(5deg);
   }
 
-  /* line 39, ../scss/about.scss */
+  /* line 44, ../scss/about.scss */
   #michael-nagle.who {
     -webkit-transform: rotate(-7deg);
     -moz-transform: rotate(-7deg);
@@ -2238,7 +2251,7 @@ h2.featurette-title a:hover {
     margin-bottom: 2.875em;
   }
 }
-/* line 45, ../scss/about.scss */
+/* line 50, ../scss/about.scss */
 .who {
   text-align: center;
   float: left;
@@ -2249,23 +2262,23 @@ h2.featurette-title a:hover {
   position: relative;
   margin: 1.5em;
 }
-/* line 46, ../scss/about.scss */
+/* line 51, ../scss/about.scss */
 .who img {
   min-height: 257px;
 }
 
-/* line 59, ../scss/about.scss */
+/* line 64, ../scss/about.scss */
 .bio {
   font-size: 1.25em;
   line-height: 1.375em;
   text-align: justify;
 }
 
-/* line 65, ../scss/about.scss */
+/* line 70, ../scss/about.scss */
 #headshots-container .headshot {
   opacity: 0.875;
 }
-/* line 67, ../scss/about.scss */
+/* line 72, ../scss/about.scss */
 #headshots-container .headshot:hover {
   opacity: 1;
   -webkit-transition: opacity 0.125s ease-in;
@@ -2274,7 +2287,7 @@ h2.featurette-title a:hover {
   transition: opacity 0.125s ease-in;
 }
 
-/* line 74, ../scss/about.scss */
+/* line 79, ../scss/about.scss */
 #board .bio-entry .name {
   height: 100%;
   font-size: 1.5em;
@@ -2282,12 +2295,12 @@ h2.featurette-title a:hover {
   margin-top: 1em;
   margin-bottom: -1.5em;
 }
-/* line 81, ../scss/about.scss */
+/* line 86, ../scss/about.scss */
 #board .who {
   padding-bottom: 3.875em;
 }
 
-/* line 86, ../scss/about.scss */
+/* line 91, ../scss/about.scss */
 .bio-entry .name {
   overflow: hidden;
   width: 100%;
@@ -2295,19 +2308,19 @@ h2.featurette-title a:hover {
   margin-top: 1.2em;
 }
 
-/* line 93, ../scss/about.scss */
+/* line 98, ../scss/about.scss */
 #headshots-container {
   margin-top: 2em;
 }
 
-/* line 97, ../scss/about.scss */
+/* line 102, ../scss/about.scss */
 .who {
   min-width: 300px;
   clear: both;
   margin-bottom: 2.5em;
 }
 
-/* line 103, ../scss/about.scss */
+/* line 108, ../scss/about.scss */
 .name {
   margin-top: 0.75em;
 }
@@ -2691,8 +2704,16 @@ div.article > h2, .blog-toc > h2 {
 
 @media (max-width: 480px) {
   /* line 188, ../scss/blog.scss */
+  .article .img {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 193, ../scss/blog.scss */
   .article blockquote {
     padding-left: 0.25em;
+    border-left: 2px solid #eeeeee;
   }
 }
 
@@ -2841,28 +2862,36 @@ form#donate input#donation_amount {
 
 @media (max-width: 480px) {
   /* line 117, ../scss/connect.scss */
+  .web-sprout-map {
+    width: 100%;
+  }
+
+  /* line 120, ../scss/connect.scss */
   .elsewhere-icon {
     display: inline-block;
   }
 
-  /* line 120, ../scss/connect.scss */
+  /* line 123, ../scss/connect.scss */
   .elsewhere-description {
     display: inline-block;
     width: 75%;
+    position: relative;
+    top: -1.125em;
+    margin-left: 0.375em;
   }
 
-  /* line 124, ../scss/connect.scss */
+  /* line 130, ../scss/connect.scss */
   #connect-options .page-section {
     margin-bottom: 3em;
   }
 
-  /* line 128, ../scss/connect.scss */
+  /* line 134, ../scss/connect.scss */
   form#donate input#email {
     margin: 0;
     margin-left: 5px;
     width: 89%;
   }
-  /* line 133, ../scss/connect.scss */
+  /* line 139, ../scss/connect.scss */
   form#donate input#donation_amount {
     margin: 0;
     margin-left: 5px;
