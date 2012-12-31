@@ -1622,6 +1622,7 @@ header {
   border-top: 4px solid #3c3c3c;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
+  behavior: url(/assets/PIE.htc);
 }
 /* line 79, ../scss/site.scss */
 header #logotype a {
@@ -1638,39 +1639,39 @@ header #logotype a:hover {
 header #nav ul li.active > a {
   color: #555;
 }
-/* line 101, ../scss/site.scss */
+/* line 102, ../scss/site.scss */
 header.splash {
   padding-top: 1.25em;
   padding-bottom: 0.6875em;
 }
-/* line 104, ../scss/site.scss */
+/* line 105, ../scss/site.scss */
 header.splash #logotype {
   text-align: right;
 }
-/* line 108, ../scss/site.scss */
+/* line 109, ../scss/site.scss */
 header.splash #nav {
   margin-top: -0.875em;
 }
-/* line 110, ../scss/site.scss */
+/* line 111, ../scss/site.scss */
 header.splash #nav ul {
   text-align: right;
 }
-/* line 113, ../scss/site.scss */
+/* line 114, ../scss/site.scss */
 header.splash #nav li {
   padding: 0;
   padding-left: 1.75em;
   text-align: right;
 }
-/* line 117, ../scss/site.scss */
+/* line 118, ../scss/site.scss */
 header.splash #nav li:first-child {
   padding-left: 0em;
 }
-/* line 124, ../scss/site.scss */
+/* line 125, ../scss/site.scss */
 header #nav ul {
   margin-left: 0;
 }
 
-/* line 129, ../scss/site.scss */
+/* line 130, ../scss/site.scss */
 .fadeout {
   position: absolute;
   bottom: 0em;
@@ -1681,9 +1682,10 @@ header #nav ul {
   background: -moz-linear-gradient(rgba(249, 250, 251, 0) 0%, #f9fafb 100%);
   background: -o-linear-gradient(rgba(249, 250, 251, 0) 0%, #f9fafb 100%);
   background: linear-gradient(rgba(249, 250, 251, 0) 0%, #f9fafb 100%);
+  behavior: url(/assets/PIE.htc);
 }
 
-/* line 137, ../scss/site.scss */
+/* line 139, ../scss/site.scss */
 footer {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -1693,52 +1695,53 @@ footer {
   font-size: 3em;
   line-height: 1em;
   box-shadow: inset 0px 3px 5px #555555;
+  behavior: url(/assets/PIE.htc);
 }
-/* line 146, ../scss/site.scss */
+/* line 150, ../scss/site.scss */
 footer .help-block {
   text-align: right;
   font-size: 0.375em;
   line-height: 1.125em;
   color: #555;
 }
-/* line 153, ../scss/site.scss */
+/* line 157, ../scss/site.scss */
 footer blockquote {
   margin-top: 11.5px;
   border-left: none;
 }
-/* line 158, ../scss/site.scss */
+/* line 162, ../scss/site.scss */
 footer #footer-quote {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   font-size: 0.4125em;
   line-height: 1.125em;
   margin-bottom: 1em;
 }
-/* line 165, ../scss/site.scss */
+/* line 169, ../scss/site.scss */
 footer textarea#email-message {
   margin-top: 11px;
   /* TODO: hack */
   width: 356px;
 }
-/* line 171, ../scss/site.scss */
+/* line 175, ../scss/site.scss */
 footer legend {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   border-bottom: 1px dashed #cccccc;
 }
-/* line 177, ../scss/site.scss */
+/* line 181, ../scss/site.scss */
 footer #footer-connect div {
   margin-bottom: 0.9375em;
 }
-/* line 180, ../scss/site.scss */
+/* line 184, ../scss/site.scss */
 footer #footer-connect ul#elsewhere li a div {
   display: inline-block;
   margin-bottom: 0em;
 }
-/* line 186, ../scss/site.scss */
+/* line 190, ../scss/site.scss */
 footer #lifestream {
   font-size: 0.895em;
   height: 352px;
 }
-/* line 191, ../scss/site.scss */
+/* line 195, ../scss/site.scss */
 footer ul.lifestream {
   list-style-type: none;
   margin: 0;
@@ -1746,7 +1749,7 @@ footer ul.lifestream {
   max-height: 352px;
   overflow: hidden;
 }
-/* line 197, ../scss/site.scss */
+/* line 201, ../scss/site.scss */
 footer ul.lifestream li {
   margin-bottom: 1.25em;
   background-size: 20px 20px;
@@ -1756,11 +1759,11 @@ footer ul.lifestream li {
   overflow: hidden;
   position: relative;
 }
-/* line 205, ../scss/site.scss */
+/* line 209, ../scss/site.scss */
 footer ul.lifestream li > div {
   display: table;
 }
-/* line 209, ../scss/site.scss */
+/* line 213, ../scss/site.scss */
 footer ul.lifestream .icon {
   position: absolute;
   top: 50%;
@@ -1771,8 +1774,9 @@ footer ul.lifestream .icon {
   border-radius: 15px;
   opacity: 0.875;
   box-shadow: inset 0 0px 3px #888888;
+  behavior: url(/assets/PIE.htc);
 }
-/* line 222, ../scss/site.scss */
+/* line 227, ../scss/site.scss */
 footer .elsewhere-story {
   padding-left: 38px;
   /* = 30px + 0.5em */
@@ -1780,29 +1784,29 @@ footer .elsewhere-story {
   vertical-align: middle;
   height: 30px;
 }
-/* line 230, ../scss/site.scss */
+/* line 235, ../scss/site.scss */
 footer #sprout-elsewhere {
   margin-top: 25.75px;
 }
-/* line 234, ../scss/site.scss */
+/* line 239, ../scss/site.scss */
 footer #scrapbook-lede {
   font-size: 0.75em;
   font-style: italic;
   text-align: right;
   line-height: 1.375em;
 }
-/* line 241, ../scss/site.scss */
+/* line 246, ../scss/site.scss */
 footer #support-sprout hr {
   margin-top: -0.375em;
   margin-bottom: 1.55em;
 }
 
-/* line 247, ../scss/site.scss */
+/* line 252, ../scss/site.scss */
 .section-summary {
   margin-bottom: 2em;
 }
 
-/* line 252, ../scss/site.scss */
+/* line 257, ../scss/site.scss */
 .vertical-centering.outer {
   height: 270px;
   overflow: hidden;
@@ -1810,7 +1814,7 @@ footer #support-sprout hr {
   display: table;
   position: static;
 }
-/* line 259, ../scss/site.scss */
+/* line 264, ../scss/site.scss */
 .vertical-centering.middle {
   display: table-cell;
   vertical-align: middle;
@@ -1818,25 +1822,25 @@ footer #support-sprout hr {
   position: static;
 }
 
-/* line 268, ../scss/site.scss */
+/* line 273, ../scss/site.scss */
 hr.page-summary-delimiter {
   border-top: 1px solid #dddddd;
   margin-top: 3em;
   margin-bottom: 3em;
 }
 
-/* line 274, ../scss/site.scss */
+/* line 279, ../scss/site.scss */
 h2.page-section {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
 }
 
-/* line 279, ../scss/site.scss */
+/* line 284, ../scss/site.scss */
 .page-section h2 {
   font-size: 3.25em;
   margin-bottom: 1em;
 }
 
-/* line 284, ../scss/site.scss */
+/* line 289, ../scss/site.scss */
 .page-summary p, .featurette-details p {
   text-align: justify;
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
@@ -1845,7 +1849,7 @@ h2.page-section {
   margin-top: 1em;
 }
 
-/* line 292, ../scss/site.scss */
+/* line 297, ../scss/site.scss */
 h1 {
   margin-bottom: 0.5em;
   line-height: 1em;
@@ -1854,52 +1858,52 @@ h1 {
   vertical-align: middle;
 }
 
-/* line 301, ../scss/site.scss */
+/* line 306, ../scss/site.scss */
 .page-section {
   margin-bottom: 7em;
 }
 
-/* line 305, ../scss/site.scss */
+/* line 310, ../scss/site.scss */
 h1, h2 {
   text-align: center;
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
 }
 
-/* line 310, ../scss/site.scss */
+/* line 315, ../scss/site.scss */
 h1 {
   font-size: 5em;
 }
 
-/* line 314, ../scss/site.scss */
+/* line 319, ../scss/site.scss */
 .page-summary .page-title {
   width: 100%;
   text-align: center;
   text-transform: capitalize;
 }
 
-/* line 320, ../scss/site.scss */
+/* line 325, ../scss/site.scss */
 .page-section h2 {
   font-family: "adelle-1", "adelle-2", Georgia, serif;
   text-shadow: 0px 2px 3px white;
   color: #ccc;
 }
 
-/* line 326, ../scss/site.scss */
+/* line 331, ../scss/site.scss */
 h1 > a:hover, h2 > a:hover, .article-info a:hover {
   text-decoration: none;
 }
 
-/* line 330, ../scss/site.scss */
+/* line 335, ../scss/site.scss */
 .quote-author {
   text-align: right;
 }
-/* line 332, ../scss/site.scss */
+/* line 337, ../scss/site.scss */
 .quote-author i {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 339, ../scss/site.scss */
+/* line 344, ../scss/site.scss */
 hr.section-divider {
   margin-top: 4em;
   margin-bottom: 4em;
@@ -1907,7 +1911,7 @@ hr.section-divider {
 
 /* Sticky footer styles
 -------------------------------------------------- */
-/* line 347, ../scss/site.scss */
+/* line 352, ../scss/site.scss */
 html, body {
   padding: 0;
   /* for mobile devices */
@@ -1916,7 +1920,7 @@ html, body {
 }
 
 /* Wrapper for page content to push down footer */
-/* line 356, ../scss/site.scss */
+/* line 361, ../scss/site.scss */
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -1925,13 +1929,13 @@ html, body {
   margin: 0 auto -100px;
 }
 
-/* line 364, ../scss/site.scss */
+/* line 369, ../scss/site.scss */
 #push {
   height: 200px;
 }
 
 @media (max-width: 480px) {
-  /* line 369, ../scss/site.scss */
+  /* line 374, ../scss/site.scss */
   #content {
     font-size: 0.8em;
     padding-top: 0em;
@@ -1939,7 +1943,7 @@ html, body {
     padding-right: 0.5em;
   }
 
-  /* line 376, ../scss/site.scss */
+  /* line 381, ../scss/site.scss */
   header.splash #mission {
     font-size: 0.375em;
     max-width: 480px;
@@ -1948,60 +1952,60 @@ html, body {
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
-  /* line 383, ../scss/site.scss */
+  /* line 388, ../scss/site.scss */
   header.splash #mission p {
     margin-right: 0px;
   }
 
-  /* line 388, ../scss/site.scss */
+  /* line 393, ../scss/site.scss */
   header.splash {
     padding: 0;
     padding-top: 1.25em;
     padding-bottom: 0.25em;
   }
 
-  /* line 393, ../scss/site.scss */
+  /* line 398, ../scss/site.scss */
   footer {
     margin: 0;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
 
-  /* line 398, ../scss/site.scss */
+  /* line 403, ../scss/site.scss */
   footer {
     height: 1650px;
   }
 
-  /* line 402, ../scss/site.scss */
+  /* line 407, ../scss/site.scss */
   footer input#tlemail {
     width: 76%;
   }
-  /* line 405, ../scss/site.scss */
+  /* line 410, ../scss/site.scss */
   footer fieldset {
     width: 100%;
   }
-  /* line 408, ../scss/site.scss */
+  /* line 413, ../scss/site.scss */
   footer textarea#email-message {
     width: 95%;
   }
-  /* line 411, ../scss/site.scss */
+  /* line 416, ../scss/site.scss */
   footer input#message-author {
     width: 76%;
   }
 
-  /* line 416, ../scss/site.scss */
+  /* line 421, ../scss/site.scss */
   header.non-splash #nav ul li:first-child, header.splash #nav ul li:first-child {
     padding-left: 0em;
   }
 
-  /* line 421, ../scss/site.scss */
+  /* line 426, ../scss/site.scss */
   header hr {
     border-top: 2px solid #eeeeee;
     border-bottom: 2px solid white;
     display: block;
   }
 
-  /* line 426, ../scss/site.scss */
+  /* line 431, ../scss/site.scss */
   header.non-splash {
     padding: 0;
     padding-top: 1.25em;
@@ -2009,14 +2013,14 @@ html, body {
     height: 2em;
   }
 
-  /* line 433, ../scss/site.scss */
+  /* line 438, ../scss/site.scss */
   header.non-splash #logotype {
     position: absolute;
     top: 0.375em;
     text-align: center;
     width: 100%;
   }
-  /* line 439, ../scss/site.scss */
+  /* line 444, ../scss/site.scss */
   header.non-splash #nav {
     margin: 0em;
     margin-top: 1em;
@@ -2024,42 +2028,42 @@ html, body {
     width: 100%;
     top: 3em;
   }
-  /* line 445, ../scss/site.scss */
+  /* line 450, ../scss/site.scss */
   header.non-splash #nav ul {
     line-height: 1em;
     padding: 0;
     margin: 0;
     text-align: center;
   }
-  /* line 450, ../scss/site.scss */
+  /* line 455, ../scss/site.scss */
   header.non-splash #nav ul li {
     font-size: 0.875em;
     padding-left: 0.75em;
     padding-right: 0em;
   }
 
-  /* line 459, ../scss/site.scss */
+  /* line 464, ../scss/site.scss */
   header.splash #logotype {
     position: absolute;
     top: 0.375em;
     text-align: center;
     width: 100%;
   }
-  /* line 465, ../scss/site.scss */
+  /* line 470, ../scss/site.scss */
   header.splash #nav {
     margin: 0em;
     position: absolute;
     width: 100%;
     top: 3em;
   }
-  /* line 470, ../scss/site.scss */
+  /* line 475, ../scss/site.scss */
   header.splash #nav ul {
     line-height: 1em;
     padding: 0;
     margin: 0;
     text-align: center;
   }
-  /* line 475, ../scss/site.scss */
+  /* line 480, ../scss/site.scss */
   header.splash #nav ul li {
     font-size: 0.875em;
     padding-left: 0.75em;
@@ -2261,24 +2265,25 @@ h2.featurette-title a:hover {
   box-shadow: 0px 2px 15px #333333;
   position: relative;
   margin: 1.5em;
+  behavior: url(/assets/PIE.htc);
 }
 /* line 51, ../scss/about.scss */
 .who img {
   min-height: 257px;
 }
 
-/* line 64, ../scss/about.scss */
+/* line 65, ../scss/about.scss */
 .bio {
   font-size: 1.25em;
   line-height: 1.375em;
   text-align: justify;
 }
 
-/* line 70, ../scss/about.scss */
+/* line 71, ../scss/about.scss */
 #headshots-container .headshot {
   opacity: 0.875;
 }
-/* line 72, ../scss/about.scss */
+/* line 73, ../scss/about.scss */
 #headshots-container .headshot:hover {
   opacity: 1;
   -webkit-transition: opacity 0.125s ease-in;
@@ -2287,7 +2292,7 @@ h2.featurette-title a:hover {
   transition: opacity 0.125s ease-in;
 }
 
-/* line 79, ../scss/about.scss */
+/* line 80, ../scss/about.scss */
 #board .bio-entry .name {
   height: 100%;
   font-size: 1.5em;
@@ -2295,12 +2300,12 @@ h2.featurette-title a:hover {
   margin-top: 1em;
   margin-bottom: -1.5em;
 }
-/* line 86, ../scss/about.scss */
+/* line 87, ../scss/about.scss */
 #board .who {
   padding-bottom: 3.875em;
 }
 
-/* line 91, ../scss/about.scss */
+/* line 92, ../scss/about.scss */
 .bio-entry .name {
   overflow: hidden;
   width: 100%;
@@ -2308,19 +2313,19 @@ h2.featurette-title a:hover {
   margin-top: 1.2em;
 }
 
-/* line 98, ../scss/about.scss */
+/* line 99, ../scss/about.scss */
 #headshots-container {
   margin-top: 2em;
 }
 
-/* line 102, ../scss/about.scss */
+/* line 103, ../scss/about.scss */
 .who {
   min-width: 300px;
   clear: both;
   margin-bottom: 2.5em;
 }
 
-/* line 108, ../scss/about.scss */
+/* line 109, ../scss/about.scss */
 .name {
   margin-top: 0.75em;
 }
@@ -2395,6 +2400,7 @@ h2.featurette-title a:hover {
   -webkit-box-shadow: inset 0 0 10px black;
   -moz-box-shadow: inset 0 0 10px black;
   box-shadow: inset 0 0 10px black;
+  behavior: url(/assets/PIE.htc);
 }
 /* line 53, ../scss/work.scss */
 .work-artifact:hover {
@@ -2405,16 +2411,16 @@ h2.featurette-title a:hover {
   transition: opacity 0.125s ease-in;
 }
 
-/* line 62, ../scss/work.scss */
+/* line 63, ../scss/work.scss */
 .work-container.row {
   margin-top: 6em;
 }
-/* line 63, ../scss/work.scss */
+/* line 64, ../scss/work.scss */
 .work-container.row:first-child {
   margin-top: 0em;
 }
 
-/* line 69, ../scss/work.scss */
+/* line 70, ../scss/work.scss */
 .work-description {
   hyphens: auto;
   text-align: justify;
@@ -2423,7 +2429,7 @@ h2.featurette-title a:hover {
   line-height: 1.375em;
 }
 
-/* line 77, ../scss/work.scss */
+/* line 78, ../scss/work.scss */
 .established {
   width: 100%;
   text-align: right;
@@ -2431,12 +2437,12 @@ h2.featurette-title a:hover {
   text-shadow: 0px 2px 3px white;
   color: #ccc;
 }
-/* line 83, ../scss/work.scss */
+/* line 84, ../scss/work.scss */
 .established span {
   margin-right: 1.5em;
 }
 
-/* line 88, ../scss/work.scss */
+/* line 89, ../scss/work.scss */
 .read-more {
   width: 100%;
   text-align: right;
@@ -2446,7 +2452,7 @@ h2.featurette-title a:hover {
   font-size: 1.5em;
   margin-top: 2em;
 }
-/* line 96, ../scss/work.scss */
+/* line 97, ../scss/work.scss */
 .read-more a:hover {
   text-decoration: none;
   color: #555555;
@@ -2456,32 +2462,32 @@ h2.featurette-title a:hover {
   transition: color 0.25s ease-in;
 }
 
-/* line 104, ../scss/work.scss */
+/* line 105, ../scss/work.scss */
 #hero-row {
   margin-top: 0.25em;
   margin-bottom: 0.5em;
 }
 
 @media (max-width: 480px) {
-  /* line 110, ../scss/work.scss */
+  /* line 111, ../scss/work.scss */
   .work-entry {
     margin-bottom: 0em;
     margin-top: 3em;
   }
 
-  /* line 114, ../scss/work.scss */
+  /* line 115, ../scss/work.scss */
   .collaborator-logo, #collaborators .collaborator-logo a > .vertical-centering.outer {
     margin-left: auto;
     margin-right: auto;
     height: auto;
   }
 
-  /* line 119, ../scss/work.scss */
+  /* line 120, ../scss/work.scss */
   .work-container.row {
     margin-top: 0em;
   }
 
-  /* line 122, ../scss/work.scss */
+  /* line 123, ../scss/work.scss */
   .collaborator-logo {
     padding-bottom: 3em;
   }
@@ -2611,9 +2617,10 @@ div.article {
   -webkit-box-shadow: 0 0 7px #999999;
   -moz-box-shadow: 0 0 7px #999999;
   box-shadow: 0 0 7px #999999;
+  behavior: url(/assets/PIE.htc);
 }
 
-/* line 111, ../scss/blog.scss */
+/* line 112, ../scss/blog.scss */
 #blog-posts > .blog-container[class*='span4'] {
   height: 100%;
   float: none;
@@ -2622,35 +2629,36 @@ div.article {
   margin-right: auto;
 }
 
-/* line 119, ../scss/blog.scss */
+/* line 120, ../scss/blog.scss */
 .blog-toc-card.odd, .blog-container.odd {
   border-radius: 7px;
   background: black;
   background: rgba(0, 0, 0, 0.06125);
   height: 370px;
+  behavior: url(/assets/PIE.htc);
 }
 
-/* line 125, ../scss/blog.scss */
+/* line 127, ../scss/blog.scss */
 .blog-toc-card.odd .lede-info {
   color: #555;
 }
 
-/* line 129, ../scss/blog.scss */
+/* line 131, ../scss/blog.scss */
 .spacer {
   padding: 1em;
 }
 
-/* line 133, ../scss/blog.scss */
+/* line 135, ../scss/blog.scss */
 .book {
   font-style: italic;
 }
 
-/* line 137, ../scss/blog.scss */
+/* line 139, ../scss/blog.scss */
 .article p span.lede {
   font-variant: small-caps;
 }
 
-/* line 141, ../scss/blog.scss */
+/* line 143, ../scss/blog.scss */
 .img .caption {
   position: absolute;
   text-align: right;
@@ -2666,9 +2674,10 @@ div.article {
   width: 95%;
   /* Why doesn't 100% work? */
   box-shadow: 0px -3.75px 3.75px -1.625px rgba(0, 0, 0, 0.75);
+  behavior: url(/assets/PIE.htc);
 }
 
-/* line 157, ../scss/blog.scss */
+/* line 160, ../scss/blog.scss */
 .article .img {
   position: relative;
   margin-right: 1em;
@@ -2680,16 +2689,17 @@ div.article {
   -webkit-box-shadow: inset 0px 0px 7.5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset 0px 0px 7.5px rgba(0, 0, 0, 0.75);
   box-shadow: inset 0px 0px 7.5px rgba(0, 0, 0, 0.75);
+  behavior: url(/assets/PIE.htc);
 }
 
-/* line 169, ../scss/blog.scss */
+/* line 173, ../scss/blog.scss */
 div.article > h2, .blog-toc > h2 {
   text-align: center;
   font-size: 1.75em;
   font-family: "adelle-1", "adelle-2", Georgia, serif;
 }
 
-/* line 175, ../scss/blog.scss */
+/* line 179, ../scss/blog.scss */
 #blog-posts hr.section-divider {
   width: 100%;
   clear: both;
@@ -2703,14 +2713,14 @@ div.article > h2, .blog-toc > h2 {
 }
 
 @media (max-width: 480px) {
-  /* line 188, ../scss/blog.scss */
+  /* line 192, ../scss/blog.scss */
   .article .img {
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 193, ../scss/blog.scss */
+  /* line 197, ../scss/blog.scss */
   .article blockquote {
     padding-left: 0.25em;
     border-left: 2px solid #eeeeee;
@@ -2780,57 +2790,58 @@ ul#elsewhere li img:hover {
   -webkit-box-shadow: inset 0 0 10px black;
   -moz-box-shadow: inset 0 0 10px black;
   box-shadow: inset 0 0 10px black;
+  behavior: url(/assets/PIE.htc);
 }
 
-/* line 52, ../scss/connect.scss */
+/* line 53, ../scss/connect.scss */
 form#donate > div {
   margin-bottom: 0.5em;
 }
-/* line 56, ../scss/connect.scss */
+/* line 57, ../scss/connect.scss */
 form#donate input#email {
   margin-left: 0.375em;
   width: 90%;
 }
-/* line 60, ../scss/connect.scss */
+/* line 61, ../scss/connect.scss */
 form#donate input#donation_amount {
   width: 60%;
   margin-left: 0.5em;
 }
 
-/* line 67, ../scss/connect.scss */
+/* line 68, ../scss/connect.scss */
 #dollar {
   padding-left: 0.125em;
   font-size: 1.25em;
 }
 
-/* line 72, ../scss/connect.scss */
+/* line 73, ../scss/connect.scss */
 .stripe-button-inner {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 77, ../scss/connect.scss */
+/* line 78, ../scss/connect.scss */
 #connect-options #elsewhere img {
   width: 75%;
   opacity: 0.875;
 }
 
-/* line 82, ../scss/connect.scss */
+/* line 83, ../scss/connect.scss */
 .elsewhere-option {
   margin-bottom: 1em;
 }
 
-/* line 86, ../scss/connect.scss */
+/* line 87, ../scss/connect.scss */
 .verbatim {
   font-family: Courier;
 }
 
-/* line 90, ../scss/connect.scss */
+/* line 91, ../scss/connect.scss */
 #connect-options .page-section {
   margin-top: 0em;
 }
 
-/* line 94, ../scss/connect.scss */
+/* line 95, ../scss/connect.scss */
 .elsewhere-icon {
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
@@ -2842,36 +2853,37 @@ form#donate input#donation_amount {
   -webkit-box-shadow: inset 0 0 5px black;
   -moz-box-shadow: inset 0 0 5px black;
   box-shadow: inset 0 0 5px black;
+  behavior: url(/assets/PIE.htc);
 }
 
-/* line 102, ../scss/connect.scss */
+/* line 104, ../scss/connect.scss */
 #connect-options p {
   font-size: 1.125em;
   font-weight: 300;
   line-height: 1.375em;
 }
-/* line 107, ../scss/connect.scss */
+/* line 109, ../scss/connect.scss */
 #connect-options .page-section h2 {
   margin-bottom: 0.5em;
 }
 
-/* line 112, ../scss/connect.scss */
+/* line 114, ../scss/connect.scss */
 #support-sprout hr {
   margin-top: -1em;
 }
 
 @media (max-width: 480px) {
-  /* line 117, ../scss/connect.scss */
+  /* line 119, ../scss/connect.scss */
   .web-sprout-map {
     width: 100%;
   }
 
-  /* line 120, ../scss/connect.scss */
+  /* line 122, ../scss/connect.scss */
   .elsewhere-icon {
     display: inline-block;
   }
 
-  /* line 123, ../scss/connect.scss */
+  /* line 125, ../scss/connect.scss */
   .elsewhere-description {
     display: inline-block;
     width: 75%;
@@ -2880,18 +2892,18 @@ form#donate input#donation_amount {
     margin-left: 0.375em;
   }
 
-  /* line 130, ../scss/connect.scss */
+  /* line 132, ../scss/connect.scss */
   #connect-options .page-section {
     margin-bottom: 3em;
   }
 
-  /* line 134, ../scss/connect.scss */
+  /* line 136, ../scss/connect.scss */
   form#donate input#email {
     margin: 0;
     margin-left: 5px;
     width: 89%;
   }
-  /* line 139, ../scss/connect.scss */
+  /* line 141, ../scss/connect.scss */
   form#donate input#donation_amount {
     margin: 0;
     margin-left: 5px;
