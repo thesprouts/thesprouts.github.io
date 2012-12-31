@@ -32,16 +32,16 @@
   header hr {
     display: none;
   }
-  #beth-osullivan.who {
+  #beth-osullivan .who {
     @include transform(rotate(5deg));
   }
-  #bakhtiar-mikhak.who {
+  #bakhtiar-mikhak .who {
     @include transform(rotate(-7deg));
   }
-  #alec-resnick.who {
+  #alec-resnick .who {
     @include transform(rotate(5deg));
   }
-  #michael-nagle.who {
+  #michael-nagle .who {
     @include transform(rotate(-7deg));
     margin-bottom: 2.875em;
   }
