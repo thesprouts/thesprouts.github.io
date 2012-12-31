@@ -6,6 +6,7 @@ layout: base
   <head>
     <title>sprout &amp; co :: {% if page.title %}{{ page.title }}{% endif %}</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% css_asset_tag app %}
     - /_assets/css/vendor/bootstrap.min.css
     - /_assets/css/vendor/bootstrap-responsive.css
@@ -20,7 +21,6 @@ layout: base
 
     {% include typekit.html %}
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="alternate" type="application/atom+xml" title="pollen : sprout's blog" href="atom.xml" />
   </head>
   <body>
@@ -45,6 +45,7 @@ layout: base
     {% include footer.html %}
 
     {% javascript_asset_tag app %}
+    - /_assets/js/google_analytics.js
     - /_assets/js/jquery.min.js
     - /_assets/js/bootstrap.min.js
     - /_assets/js/jquery.lifestream.min.js
