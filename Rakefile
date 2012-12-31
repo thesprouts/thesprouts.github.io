@@ -12,3 +12,11 @@ task :compile do
   puts '==='
   puts 'Now you can execute `bundle exec rackup -s thin` to test locally on port 9292'
 end
+
+require 'sitemap_generator/tasks'
+
+desc "Ping search engines to notify them of new site[map]"
+task :ping do
+  puts "Pinging Google, Bing, SitemapWriter. . ."
+  SitemapGenerator::Sitemap.ping_search_engines # called for you when you use the rake task
+end

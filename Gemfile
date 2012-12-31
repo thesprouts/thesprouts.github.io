@@ -3,6 +3,7 @@ source :rubygems
 gem 'sinatra'
 gem 'pony'             # email for contact, donation form
 gem 'rubypants'        # smarty-pants gem for typography (TODO: why does this need to be out of :development?)
+gem 'sitemap_generator'# needed in default for rake :ping task
 
 group :production do
   gem 'unicorn'  # concurrency for Heroku, via http://blog.railsonfire.com/2012/05/06/Unicorn-on-Heroku.html
@@ -11,8 +12,8 @@ end
 
 group :development do
   gem 'jekyll', '0.12.0' # need 0.12.0 for include: functionality
-  gem 'closure-compiler' # compression for jekyll-asset-pipeline
-  gem 'yui-compressor'
+  gem 'closure-compiler' # JS compression for jekyll-asset-pipeline
+  gem 'yui-compressor'   # CSS compression for jekyll-asset-pipeline
 
   gem 'thin'                  # re: speed, WARN re: content length, preferred > WEBrick
   gem 'sinatra-reloader'      # auto-reload upon filechange

@@ -3,9 +3,9 @@ require 'bundler'
 
 Bundler.require :default, (ENV["RACK_ENV"] || "development").to_sym
 
+set :root, File.dirname(__FILE__)
 set :public_folder, './site/_public'
 set :static_cache_control, [:public, :max_age => 31557600]
-
 
 helpers do
   def send_static(path)
