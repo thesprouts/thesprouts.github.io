@@ -7,6 +7,62 @@
     <atom:link href="http://thesprouts.org/blog/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>The Right Tool for Me</title>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;But I heard C++ was the most powerful language!&amp;quot; he said.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+  And it is &lt;em&gt;always&lt;/em&gt; a he. Often he hasn't really ever &lt;em&gt;made&lt;/em&gt; anything with computers yet. And often, he doesn't know even know anyone who has; although, his dad usually works in some sort of technical-cum-corporate role. Maybe his dad is a CIO or CTO or a computer science professor who hasn't written a real piece of software in years. Regardless, this guy has made sure that his son grows up conflating 'hard' &amp;amp; 'good.' The honest oversimplification, &amp;quot;Some use C++ when optimizing performance,&amp;quot; seals the deal: &lt;em&gt;this&lt;/em&gt; ten year old, this aspiring software engineer, is going to start with C++. After all, those things which are fast and hard and somewhat brutal are good (or at least, they're for boys, and they're certainly for &lt;em&gt;this&lt;/em&gt; boy).
+&lt;/p&gt;
+
+&lt;p&gt;
+  Needless to say, he hasn't found his way &lt;em&gt;into&lt;/em&gt; programming, yet. Perhaps he's downloaded &lt;a href=&quot;&quot;&gt;Unity&lt;/a&gt; because he read a review that said it was a big deal in game development. Or maybe he persuaded his dad to buy him Microsoft Visual Studio for Christmas and spent the morning installing the 10GB IDE. And maybe he even got &amp;quot;Hello World!&amp;quot; out of the deal.
+&lt;/p&gt;
+
+&lt;p&gt;
+  But despite all this, computers are &lt;em&gt;hugely&lt;/em&gt; important in his world. He's grown up around them. He sees them at the center of commerce &amp;amp; culture near (in video games, which also matter deeply to him) and far (in the Pixar films or Facebook IPO on CNN he sees with his family). &lt;i&gt;i.e.&lt;/i&gt; he has fallen in love with &lt;em&gt;the notion of computer culture&lt;/em&gt;. Unfortunately, the actual culture is pretty slim pickings [for kids]&amp;mdash;even nowadays. And so now, after a few years of modding his computer case and finagling &lt;a href=&quot;http://www.maximumpc.com/&quot;&gt;Maximum PC&lt;/a&gt; from his mom when they go to the grocery store and competitively reciting features &amp;amp; acronyms from Apple's latest product release, he's ended up in a room with me and a handful of other kids. And we're making stuff, on computers. Sometimes its &lt;a href=&quot;http://www.amazon.com/dp/0262510375&quot;&gt;art&lt;/a&gt;, sometimes its &lt;a href=&quot;http://www.amazon.com/dp/0262510375&quot;&gt;math&lt;/a&gt;&amp;mdash; Usually with &lt;a href=&quot;http://scratch.mit.edu/&quot;&gt;Scratch&lt;/a&gt; or &lt;a href=&quot;http://en.wikipedia.org/wiki/Logo_(programming_language)&quot;&gt;LOGO&lt;/a&gt; or &lt;a href=&quot;http://processing.org/&quot;&gt;Processing&lt;/a&gt; or &lt;a href=&quot;http://nodebox.net/&quot;&gt;NodeBox&lt;/a&gt;. It doesn't really matter how.
+&lt;/p&gt;
+
+&lt;p&gt;
+  If the kids are young enough, I'm a compelling enough character to persuade them that their search for 'the best programming language' is meaningless. Sometimes I can pull out &lt;a href=&quot;http://www.rollingstone.com/culture/news/steve-jobs-in-1994-the-rolling-stone-interview-20110117?print=true&quot;&gt;Steve Jobs&lt;/a&gt;, or if they're really invested, &lt;a href=&quot;http://norvig.com/21-days.html&quot;&gt;Pete Norvig&lt;/a&gt; or &lt;a href=&quot;http://paulgraham.com/langdes.html&quot;&gt;Paul Graham&lt;/a&gt;. But more often than not, it takes another kid&amp;mdash;someone explicitly &lt;em&gt;not&lt;/em&gt; technical, often a &lt;em&gt;she&lt;/em&gt;&amp;mdash;to deprogram this fixation. When &lt;em&gt;she&lt;/em&gt; makes a more interesting game or solves a problem &lt;em&gt;he&lt;/em&gt; struggled with or maybe just obviously complains less than him, something clicks. And at that moment, he's in a very fragile place. His ego is vulnerable &amp;amp; open. He can reject the situation&amp;mdash;calling it 'dumb' or 'just for kids' or a 'waste of time'&amp;mdash;or he can embrace it.
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;
+    &lt;a class='full-link' href='http://lua-users.org/lists/lua-l/2008-02/msg00247.html'&gt;A language is an interface between programmers and hardware, so it has social/psychological/pedagogical features which are just as important as its formal properties. If a language can't be efficiently ported on regular hardware, it's the language that sucks, not the hardware. Similarly, if it doesn't interface properly with its communities of coders (fails to build up standard coding practices, good libraries, trust&amp;hellip;), the language sucks, not the people. Ergo Lisp sucks. Many Lisp zealots dismiss the language's failures as &amp;quot;merely social&amp;quot;, but that's missing the purpose of a language entirely: failing socially is just as bad as failing technically.&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+  And it is amidst the ramifications of this fact (that ultimately, computer languages are tools, so the cultural barriers to entry surrounding those tools matter just as much as the affordances the tools themselves provide) that most of the interesting and important work expanding our computational fluency is to be done.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Video games's prominence in childrens' world means that video games have become an entry point to computation for many. We should not be looking to 'bring [the poor, the brown, the feminine] to computation'&amp;mdash;we should be working to bring computation to the ideas and problems and cultures which matter &lt;em&gt;to them&lt;/em&gt;. Papert was trumpeting this &lt;a href=&quot;http://www.amazon.com/dp/0465046746&quot;&gt;in 1980&lt;/a&gt;, inspired by Brazil's &lt;em&gt;samba schools&lt;/em&gt;[community dancehalls where dancing is a community practice]:
+  &lt;blockquote&gt;
+    &lt;p&gt;
+      There are problems with the image of samba schools as the locus of education. I am sure that a computational samba school will catch on somewhere. But the first one will almost certainly happen in a community of a particular kind, probably one with a high density of middle-income engineers. [&amp;hellip;] But as an educational utopian I want something else. I want to know what kind of computer culture can grow in communities where there is not already a rich technophilic soil.
+    &lt;/p&gt;
+    &lt;p&gt;
+       [&amp;hellip;] The obstacle to the growth of popular computer cultures is cultural, for example, the mismatch between the computer culture embedded in the machines of today and the cultures of the homes they will go into. And if the problem is cultural the remedy must be cultural.
+     &lt;/p&gt;
+     &lt;p&gt;
+      The research challenge is clear. We need to advance the art of meshing computers with cultures so that they can serve to unite, hopefully without homogenizing, the fragmented subcultures that coexist counterproductively in contemporary society. For example, the gulf must be bridged between the technical-scientific and humanistic cultures. And I think that the key to constructing this bridge will be learning how to recast powerful ideas in computational form, ideas that are as important to the poet as to the engineer.
+    &lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  The opportunities have only grown since then.
+&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Jan 2013 00:00:00 -0500</pubDate>
+        <link>http://thesprouts.org/blog/blog/the-right-tool-for-me</link>
+        <guid isPermaLink="true">http://thesprouts.org/blog/blog/the-right-tool-for-me</guid>
+      </item>
+    
+      <item>
         <title>"On Intellectual Craftsmanship"</title>
         <description>&lt;div class='img' style='background: url(&quot;/img/blog/CWrightMills.png&quot;)'&gt;
   &lt;div class='caption'&gt;C. Wright Mills &lt;a href='http://www.gettyimages.com/detail/news-photo/american-sociologist-c-wright-mills-1960-news-photo/83924276'&gt;on New Year's, 1960&lt;/a&gt;&lt;/div&gt;
