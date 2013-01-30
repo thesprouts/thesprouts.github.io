@@ -2651,10 +2651,9 @@ div.article {
 /* line 112, ../scss/blog.scss */
 #blog-posts > .blog-container[class*='span4'] {
   height: 100%;
-  float: none;
 }
 
-/* line 117, ../scss/blog.scss */
+/* line 116, ../scss/blog.scss */
 .blog-toc-card.odd, .blog-container.odd {
   border-radius: 7px;
   background: black;
@@ -2663,27 +2662,27 @@ div.article {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 124, ../scss/blog.scss */
+/* line 123, ../scss/blog.scss */
 .blog-toc-card.odd .lede-info {
   color: #555;
 }
 
-/* line 128, ../scss/blog.scss */
+/* line 127, ../scss/blog.scss */
 .spacer {
   padding: 1em;
 }
 
-/* line 132, ../scss/blog.scss */
+/* line 131, ../scss/blog.scss */
 .book {
   font-style: italic;
 }
 
-/* line 136, ../scss/blog.scss */
+/* line 135, ../scss/blog.scss */
 .article p span.lede {
   font-variant: small-caps;
 }
 
-/* line 140, ../scss/blog.scss */
+/* line 139, ../scss/blog.scss */
 .img .caption {
   position: absolute;
   text-align: right;
@@ -2702,7 +2701,7 @@ div.article {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 157, ../scss/blog.scss */
+/* line 156, ../scss/blog.scss */
 .article .img {
   position: relative;
   margin-right: 1em;
@@ -2717,14 +2716,14 @@ div.article {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 170, ../scss/blog.scss */
+/* line 169, ../scss/blog.scss */
 div.article > h2, .blog-toc > h2 {
   text-align: center;
   font-size: 1.75em;
   font-family: "adelle-1", "adelle-2", Georgia, serif;
 }
 
-/* line 176, ../scss/blog.scss */
+/* line 175, ../scss/blog.scss */
 #blog-posts hr.section-divider {
   width: 100%;
   clear: both;
@@ -2738,14 +2737,14 @@ div.article > h2, .blog-toc > h2 {
 }
 
 @media (max-width: 480px) {
-  /* line 189, ../scss/blog.scss */
+  /* line 188, ../scss/blog.scss */
   .article .img {
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 194, ../scss/blog.scss */
+  /* line 193, ../scss/blog.scss */
   .article blockquote {
     padding-left: 0.25em;
     border-left: 2px solid #eeeeee;
