@@ -1686,6 +1686,24 @@ header #nav ul {
 }
 
 /* line 139, ../scss/site.scss */
+.even .fadeout {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(249, 250, 251, 0)), color-stop(100%, #f9fafb));
+  background: -webkit-linear-gradient(rgba(249, 250, 251, 0) 0%, #f9fafb 100%);
+  background: -moz-linear-gradient(rgba(249, 250, 251, 0) 0%, #f9fafb 100%);
+  background: -o-linear-gradient(rgba(249, 250, 251, 0) 0%, #f9fafb 100%);
+  background: linear-gradient(rgba(249, 250, 251, 0) 0%, #f9fafb 100%);
+}
+
+/* line 143, ../scss/site.scss */
+.odd .fadeout {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.06125)));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.06125) 100%);
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.06125) 100%);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.06125) 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.06125) 100%);
+}
+
+/* line 147, ../scss/site.scss */
 footer {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -1697,32 +1715,32 @@ footer {
   box-shadow: inset 0px 3px 5px #555555;
   behavior: url(/assets/PIE.htc);
 }
-/* line 150, ../scss/site.scss */
+/* line 158, ../scss/site.scss */
 footer .help-block {
   text-align: right;
   font-size: 0.375em;
   line-height: 1.125em;
   color: #555;
 }
-/* line 157, ../scss/site.scss */
+/* line 165, ../scss/site.scss */
 footer blockquote {
   margin-top: 11.5px;
   border-left: none;
 }
-/* line 162, ../scss/site.scss */
+/* line 170, ../scss/site.scss */
 footer #footer-quote {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   font-size: 0.4125em;
   line-height: 1.125em;
   margin-bottom: 1em;
 }
-/* line 169, ../scss/site.scss */
+/* line 177, ../scss/site.scss */
 footer textarea#email-message {
   margin-top: 11px;
   /* TODO: hack */
   width: 356px;
 }
-/* line 175, ../scss/site.scss */
+/* line 183, ../scss/site.scss */
 footer .legend {
   text-align: right;
   font-size: 0.5em;
@@ -1730,28 +1748,28 @@ footer .legend {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   border-bottom: 1px dashed #cccccc;
 }
-/* line 183, ../scss/site.scss */
+/* line 191, ../scss/site.scss */
 footer #sprout-elsewhere .legend {
   font-size: 1.25em;
   line-height: 1.25em;
   text-align: left;
   margin-bottom: 1em;
 }
-/* line 191, ../scss/site.scss */
+/* line 199, ../scss/site.scss */
 footer #footer-connect-container div {
   margin-bottom: 0.645em;
 }
-/* line 194, ../scss/site.scss */
+/* line 202, ../scss/site.scss */
 footer #footer-connect-container ul#elsewhere li a div {
   display: inline-block;
   margin-bottom: 0em;
 }
-/* line 200, ../scss/site.scss */
+/* line 208, ../scss/site.scss */
 footer #lifestream {
   font-size: 0.895em;
   height: 352px;
 }
-/* line 205, ../scss/site.scss */
+/* line 213, ../scss/site.scss */
 footer ul.lifestream {
   list-style-type: none;
   margin: 0;
@@ -1759,7 +1777,7 @@ footer ul.lifestream {
   max-height: 352px;
   overflow: hidden;
 }
-/* line 211, ../scss/site.scss */
+/* line 219, ../scss/site.scss */
 footer ul.lifestream li {
   margin-bottom: 1.25em;
   background-size: 20px 20px;
@@ -1769,11 +1787,11 @@ footer ul.lifestream li {
   overflow: hidden;
   position: relative;
 }
-/* line 219, ../scss/site.scss */
+/* line 227, ../scss/site.scss */
 footer ul.lifestream li > div {
   display: table;
 }
-/* line 223, ../scss/site.scss */
+/* line 231, ../scss/site.scss */
 footer ul.lifestream .icon {
   position: absolute;
   top: 50%;
@@ -1786,7 +1804,7 @@ footer ul.lifestream .icon {
   box-shadow: inset 0 0px 3px #888888;
   behavior: url(/assets/PIE.htc);
 }
-/* line 237, ../scss/site.scss */
+/* line 245, ../scss/site.scss */
 footer .elsewhere-story {
   padding-left: 38px;
   /* = 30px + 0.5em */
@@ -1794,29 +1812,29 @@ footer .elsewhere-story {
   vertical-align: middle;
   height: 30px;
 }
-/* line 245, ../scss/site.scss */
+/* line 253, ../scss/site.scss */
 footer #sprout-elsewhere {
   margin-top: 25.75px;
 }
-/* line 249, ../scss/site.scss */
+/* line 257, ../scss/site.scss */
 footer #scrapbook-lede {
   font-size: 0.75em;
   font-style: italic;
   text-align: right;
   line-height: 1.375em;
 }
-/* line 256, ../scss/site.scss */
+/* line 264, ../scss/site.scss */
 footer #support-sprout hr {
   margin-top: -0.375em;
   margin-bottom: 1.55em;
 }
 
-/* line 262, ../scss/site.scss */
+/* line 270, ../scss/site.scss */
 .section-summary {
   margin-bottom: 2em;
 }
 
-/* line 267, ../scss/site.scss */
+/* line 275, ../scss/site.scss */
 .vertical-centering.outer {
   height: 270px;
   overflow: hidden;
@@ -1824,7 +1842,7 @@ footer #support-sprout hr {
   display: table;
   position: static;
 }
-/* line 274, ../scss/site.scss */
+/* line 282, ../scss/site.scss */
 .vertical-centering.middle {
   display: table-cell;
   vertical-align: middle;
@@ -1832,25 +1850,25 @@ footer #support-sprout hr {
   position: static;
 }
 
-/* line 283, ../scss/site.scss */
+/* line 291, ../scss/site.scss */
 hr.page-summary-delimiter {
   border-top: 1px solid #dddddd;
   margin-top: 3em;
   margin-bottom: 3em;
 }
 
-/* line 289, ../scss/site.scss */
+/* line 297, ../scss/site.scss */
 h2.page-section {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
 }
 
-/* line 294, ../scss/site.scss */
+/* line 302, ../scss/site.scss */
 .page-section h2 {
   font-size: 3.25em;
   margin-bottom: 1em;
 }
 
-/* line 299, ../scss/site.scss */
+/* line 307, ../scss/site.scss */
 .page-summary p, .featurette-details p {
   text-align: justify;
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
@@ -1859,7 +1877,7 @@ h2.page-section {
   margin-top: 1em;
 }
 
-/* line 307, ../scss/site.scss */
+/* line 315, ../scss/site.scss */
 h1 {
   margin-bottom: 0.5em;
   line-height: 1em;
@@ -1868,52 +1886,52 @@ h1 {
   vertical-align: middle;
 }
 
-/* line 316, ../scss/site.scss */
+/* line 324, ../scss/site.scss */
 .page-section {
   margin-bottom: 7em;
 }
 
-/* line 320, ../scss/site.scss */
+/* line 328, ../scss/site.scss */
 h1, h2 {
   text-align: center;
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
 }
 
-/* line 325, ../scss/site.scss */
+/* line 333, ../scss/site.scss */
 h1 {
   font-size: 5em;
 }
 
-/* line 329, ../scss/site.scss */
+/* line 337, ../scss/site.scss */
 .page-summary .page-title {
   width: 100%;
   text-align: center;
   text-transform: capitalize;
 }
 
-/* line 335, ../scss/site.scss */
+/* line 343, ../scss/site.scss */
 .page-section h2 {
   font-family: "adelle-1", "adelle-2", Georgia, serif;
   text-shadow: 0px 2px 3px white;
   color: #ccc;
 }
 
-/* line 341, ../scss/site.scss */
+/* line 349, ../scss/site.scss */
 h1 > a:hover, h2 > a:hover, .article-info a:hover {
   text-decoration: none;
 }
 
-/* line 345, ../scss/site.scss */
+/* line 353, ../scss/site.scss */
 .quote-author {
   text-align: right;
 }
-/* line 347, ../scss/site.scss */
+/* line 355, ../scss/site.scss */
 .quote-author i {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 354, ../scss/site.scss */
+/* line 362, ../scss/site.scss */
 hr.section-divider {
   margin-top: 4em;
   margin-bottom: 4em;
@@ -1921,7 +1939,7 @@ hr.section-divider {
 
 /* Sticky footer styles
 -------------------------------------------------- */
-/* line 362, ../scss/site.scss */
+/* line 370, ../scss/site.scss */
 html, body {
   padding: 0;
   /* for mobile devices */
@@ -1930,7 +1948,7 @@ html, body {
 }
 
 /* Wrapper for page content to push down footer */
-/* line 371, ../scss/site.scss */
+/* line 379, ../scss/site.scss */
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -1939,13 +1957,13 @@ html, body {
   margin: 0 auto -100px;
 }
 
-/* line 379, ../scss/site.scss */
+/* line 387, ../scss/site.scss */
 #push {
   height: 200px;
 }
 
 @media (max-width: 480px) {
-  /* line 384, ../scss/site.scss */
+  /* line 392, ../scss/site.scss */
   #content {
     font-size: 0.8em;
     padding-top: 0em;
@@ -1953,7 +1971,7 @@ html, body {
     padding-right: 0.5em;
   }
 
-  /* line 391, ../scss/site.scss */
+  /* line 399, ../scss/site.scss */
   header.splash #mission {
     font-size: 0.375em;
     max-width: 480px;
@@ -1962,60 +1980,60 @@ html, body {
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
-  /* line 398, ../scss/site.scss */
+  /* line 406, ../scss/site.scss */
   header.splash #mission p {
     margin-right: 0px;
   }
 
-  /* line 403, ../scss/site.scss */
+  /* line 411, ../scss/site.scss */
   header.splash {
     padding: 0;
     padding-top: 1.25em;
     padding-bottom: 0.25em;
   }
 
-  /* line 408, ../scss/site.scss */
+  /* line 416, ../scss/site.scss */
   footer {
     margin: 0;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
 
-  /* line 413, ../scss/site.scss */
+  /* line 421, ../scss/site.scss */
   footer {
     height: 1650px;
   }
 
-  /* line 417, ../scss/site.scss */
+  /* line 425, ../scss/site.scss */
   footer input#tlemail {
     width: 76%;
   }
-  /* line 420, ../scss/site.scss */
+  /* line 428, ../scss/site.scss */
   footer fieldset {
     width: 100%;
   }
-  /* line 423, ../scss/site.scss */
+  /* line 431, ../scss/site.scss */
   footer textarea#email-message {
     width: 95%;
   }
-  /* line 426, ../scss/site.scss */
+  /* line 434, ../scss/site.scss */
   footer input#message-author {
     width: 76%;
   }
 
-  /* line 431, ../scss/site.scss */
+  /* line 439, ../scss/site.scss */
   header.non-splash #nav ul li:first-child, header.splash #nav ul li:first-child {
     padding-left: 0em;
   }
 
-  /* line 436, ../scss/site.scss */
+  /* line 444, ../scss/site.scss */
   header hr {
     border-top: 2px solid #eeeeee;
     border-bottom: 2px solid white;
     display: block;
   }
 
-  /* line 441, ../scss/site.scss */
+  /* line 449, ../scss/site.scss */
   header.non-splash {
     padding: 0;
     padding-top: 1.25em;
@@ -2023,14 +2041,14 @@ html, body {
     height: 2em;
   }
 
-  /* line 448, ../scss/site.scss */
+  /* line 456, ../scss/site.scss */
   header.non-splash #logotype {
     position: absolute;
     top: 0.375em;
     text-align: center;
     width: 100%;
   }
-  /* line 454, ../scss/site.scss */
+  /* line 462, ../scss/site.scss */
   header.non-splash #nav {
     margin: 0em;
     margin-top: 1em;
@@ -2038,42 +2056,42 @@ html, body {
     width: 100%;
     top: 3em;
   }
-  /* line 460, ../scss/site.scss */
+  /* line 468, ../scss/site.scss */
   header.non-splash #nav ul {
     line-height: 1em;
     padding: 0;
     margin: 0;
     text-align: center;
   }
-  /* line 465, ../scss/site.scss */
+  /* line 473, ../scss/site.scss */
   header.non-splash #nav ul li {
     font-size: 0.875em;
     padding-left: 0.75em;
     padding-right: 0em;
   }
 
-  /* line 474, ../scss/site.scss */
+  /* line 482, ../scss/site.scss */
   header.splash #logotype {
     position: absolute;
     top: 0.375em;
     text-align: center;
     width: 100%;
   }
-  /* line 480, ../scss/site.scss */
+  /* line 488, ../scss/site.scss */
   header.splash #nav {
     margin: 0em;
     position: absolute;
     width: 100%;
     top: 3em;
   }
-  /* line 485, ../scss/site.scss */
+  /* line 493, ../scss/site.scss */
   header.splash #nav ul {
     line-height: 1em;
     padding: 0;
     margin: 0;
     text-align: center;
   }
-  /* line 490, ../scss/site.scss */
+  /* line 498, ../scss/site.scss */
   header.splash #nav ul li {
     font-size: 0.875em;
     padding-left: 0.75em;
@@ -2633,8 +2651,6 @@ div.article {
 /* line 112, ../scss/blog.scss */
 #blog-posts > .blog-container[class*='span4'] {
   height: 100%;
-  float: none;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
