@@ -2651,11 +2651,10 @@ div.article {
 /* line 112, ../scss/blog.scss */
 #blog-posts > .blog-container[class*='span4'] {
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  float: none;
 }
 
-/* line 120, ../scss/blog.scss */
+/* line 117, ../scss/blog.scss */
 .blog-toc-card.odd, .blog-container.odd {
   border-radius: 7px;
   background: black;
@@ -2664,27 +2663,27 @@ div.article {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 127, ../scss/blog.scss */
+/* line 124, ../scss/blog.scss */
 .blog-toc-card.odd .lede-info {
   color: #555;
 }
 
-/* line 131, ../scss/blog.scss */
+/* line 128, ../scss/blog.scss */
 .spacer {
   padding: 1em;
 }
 
-/* line 135, ../scss/blog.scss */
+/* line 132, ../scss/blog.scss */
 .book {
   font-style: italic;
 }
 
-/* line 139, ../scss/blog.scss */
+/* line 136, ../scss/blog.scss */
 .article p span.lede {
   font-variant: small-caps;
 }
 
-/* line 143, ../scss/blog.scss */
+/* line 140, ../scss/blog.scss */
 .img .caption {
   position: absolute;
   text-align: right;
@@ -2703,7 +2702,7 @@ div.article {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 160, ../scss/blog.scss */
+/* line 157, ../scss/blog.scss */
 .article .img {
   position: relative;
   margin-right: 1em;
@@ -2718,14 +2717,14 @@ div.article {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 173, ../scss/blog.scss */
+/* line 170, ../scss/blog.scss */
 div.article > h2, .blog-toc > h2 {
   text-align: center;
   font-size: 1.75em;
   font-family: "adelle-1", "adelle-2", Georgia, serif;
 }
 
-/* line 179, ../scss/blog.scss */
+/* line 176, ../scss/blog.scss */
 #blog-posts hr.section-divider {
   width: 100%;
   clear: both;
@@ -2739,14 +2738,14 @@ div.article > h2, .blog-toc > h2 {
 }
 
 @media (max-width: 480px) {
-  /* line 192, ../scss/blog.scss */
+  /* line 189, ../scss/blog.scss */
   .article .img {
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 197, ../scss/blog.scss */
+  /* line 194, ../scss/blog.scss */
   .article blockquote {
     padding-left: 0.25em;
     border-left: 2px solid #eeeeee;
