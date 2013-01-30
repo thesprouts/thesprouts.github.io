@@ -98,7 +98,6 @@ us:
 
         <!-- nutty blockquote behavior: extra carriage return screws with whitespace -->
         <blockquote>{{ post.content | lede_filter | strip_html | truncatewords: post.excerpt_length | truncate: 347 | strip_regex: '/^[^A-Za-z]+/', '/[\n]+/' }}
-          <div class='fadeout'></div>
         </blockquote>
       </div> <!-- ends .blog-post-summary -->
 
