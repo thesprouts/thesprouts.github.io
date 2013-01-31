@@ -106,6 +106,7 @@ div.article {
   @include border-radius(7px);
   height: 370px;
   behavior: url(/assets/PIE.htc);
+  margin-top: 1.5em;
 }
 
 .blog-container.even {
