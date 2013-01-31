@@ -2113,7 +2113,7 @@ html, body {
 
 /* line 14, ../scss/index.scss */
 .featurette #blog-posts {
-  margin-top: 3em;
+  margin-top: 1.5em;
 }
 
 /* line 18, ../scss/index.scss */
@@ -2643,21 +2643,22 @@ div.article {
   border-radius: 7px;
   height: 370px;
   behavior: url(/assets/PIE.htc);
+  margin-top: 1.5em;
 }
 
-/* line 111, ../scss/blog.scss */
+/* line 112, ../scss/blog.scss */
 .blog-container.even {
   -webkit-box-shadow: 0 0 7px #999999;
   -moz-box-shadow: 0 0 7px #999999;
   box-shadow: 0 0 7px #999999;
 }
 
-/* line 115, ../scss/blog.scss */
+/* line 116, ../scss/blog.scss */
 #blog-posts > .blog-container[class*='span4'] {
   height: 100%;
 }
 
-/* line 119, ../scss/blog.scss */
+/* line 120, ../scss/blog.scss */
 .blog-toc-card.odd, .blog-container.odd {
   background: black;
   background: rgba(0, 0, 0, 0.06125);
@@ -2666,27 +2667,27 @@ div.article {
   box-shadow: 0 0 7px gray;
 }
 
-/* line 124, ../scss/blog.scss */
+/* line 125, ../scss/blog.scss */
 .blog-toc-card.odd .lede-info {
   color: #555;
 }
 
-/* line 128, ../scss/blog.scss */
+/* line 129, ../scss/blog.scss */
 .spacer {
   padding: 1em;
 }
 
-/* line 132, ../scss/blog.scss */
+/* line 133, ../scss/blog.scss */
 .book {
   font-style: italic;
 }
 
-/* line 136, ../scss/blog.scss */
+/* line 137, ../scss/blog.scss */
 .article p span.lede {
   font-variant: small-caps;
 }
 
-/* line 140, ../scss/blog.scss */
+/* line 141, ../scss/blog.scss */
 .img .caption {
   position: absolute;
   text-align: right;
@@ -2705,7 +2706,7 @@ div.article {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 157, ../scss/blog.scss */
+/* line 158, ../scss/blog.scss */
 .article .img {
   position: relative;
   margin-right: 1em;
@@ -2720,14 +2721,14 @@ div.article {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 170, ../scss/blog.scss */
+/* line 171, ../scss/blog.scss */
 div.article > h2, .blog-toc > h2 {
   text-align: center;
   font-size: 1.75em;
   font-family: "adelle-1", "adelle-2", Georgia, serif;
 }
 
-/* line 176, ../scss/blog.scss */
+/* line 177, ../scss/blog.scss */
 #blog-posts hr.section-divider {
   width: 100%;
   clear: both;
@@ -2741,14 +2742,14 @@ div.article > h2, .blog-toc > h2 {
 }
 
 @media (max-width: 480px) {
-  /* line 189, ../scss/blog.scss */
+  /* line 190, ../scss/blog.scss */
   .article .img {
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 194, ../scss/blog.scss */
+  /* line 195, ../scss/blog.scss */
   .article blockquote {
     padding-left: 0.25em;
     border-left: 2px solid #eeeeee;
