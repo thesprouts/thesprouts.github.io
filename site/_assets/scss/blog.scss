@@ -102,11 +102,14 @@ div.article {
   overflow: hidden;
 }
 
-.blog-container.even {
+.blog-toc-card, .blog-container {
   @include border-radius(7px);
   height: 370px;
-  @include box-shadow(0 0 7px #999);
   behavior: url(/assets/PIE.htc);
+}
+
+.blog-container.even {
+  @include box-shadow(0 0 7px #999);
 }
 
 #blog-posts > .blog-container[class*='span4'] {
@@ -114,10 +117,8 @@ div.article {
 }
 
 .blog-toc-card.odd, .blog-container.odd {
-  border-radius: 7px;
   @include rgba-background(rgb(0, 0, 0), 0.06125);
-  height: 370px;
-  behavior: url(/assets/PIE.htc);
+  @include box-shadow(0 0 7px #808080);
 }
 
 .blog-toc-card.odd .lede-info {
