@@ -7,34 +7,46 @@
     <atom:link href="http://thesprouts.org/blog/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>On Needing a Place for Small Things</title>
-        <description>&lt;p&gt;
+        <title>A Place For Small Things To Grow</title>
+        <description>&amp;mdash;-
+layout: blog_post
+title: On Needing a Place for Small Things
+author: alec
+summary: Most schools look and feel the same, and not because of long evolution under the pressures of 'student-centered design.'  If biodiversity helps Nature find clever solutions, can it help those of us interested in the future of learning?
+excerpt_length: 38
+&amp;mdash;-
+
+&lt;p&gt;
 Biodiversity helps evolution find new, better solutions faster. And evolution is especially good at finding solutions to multidimensional problems which haven't proven susceptible to analysis. &amp;quot;Education&amp;quot; is one of these. Unfortunately, biodiversity is not a priority among reformers. Funding patterns and the hype cycle, among other influences, insure most focus on The Next Big Thing.
 &lt;/p&gt;
 
 &lt;p&gt;I
-  n evolution, reproduction is what matters. So what's the analogue of 'reproductive success' for education? Answering that involves an essential discussion about the values and goals of education which I am going to sidestep entirely. Instead, I'm going to talk about something that--within our analogy--is more like 'running fast.' That is, I want to talk about an activity which we would all agree is adaptive and which we should all hope our educational systems are getting better at nurturing: knowledge work.
+  n evolution, reproduction is what matters. So what's the analogue of 'reproductive success' for education? Answering that involves an essential discussion about the values and goals of education which I am going to sidestep entirely. Instead, I'm going to talk about something that&amp;mdash;within our analogy&amp;mdash;is more like 'running fast.' That is, I want to talk about an activity which we would all agree is adaptive and which we should all hope our educational systems are getting better at nurturing: knowledge work.
 &lt;/p&gt;
 
 &lt;p&gt;
   In 1957, Peter Drucker &lt;a href=&quot;http://www.amazon.com/dp/1560006226&quot;&gt;wrote&lt;/a&gt; (&lt;strong&gt;emphasis&lt;/strong&gt; mine):
   &lt;blockquote&gt;
     &lt;p&gt;
-      In the United States, where most of the young people in the metropolitan areas go at least to high school, the assembly line is already obsolete. The labor necessary to run it is becoming scarce. Young people with a high school education do not want to work as human machine tools. […] How new these expectations are is shown in the field of personnel management. Only forty years old-it began in World War I--the discipline is already outdated in its concepts and its assumptions. Its principles, its rules, its practices and procedures all represent a distillation of experience with unskilled or semiskilled machine workers, largely from the metalworking industries. &lt;strong&gt;Today the majority of the personnel employed even in manufacturing industries are no longer of this kind, are rather people doing knowledge work&lt;/strong&gt;, however unskilled. How far our personnel management theories really applied even to yesterday's machine workers is an open question. For managing tomorrow's employees, the products of the educated society, they are likely to be quite inadequate.
+      In the United States, where most of the young people in the metropolitan areas go at least to high school, the assembly line is already obsolete. The labor necessary to run it is becoming scarce. Young people with a high school education do not want to work as human machine tools. […] How new these expectations are is shown in the field of personnel management. Only forty years old-it began in World War I&amp;mdash;the discipline is already outdated in its concepts and its assumptions. Its principles, its rules, its practices and procedures all represent a distillation of experience with unskilled or semiskilled machine workers, largely from the metalworking industries. &lt;strong&gt;Today the majority of the personnel employed even in manufacturing industries are no longer of this kind, are rather people doing knowledge work&lt;/strong&gt;, however unskilled. How far our personnel management theories really applied even to yesterday's machine workers is an open question. For managing tomorrow's employees, the products of the educated society, they are likely to be quite inadequate.
     &lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-  &amp;quot;Knowledge work&amp;quot; is work whose main capital is not physical output or labor, but 'knowledge', broadly construed. &amp;quot;Knowledge workers&amp;quot; are people who think for a living, and they dominate our economy. Think technologists and engineers and designers and executives. At its best, school is--quite literally--filled with 'knowledge work.' So why do Fig# and Fig# look so different?
+  &amp;quot;Knowledge work&amp;quot; is work whose main capital is not physical output or labor, but 'knowledge', broadly construed. &amp;quot;Knowledge workers&amp;quot; are people who think for a living, and they dominate our economy. Think technologists and engineers and designers and executives. At its best, school is&amp;mdash;quite literally&amp;mdash;filled with 'knowledge work.' So why do Fig# and Fig# look so different?
 &lt;/p&gt;
 
-&lt;img src='/img/blog/bigtech_orgcharts.png'&gt;
+&lt;div class='img' style='background: url(&quot;/img/blog/bigtech_orgcharts.png&quot;)'&gt;
+&lt;div class='caption'&gt;&lt;a href='http://www.bonkersworld.net/organizational-charts/'&gt;Manu Cornet's&lt;/a&gt; meditation on corporate structure at the big tech companies, via &lt;a href='http://www.alexrainert.com/post/7044083618/teradome-organizational-charts-for-tech'&gt;Alex Rainert&lt;/a&gt;.&lt;/div&gt;
+&lt;/div&gt;
 
-&lt;img src='/img/blog/school_orgcharts.png'&gt;
+&lt;div class='img' style='background: url(&quot;/img/blog/school_orgcharts.png&quot;)'&gt;
+&lt;div class='caption'&gt;What most school org charts look like, &lt;a href='https://www.google.com/search?tbm=isch&amp;q=school+(%22org+chart%22+OR+%22organizational+chart%22)'&gt;according to Google&lt;/a&gt;.&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;
-  More to the point, why do Google and high school &lt;em&gt;feel&lt;/em&gt; so different? Well, Silicon Valley is not the Department of Education. It's OK if the #1 tech company is &lt;a href=&quot;http://www.wolframalpha.com/input/?i=(AAPL+profit)%2F(AAPL+operating+expenses)%2F((GOOG+profit)%2F(GOOG+operating+expenses))&quot;&gt;five times more profitable than its nearest competitor&lt;/a&gt;. But our democratic conscience would not brook the same inequality in our educational system. And a white, tech guy in his thirties is not a poor, brown girl in her teens. Differences abound. Regardless--if we believe school supports knowledge work--we should be able to simultaneously acknowledge those differences and explain &lt;em&gt;why&lt;/em&gt; school looks and feels the way it does.
+  More to the point, why do Google and high school &lt;em&gt;feel&lt;/em&gt; so different? Well, Silicon Valley is not the Department of Education. It's OK if the #1 tech company is &lt;a href=&quot;http://www.wolframalpha.com/input/?i=(AAPL+profit)%2F(AAPL+operating+expenses)%2F((GOOG+profit)%2F(GOOG+operating+expenses))&quot;&gt;five times more profitable than its nearest competitor&lt;/a&gt;. But our democratic conscience would not brook the same inequality in our educational system. And a white, tech guy in his thirties is not a poor, brown girl in her teens. Differences abound. Regardless&amp;mdash;if we believe school supports knowledge work&amp;mdash;we should be able to simultaneously acknowledge those differences and explain &lt;em&gt;why&lt;/em&gt; school looks and feels the way it does.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -46,31 +58,33 @@ Biodiversity helps evolution find new, better solutions faster. And evolution is
 &lt;/p&gt;
 
 &lt;p&gt;
-  So how does the tech sector--an epitome of knowledge work--handle this?
+  So how does the tech sector&amp;mdash;an epitome of knowledge work&amp;mdash;handle this?
 &lt;/p&gt;
 
 &lt;p&gt;
-  The basic answer is that we are still figuring that out. While there are clearly some themes in how these tech companies support and manage their employees--an emphasis on intrinsic motivation, flexible work schedules, a focus on small teams and rapid iteration, and so on--there is still tremendous diversity and turnover in management thinking here. Plenty has been written about the variety and novelty of management structures and philosophies that the past thirty years of high tech industry have created. But I think there's an even more important, easy-to-agree upon, meta-lesson here: that diversity is &lt;em&gt;healthy&lt;/em&gt;.
+  The basic answer is that we are still figuring that out. While there are clearly some themes in how these tech companies support and manage their employees&amp;mdash;an emphasis on intrinsic motivation, flexible work schedules, a focus on small teams and rapid iteration, and so on&amp;mdash;there is still tremendous diversity and turnover in management thinking here. Plenty has been written about the variety and novelty of management structures and philosophies that the past thirty years of high tech industry have created. But I think there's an even more important, easy-to-agree upon, meta-lesson here: that diversity is &lt;em&gt;healthy&lt;/em&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
-  Fig# is mostly tongue-in-cheek. But every technologist or employee at one of these companies will recognize the kernels of truth in the lampoon. And even simply among the six heavy-hitters you see enormous differences. And that is regarded as &lt;em&gt;healthy&lt;/em&gt;--at no stockholders' meeting would you hear the claim that there's A Universal Org Chart. Minimally, the claim is that collectively, the &lt;em&gt;biodiversity&lt;/em&gt; of management structures, product strategy, company culture and so on contribute to a healthy organic process evolving more effective companies.
+  Fig# is mostly tongue-in-cheek. But every technologist or employee at one of these companies will recognize the kernels of truth in the lampoon. And even simply among the six heavy-hitters you see enormous differences. And that is regarded as &lt;em&gt;healthy&lt;/em&gt;&amp;mdash;at no stockholders' meeting would you hear the claim that there's A Universal Org Chart. Minimally, the claim is that collectively, the &lt;em&gt;biodiversity&lt;/em&gt; of management structures, product strategy, company culture and so on contribute to a healthy organic process evolving more effective companies.
 &lt;/p&gt;
 
 &lt;p&gt;
   So what about high schools? How do they accommodate knowledge work?
 &lt;/p&gt;
 
-&lt;p&gt;Well, despite being a much larger, older institution than multinational tech companies with much less control over the problems they're tasked with solving--high schools have basically homogeneous org charts. Of course, these org charts don't necessarily reflect reality. And many of them are legally mandated, in one form or another. I don't know what the 'right' org chart is--if there even is such a thing. But I &lt;em&gt;do&lt;/em&gt; know that it's important for those of us interested in new models of learning to be able to tell a story about &lt;em&gt;why&lt;/em&gt; the space of solutions we've explored looks the way it does so far. And more importantly, why do most schools look and feel the same?
+&lt;p&gt;Well, despite being a much larger, older institution than multinational tech companies with much less control over the problems they're tasked with solving&amp;mdash;high schools have basically homogeneous org charts. Of course, these org charts don't necessarily reflect reality. And many of them are legally mandated, in one form or another. I don't know what the 'right' org chart is&amp;mdash;if there even is such a thing. But I &lt;em&gt;do&lt;/em&gt; know that it's important for those of us interested in new models of learning to be able to tell a story about &lt;em&gt;why&lt;/em&gt; the space of solutions we've explored looks the way it does so far. And more importantly, why do most schools look and feel the same?
 &lt;/p&gt;
 
 &lt;p&gt;Ultimately, if that story doesn't tie back to claims about how people learn or what school is for, then perhaps there's a new type of reform work to be done. Perhaps there are ways we can change the &lt;em&gt;types&lt;/em&gt; of conversations we have instead of simply trumpeting a new message more loudly. This is no simple task. There are many boundary conditions that define the look and feel of school which implicitly define how we talk about school. I'm going to scratch the surface of just one: the schedule.
 &lt;/p&gt;
 
-&lt;img src='/img/blog/school_timetable.png'&gt;
+&lt;div class='img' style='background: url(&quot;/img/blog/school_timetable.png&quot;)'&gt;
+&lt;div class='caption'&gt;&lt;a href='http://www.edline.net/pages/flhs'&gt;Fairfield Ludlowe High School&lt;/a&gt;'s timetable, &lt;a href='http://en.wikipedia.org/wiki/School_timetable'&gt;Wikipedia&lt;/a&gt;.&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;
-  Knowledge work often requires large, contiguous blocks of time to grapple with open-ended issues and uncertainty. It is trite to complain about the schedule cuts up students' and teachers' days. It is trivial to point to burgeoning literature on optimal conditions for learning and productivity and decry the school bell. But &lt;em&gt;why&lt;/em&gt; does the schedule look like it does? There are many explanations for this--&lt;em&gt;e.g.&lt;/em&gt; it mimics the factory floor schedule, it is a necessary consequence of 'covering the curriculum,' and so on. I'd suggest that all of these reasons stem from exactly two needs: the need for [evidence of] &lt;em&gt;controllability&lt;/em&gt; and the need for [evidence of] &lt;em&gt;observability&lt;/em&gt;.
+  Knowledge work often requires large, contiguous blocks of time to grapple with open-ended issues and uncertainty. It is trite to complain about the schedule cuts up students' and teachers' days. It is trivial to point to burgeoning literature on optimal conditions for learning and productivity and decry the school bell. But &lt;em&gt;why&lt;/em&gt; does the schedule look like it does? There are many explanations for this&amp;mdash;&lt;em&gt;e.g.&lt;/em&gt; it mimics the factory floor schedule, it is a necessary consequence of 'covering the curriculum,' and so on. I'd suggest that all of these reasons stem from exactly two needs: the need for [evidence of] &lt;em&gt;controllability&lt;/em&gt; and the need for [evidence of] &lt;em&gt;observability&lt;/em&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -86,15 +100,15 @@ Biodiversity helps evolution find new, better solutions faster. And evolution is
 &lt;/p&gt;
 
 &lt;p&gt;
-  Schools are tasked--minimally--with implementing a &lt;em&gt;curriculum&lt;/em&gt;. A curriculum is made up of &lt;em&gt;facts&lt;/em&gt; and &lt;em&gt;skills&lt;/em&gt;. The school's job (pedagogically speaking) is to inculcate these facts and skills into students. But remember, schools are governed and managed at scale. So we must acknowledge that school's job often reduces to &lt;em&gt;documenting&lt;/em&gt; the performance of the curriculum. There are exactly two ways to do this. We can point to the inputs to school and take schooling's efficacy on faith. Or, we can point to the outputs of school and take your measurement's accuracy on faith. Of course, schools do a combination of these, documenting seat time or credits (inputs) &lt;em&gt;and&lt;/em&gt; test scores or GPA (outputs).
+  Schools are tasked&amp;mdash;minimally&amp;mdash;with implementing a &lt;em&gt;curriculum&lt;/em&gt;. A curriculum is made up of &lt;em&gt;facts&lt;/em&gt; and &lt;em&gt;skills&lt;/em&gt;. The school's job (pedagogically speaking) is to inculcate these facts and skills into students. But remember, schools are governed and managed at scale. So we must acknowledge that school's job often reduces to &lt;em&gt;documenting&lt;/em&gt; the performance of the curriculum. There are exactly two ways to do this. We can point to the inputs to school and take schooling's efficacy on faith. Or, we can point to the outputs of school and take your measurement's accuracy on faith. Of course, schools do a combination of these, documenting seat time or credits (inputs) &lt;em&gt;and&lt;/em&gt; test scores or GPA (outputs).
 &lt;/p&gt;
 
 &lt;p&gt;
-  Let's set aside any doubts about either the efficacy of our methods or measurements and take a moment to notice how the system of grade levels, curricula, grades, class periods, and credits make it extraordinarily easy to &lt;em&gt;document&lt;/em&gt; our inputs and outputs. If you had a pile of skills and facts that you had to disburse at a certain rate in a certain order and document that process, you can see how easily we might make an argument for the current schedule structure. This also gives us some insight into the enthusiasm with which 'flipping the classroom' and 'data-driven education' and 'personalized learning' have been taken up by education reformers. Each of these efforts--in their own way--renders the learning process legible while simultaneously making the management of schooling easier. There's very little tying any of these structures--including the traditional class schedule--to the needs of learners. There is a great deal tying these structures to the needs of the school.
+  Let's set aside any doubts about either the efficacy of our methods or measurements and take a moment to notice how the system of grade levels, curricula, grades, class periods, and credits make it extraordinarily easy to &lt;em&gt;document&lt;/em&gt; our inputs and outputs. If you had a pile of skills and facts that you had to disburse at a certain rate in a certain order and document that process, you can see how easily we might make an argument for the current schedule structure. This also gives us some insight into the enthusiasm with which 'flipping the classroom' and 'data-driven education' and 'personalized learning' have been taken up by education reformers. Each of these efforts&amp;mdash;in their own way&amp;mdash;renders the learning process legible while simultaneously making the management of schooling easier. There's very little tying any of these structures&amp;mdash;including the traditional class schedule&amp;mdash;to the needs of learners. There is a great deal tying these structures to the needs of the school.
 &lt;/p&gt;
 
 &lt;p&gt;
-  And so now we have plenty of reform wherein the party line--say, &amp;quot;Learning happens through curricula which are broadcast through classes&amp;quot;--is never articulated, but assumed. Then, vigorous debate and innovation and incubation are encouraged &lt;em&gt;within&lt;/em&gt; those boundaries. And perhaps, more than Another Big Thing, we simply need a lot more space to grow some Small Things that needn't satisfy those boundary conditions, &lt;em&gt;a priori&lt;/em&gt;.
+  And so now we have plenty of reform wherein the party line&amp;mdash;say, &amp;quot;Learning happens through curricula which are broadcast through classes&amp;quot;&amp;mdash;is never articulated, but assumed. Then, vigorous debate and innovation and incubation are encouraged &lt;em&gt;within&lt;/em&gt; those boundaries. And perhaps, more than Another Big Thing, we simply need a lot more space to grow some Small Things that needn't satisfy those boundary conditions, &lt;em&gt;a priori&lt;/em&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
