@@ -166,10 +166,6 @@ div.article {
     @include box-shadow(inset 0px 0px 7.5px rgba(0, 0, 0, 0.75));
     behavior: url(/assets/PIE.htc);
   }
-
-  .img .full-width {
-    width: 100%;
-  }
 }
 
 div.article > h2, .blog-toc > h2 {
