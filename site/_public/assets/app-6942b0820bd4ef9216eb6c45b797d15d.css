@@ -2691,7 +2691,7 @@ div.article {
   bottom: 0;
   font-size: .625em;
   line-height: 1em;
-  padding: 0.5em;
+  padding: 2.5%;
   color: #333;
   width: 95%;
   /* Why doesn't 100% work? */
