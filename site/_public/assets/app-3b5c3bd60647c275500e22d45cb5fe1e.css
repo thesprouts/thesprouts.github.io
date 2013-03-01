@@ -2736,7 +2736,7 @@ div.article > h2, .blog-toc > h2 {
 
 /* line 189, ../scss/blog.scss */
 p.acknowledgements {
-  font-size: 0.25em;
+  font-size: 0.75em;
   font-style: italic;
 }
 
