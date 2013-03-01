@@ -186,6 +186,11 @@ div.article > h2, .blog-toc > h2 {
   margin-bottom: 5em;
 }
 
+p.acknowledgements {
+  font-size: 0.25em;
+  font-style: italic;
+}
+
 @media (max-width: 480px) {
   .article .img {
     float: none;
