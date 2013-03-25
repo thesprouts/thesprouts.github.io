@@ -159,19 +159,22 @@
 </p>
 
 <style>
+  div.juxtaposition-container {
+    width: 100%;
+    clear: both;
+  }
+
   div#juxtapositions .img {
     width: 380px;
     margin-right: 0px;
   }
-  div#juxtapositions .img:nth-child(1) {
-    float: left;
-  }
-  div#juxtapositions .img:nth-child(2) {
-    float: right;
-  }
+
+  div#juxtapositions .img:nth-child(1) { float: left; }
+  div#juxtapositions .img:nth-child(2) { float: right; }
 </style>
+
 <div id='juxtapositions'>
-  <div>
+  <div class='juxtaposition-container'>
     <div class='img' style='height: 437px; background:url("/img/blog/kinglear.png")'>
       <div class='caption'>William Shakespeare&#8217;s <a href='http://www.amazon.com/dp/161382338X'><i>King Lear</i></a></div>
     </div>
@@ -181,9 +184,8 @@
     </div>
   </div>
 
-  <div style='width: 100%; clear: both;'>
-    <div style='width: 100%;'>Or this one:</div>
-
+  Or this one:
+  <div class='juxtaposition-container'>
     <div class='img' style='height: 542px; background:url("/img/blog/sicp.png")'>
       <div class='caption'>Sussman &amp; Abelson&#8217;s <a href='http://mitpress.mit.edu/sicp/'><i>Structure &amp; Interpretation of Computer Programs</i></a></div>
     </div>
@@ -193,8 +195,8 @@
     </div>
   </div>
 
-  <div style='width: 100%; clear: both;'>
-      <div style='width: 100%;'>Or this one:</div>
+  Or this one:
+  <div class='juxtaposition-container'>
     <div class='img' style='height: 321px; background:url("/img/blog/tangrams.png")'>
       <div class='caption'><a href='http://en.wikipedia.org/wiki/Tangram'>Tangrams</a></div>
     </div>
@@ -204,9 +206,8 @@
     </div>
   </div>
 
-  <div style='width: 100%; clear: both;'>
-      <div style='width: 100%;'>Or this one:</div> 
-
+  Or this one:
+  <div class='juxtaposition-container'>
     <div class='img' style='height: 507px; background:url("/img/blog/lego.png")'>
       <div class='caption'><a href='http://aboutus.lego.com/en-us/lego-group/the_lego_brand/'>LEGO</a></div>
     </div>
