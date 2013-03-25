@@ -1,0 +1,179 @@
+/* line 4, ../scss/connect.scss */
+#footer-connect input {
+  margin: 0;
+  width: 304px;
+}
+
+/* line 10, ../scss/connect.scss */
+#connect-options em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 15, ../scss/connect.scss */
+ul#elsewhere {
+  text-align: right;
+  margin: 0;
+  list-style: none;
+}
+/* line 19, ../scss/connect.scss */
+ul#elsewhere li {
+  display: inline;
+  width: 56px;
+}
+/* line 22, ../scss/connect.scss */
+ul#elsewhere li img {
+  width: 15%;
+  opacity: 0.875;
+}
+
+/* line 29, ../scss/connect.scss */
+.elsewhere-description p {
+  margin-top: 0.5em;
+}
+
+/* line 33, ../scss/connect.scss */
+ul#elsewhere li img:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.125s ease-in;
+  -moz-transition: opacity 0.125s ease-in;
+  -o-transition: opacity 0.125s ease-in;
+  transition: opacity 0.125s ease-in;
+}
+
+/* line 38, ../scss/connect.scss */
+#connect-options .page-section {
+  text-align: justify;
+}
+
+/* line 42, ../scss/connect.scss */
+#sprout-map {
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 10px black;
+  -moz-box-shadow: inset 0 0 10px black;
+  box-shadow: inset 0 0 10px black;
+  behavior: url(/assets/PIE.htc);
+}
+
+/* line 50, ../scss/connect.scss */
+form#donate > div {
+  margin-bottom: 0.5em;
+}
+/* line 54, ../scss/connect.scss */
+form#donate input#email {
+  margin-left: 0.375em;
+  width: 90%;
+}
+/* line 58, ../scss/connect.scss */
+form#donate input#donation_amount {
+  width: 60%;
+  margin-left: 0.5em;
+}
+
+/* line 65, ../scss/connect.scss */
+#dollar {
+  padding-left: 0.125em;
+  font-size: 1.25em;
+}
+
+/* line 70, ../scss/connect.scss */
+.stripe-button-inner {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 75, ../scss/connect.scss */
+#connect-options #elsewhere-option img {
+  width: 75%;
+  opacity: 0.875;
+}
+
+/* line 80, ../scss/connect.scss */
+.elsewhere-option {
+  margin-bottom: 1em;
+}
+
+/* line 84, ../scss/connect.scss */
+.verbatim {
+  font-family: Courier;
+}
+
+/* line 88, ../scss/connect.scss */
+#connect-options .page-section {
+  margin-top: 0em;
+}
+
+/* line 92, ../scss/connect.scss */
+.elsewhere-icon {
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  border-radius: 35px;
+  height: 70px;
+  opacity: 0.875;
+  -webkit-box-shadow: inset 0 0 5px black;
+  -moz-box-shadow: inset 0 0 5px black;
+  box-shadow: inset 0 0 5px black;
+  behavior: url(/assets/PIE.htc);
+}
+
+/* line 101, ../scss/connect.scss */
+#connect-options p {
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.375em;
+}
+/* line 106, ../scss/connect.scss */
+#connect-options .page-section h2 {
+  margin-bottom: 0.5em;
+}
+
+/* line 111, ../scss/connect.scss */
+#support-sprout-option hr {
+  margin-top: -1em;
+}
+
+@media (max-width: 480px) {
+  /* line 116, ../scss/connect.scss */
+  .web-sprout-map {
+    width: 100%;
+  }
+
+  /* line 119, ../scss/connect.scss */
+  .elsewhere-icon {
+    display: inline-block;
+  }
+
+  /* line 122, ../scss/connect.scss */
+  .elsewhere-description {
+    display: inline-block;
+    width: 75%;
+    position: relative;
+    top: -1.125em;
+    margin-left: 0.375em;
+  }
+
+  /* line 129, ../scss/connect.scss */
+  #connect-options .page-section {
+    margin-bottom: 3em;
+  }
+
+  /* line 133, ../scss/connect.scss */
+  form#donate input#email {
+    margin: 0;
+    margin-left: 5px;
+    width: 89%;
+  }
+  /* line 138, ../scss/connect.scss */
+  form#donate input#donation_amount {
+    margin: 0;
+    margin-left: 5px;
+    width: 52%;
+  }
+}

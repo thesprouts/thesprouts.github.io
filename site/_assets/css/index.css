@@ -1,0 +1,104 @@
+/* line 3, ../scss/index.scss */
+.blog-toc .lede {
+  padding: 1.5em;
+}
+
+/* line 7, ../scss/index.scss */
+.blog-post-summary blockquote {
+  border-left: 3px solid #eeeeee;
+  color: #888888;
+  margin: 0;
+  position: relative;
+}
+
+/* line 14, ../scss/index.scss */
+.featurette #blog-posts {
+  margin-top: 1.5em;
+}
+
+/* line 18, ../scss/index.scss */
+.featurette-title > h2 {
+  margin-bottom: 0.5em;
+}
+
+/* line 23, ../scss/index.scss */
+h2.featurette-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* line 28, ../scss/index.scss */
+h2.featurette-title a:hover {
+  color: #555555;
+  -webkit-transition: color 0.25s ease-in;
+  -moz-transition: color 0.25s ease-in;
+  -o-transition: color 0.25s ease-in;
+  transition: color 0.25s ease-in;
+}
+
+/* line 33, ../scss/index.scss */
+.page-title, h2.featurette-title a {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  line-height: 2em;
+  color: #888888;
+  line-height: 1em;
+}
+
+/* line 40, ../scss/index.scss */
+.featurette-title {
+  width: 61.8%;
+  margin-left: 19.1%;
+  margin-right: 19.1%;
+}
+
+/* line 46, ../scss/index.scss */
+.featurette-details {
+  margin-bottom: 4em;
+  margin-left: 19.1%;
+  margin-right: 19.1%;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 1.25em;
+  line-height: 1.375em;
+  text-align: center;
+}
+
+/* line 58, ../scss/index.scss */
+.featurette h2 {
+  font-family: "adelle-1", "adelle-2", Georgia, serif;
+  text-align: center;
+  font-size: 4em;
+}
+/* line 63, ../scss/index.scss */
+.featurette hr {
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid white;
+}
+
+@media (max-width: 480px) {
+  /* line 70, ../scss/index.scss */
+  .read-more {
+    margin-top: 0em;
+  }
+
+  /* line 74, ../scss/index.scss */
+  .featurette-details {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  /* line 78, ../scss/index.scss */
+  .featurette-details p {
+    font-size: 1.25em;
+    line-height: 1.125em;
+  }
+
+  /* line 83, ../scss/index.scss */
+  #blog-posts {
+    padding: 0em;
+    width: 100%;
+  }
+
+  /* line 87, ../scss/index.scss */
+  ul#elsewhere {
+    padding-left: 2em;
+  }
+}

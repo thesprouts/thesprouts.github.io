@@ -1,0 +1,240 @@
+/* line 5, ../scss/blog.scss */
+.article blockquote ol, .article blockquote ul {
+  margin-left: 2em;
+}
+/* line 7, ../scss/blog.scss */
+.article blockquote ol li, .article blockquote ul li {
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 0.75em;
+  line-height: 1.375em;
+}
+/* line 15, ../scss/blog.scss */
+.article > h2 {
+  margin-bottom: 0.375em;
+}
+
+/* line 20, ../scss/blog.scss */
+.article-info {
+  text-align: right;
+  font-style: italic;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 0.875em;
+  line-height: 1.75em;
+  margin-top: 0.75em;
+}
+
+/* line 29, ../scss/blog.scss */
+.post-summary {
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  text-align: justify;
+  margin-top: 0.5em;
+}
+
+/* line 37, ../scss/blog.scss */
+.article-body {
+  margin-top: 2em;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+/* line 40, ../scss/blog.scss */
+.article-body p {
+  margin-bottom: 1em;
+}
+
+/* line 45, ../scss/blog.scss */
+div.article {
+  font-size: 1.75em;
+  line-height: 1.25em;
+}
+
+/* line 50, ../scss/blog.scss */
+.page-end-delimiter {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  border-bottom: 1.5px dashed #555555;
+  height: 1.5px;
+}
+
+/* line 57, ../scss/blog.scss */
+.blog-container h3 {
+  text-align: center;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+}
+
+/* line 62, ../scss/blog.scss */
+.blog-post-date {
+  text-align: right;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  text-shadow: 0px 2px 3px white;
+  color: #ccc;
+  margin-top: -0.5em;
+}
+
+/* line 70, ../scss/blog.scss */
+.blog-post-summary {
+  margin-top: 1em;
+  overflow: hidden;
+}
+/* line 73, ../scss/blog.scss */
+.blog-post-summary hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid white;
+}
+
+/* line 81, ../scss/blog.scss */
+.article blockquote p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 87, ../scss/blog.scss */
+.blog-toc h3 {
+  text-align: center;
+}
+/* line 90, ../scss/blog.scss */
+.blog-toc h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 3.5em;
+  color: #888888;
+  text-shadow: 0px 2px 3px white;
+}
+
+/* line 99, ../scss/blog.scss */
+.blog-toc-card {
+  height: 370px;
+  max-height: 370px;
+  overflow: hidden;
+}
+
+/* line 105, ../scss/blog.scss */
+.blog-toc-card, .blog-container {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  height: 370px;
+  behavior: url(/assets/PIE.htc);
+  margin-top: 1.5em;
+}
+
+/* line 112, ../scss/blog.scss */
+.blog-container.even {
+  -webkit-box-shadow: 0 0 7px #999999;
+  -moz-box-shadow: 0 0 7px #999999;
+  box-shadow: 0 0 7px #999999;
+}
+
+/* line 116, ../scss/blog.scss */
+#blog-posts > .blog-container[class*='span4'] {
+  height: 100%;
+}
+
+/* line 120, ../scss/blog.scss */
+.blog-toc-card.odd, .blog-container.odd {
+  background: black;
+  background: rgba(0, 0, 0, 0.06125);
+  -webkit-box-shadow: 0 0 7px gray;
+  -moz-box-shadow: 0 0 7px gray;
+  box-shadow: 0 0 7px gray;
+}
+
+/* line 125, ../scss/blog.scss */
+.blog-toc-card.odd .lede-info {
+  color: #555;
+}
+
+/* line 129, ../scss/blog.scss */
+.spacer {
+  padding: 1em;
+}
+
+/* line 133, ../scss/blog.scss */
+.book {
+  font-style: italic;
+}
+
+/* line 137, ../scss/blog.scss */
+.article p span.lede {
+  font-variant: small-caps;
+}
+
+/* line 141, ../scss/blog.scss */
+.img .caption {
+  position: absolute;
+  text-align: right;
+  max-height: 2em;
+  min-height: 1em;
+  background: #f8f9fa;
+  background: rgba(248, 249, 250, 0.75);
+  bottom: 0;
+  font-size: .625em;
+  line-height: 1em;
+  padding: 2.5%;
+  color: #333;
+  width: 95%;
+  /* Why doesn't 100% work? */
+  box-shadow: 0px -3.75px 3.75px -1.625px rgba(0, 0, 0, 0.75);
+  behavior: url(/assets/PIE.htc);
+}
+
+/* line 158, ../scss/blog.scss */
+.article .img {
+  position: relative;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  float: left;
+  border-radius: 7.5px;
+  width: 300px;
+  height: 300px;
+  -webkit-box-shadow: inset 0px 0px 7.5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 7.5px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 7.5px rgba(0, 0, 0, 0.75);
+  behavior: url(/assets/PIE.htc);
+}
+
+/* line 171, ../scss/blog.scss */
+div.article > h2, .blog-toc > h2 {
+  text-align: center;
+  font-size: 1.75em;
+  font-family: "adelle-1", "adelle-2", Georgia, serif;
+}
+
+/* line 177, ../scss/blog.scss */
+#blog-posts hr.section-divider {
+  width: 100%;
+  clear: both;
+  height: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid white;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+/* line 189, ../scss/blog.scss */
+p.acknowledgements {
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+@media (max-width: 480px) {
+  /* line 195, ../scss/blog.scss */
+  .article .img {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 200, ../scss/blog.scss */
+  .article blockquote {
+    padding-left: 0.25em;
+    border-left: 2px solid #eeeeee;
+  }
+}
