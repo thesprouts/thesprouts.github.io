@@ -94,7 +94,7 @@
     &lt;/div&gt;
   &lt;/div&gt;
 
-  Or this one:
+  &lt;p&gt;Or this one:&lt;/p&gt;
   &lt;div class='juxtaposition-container'&gt;
     &lt;div class='img' style='height: 542px; background:url(&quot;/img/blog/sicp.png&quot;)'&gt;
       &lt;div class='caption'&gt;Sussman &amp;amp; Abelson's &lt;a href='http://mitpress.mit.edu/sicp/'&gt;&lt;i&gt;Structure &amp;amp; Interpretation of Computer Programs&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
@@ -105,7 +105,7 @@
     &lt;/div&gt;
   &lt;/div&gt;
 
-  Or this one:
+  &lt;p&gt;Or this one:&lt;/p&gt;
   &lt;div class='juxtaposition-container'&gt;
     &lt;div class='img' style='height: 321px; background:url(&quot;/img/blog/tangrams.png&quot;)'&gt;
       &lt;div class='caption'&gt;&lt;a href='http://en.wikipedia.org/wiki/Tangram'&gt;Tangrams&lt;/a&gt;&lt;/div&gt;
@@ -116,7 +116,7 @@
     &lt;/div&gt;
   &lt;/div&gt;
 
-  Or this one:
+  &lt;p&gt;Or this one:&lt;/p&gt;
   &lt;div class='juxtaposition-container'&gt;
     &lt;div class='img' style='height: 507px; background:url(&quot;/img/blog/lego.png&quot;)'&gt;
       &lt;div class='caption'&gt;&lt;a href='http://aboutus.lego.com/en-us/lego-group/the_lego_brand/'&gt;LEGO&lt;/a&gt;&lt;/div&gt;
@@ -136,7 +136,7 @@
   The rhetoric of school centers on of 'preparation.' Students are immersed in prerequisites for future courses, many of which are unknown. Their participation in classes are themselves an act of preparation for more classes in college or for the workforce. Because cooking dinner is different than eating dinner, it is simple to conclude that &lt;em&gt;preparing&lt;/em&gt; for a rich intellectual life should look and feel different than &lt;em&gt;living&lt;/em&gt; a rich, intellectual life. But cooking and living are not the same.  And just as spending too much time planning your kids' activities can change your relationship to them, we should not forget that these habits of preparation do not spin along in a vacuum&amp;mdash;they change us. And that means we should have some very persuasive stories lined up which we can honestly deploy every forty-seven minutes, after each buzzer.
 &lt;/p&gt;
 
-&lt;blockquote style='width: 45%; float: left'&gt;
+&lt;blockquote&gt;
   &lt;p&gt;
     Watch your thoughts for they become words. &lt;br&gt;
     Watch your words for they become actions. &lt;br&gt;
@@ -151,7 +151,7 @@
   &lt;/div&gt;
 &lt;/blockquote&gt;
 
-&lt;blockquote style='width: 45%; float: right'&gt;
+&lt;blockquote&gt;
   &lt;p&gt;
     [Discussing &lt;a href=&quot;http://books.google.com/books?id=LcpLPKOL6XYC&amp;amp;printsec=frontcover&amp;amp;dq=schooling+in+capitalist+america&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ei=_W5PUf34DrPl4APngoGYAw&amp;amp;ved=0CDgQ6AEwAA#v=onepage&amp;amp;q=meyer%20factor%20analysis&amp;amp;f=false&quot;&gt;a factor analysis&lt;/a&gt; of student performance in &lt;a href=&quot;http://epm.sagepub.com/content/37/1/125.short&quot;&gt;Edwards &lt;i&gt;et al&lt;/i&gt;&lt;/a&gt;] Our theory would predict that at the high school level submission to authority would be the best predictor of grades among personality traits. [&amp;hellip;] This prediction was confirmed. [&amp;hellip;] The temperament and IQ variables made no independent contribution.
   &lt;/p&gt;
