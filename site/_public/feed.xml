@@ -73,10 +73,10 @@
     width: 380px;
     margin-right: 0px;
   }
-  div#juxtapositions .img:first-child {
+  div#juxtapositions .img:nth-child(1) {
     float: left;
   }
-  div#juxtapositions .img:first-child {
+  div#juxtapositions .img:nth-child(2) {
     float: right;
   }
 &lt;/style&gt;
@@ -99,7 +99,7 @@
     &lt;/div&gt;
 
     &lt;div class='img' style='height: 542px; background:url(&quot;/img/blog/sams.png&quot;)'&gt;
-      &lt;div class='caption'&gt;&lt;i&gt;Sams Teach Yourself Visual C++ 6 in 24 Hours&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
+      &lt;div class='caption'&gt;&lt;a href='http://www.amazon.com/dp/0672313030'&gt;&lt;i&gt;Sams Teach Yourself Visual C++ 6 in 24 Hours&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 
