@@ -1,0 +1,834 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Day",
+				"DayOne_directory"
+			],
+			[
+				"day",
+				"dayone_to_hash"
+			],
+			[
+				"nvA",
+				"nvAlt_directory"
+			],
+			[
+				"from",
+				"from_nvalt_path"
+			],
+			[
+				"to_s",
+				"to_s"
+			],
+			[
+				"don",
+				"donation_amount"
+			],
+			[
+				"ema",
+				"email-us-button"
+			],
+			[
+				"if",
+				"if	if … end"
+			],
+			[
+				"sitemap",
+				"sitemap"
+			],
+			[
+				"feature",
+				"featurette-title"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"work",
+				"work-container"
+			],
+			[
+				"bio",
+				"bio-container"
+			],
+			[
+				"vertical",
+				"vertical-centering"
+			],
+			[
+				"verti",
+				"vertical-centering"
+			],
+			[
+				"else",
+				"elsewhere"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"pub",
+				"pub"
+			],
+			[
+				"bottom",
+				"bottom"
+			],
+			[
+				"collabor",
+				"collaborator-logo"
+			],
+			[
+				"science",
+				"science_of_sourdough"
+			],
+			[
+				"work-arti",
+				"work-artifact-container"
+			],
+			[
+				"contact",
+				"contact"
+			],
+			[
+				"main",
+				"main-text"
+			],
+			[
+				"solar",
+				"solar-sectory-stragety"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/build.sh.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bros",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sch",
+				"SublimeREPL: Scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"schem",
+				"SublimeREPL: Scheme"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"gist",
+				"Package Control: Install Package"
+			],
+			[
+				"javac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"object",
+				"Snippet: Object Value JS"
+			],
+			[
+				"snipp",
+				"Snippet: Function"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntax java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sbt",
+				"SublimeREPL: SBT for opened folder"
+			],
+			[
+				"repl load",
+				"SublimeREPL: Load current file"
+			],
+			[
+				"sbt ",
+				"SublimeREPL: SBT for opened folder"
+			],
+			[
+				"pacak",
+				"Package Control: Remove Package"
+			],
+			[
+				"sbt for",
+				"SublimeREPL: SBT for opened folder"
+			],
+			[
+				"sbt f",
+				"SublimeREPL: SBT for opened folder"
+			],
+			[
+				"REPL lisp",
+				"SublimeREPL: Clisp"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/app.rb",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_public/assets/app-3b5c3bd60647c275500e22d45cb5fe1e.css",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/.gitmodules",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/_staffing/_staffing.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/SSA_Innovation_Plan.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/.gitignore",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/_budget/_budget.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/_curriculum/_curriculum.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/_executive_summary/_executive_summary.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/_faq/_faq.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/_measures_of_performance/_measures_of_performance.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/_policy_and_procedures/_policy_and_procedures.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/_professional_development/_professional_development.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/ssaip/_schedule/_schedule.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_curriculum/_curriculum.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/SSA_Innovation_Plan.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_measures_of_performance/_measures_of_performance.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/build.sh",
+		"/Users/aresnick/Library/Application Support/Sublime Text 2/Packages/User/build.sh.sublime-build",
+		"/Users/aresnick/Library/Application Support/Sublime Text 2/Packages/User/LaTeX.sublime-build",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/SSA_Innovation_Plan.sublime-project",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_budget/_budget.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_faq/_faq.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_staffing/_staffing.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_professional_development/_professional_development.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_policy_and_procedures/_policy_and_procedures.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_executive_summary/_executive_summary.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_schedule/_schedule.tex",
+		"/Users/aresnick/Desktop/moo/cow.txt",
+		"/Users/aresnick/moo/cow.txt",
+		"/Users/aresnick/Desktop/index.html",
+		"/Users/aresnick/Desktop/moo.txt",
+		"/Users/aresnick/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/aresnick/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/aresnick/Desktop/test.html",
+		"/Users/aresnick/Desktop/test.js",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_plugins/typography_helper.rb",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_assets/css/index.css",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_assets/css/blog.css",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_assets/js/helpers.js",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/Gemfile",
+		"/Users/aresnick/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/aresnick/Desktop/sql2cookie.sh",
+		"/Users/aresnick/Desktop/appraise/cookies.txt",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_faq.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/faq/_faq.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/budget/_budget.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/professional_development/_professional_development.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/schedule/_schedule.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/staffing/_staffing.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/curriculum/_curriculum.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/executive_summary/_executive_summary.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/policy_and_procedures/_policy_and_procedures.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_budget.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_measures_of_performance.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/_professional_development.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/budget.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/executive_summary.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/schedule.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/measures_of_performance.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/professionaldevelopment.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/policyandprocedures.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/staffing.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/Innovation Plan/SSA_Innovation_Plan/curriculum.tex",
+		"/Users/aresnick/Dropbox/sprout/Somerville STEAM Academy/prospectus/v3/ssa.tex",
+		"/Users/aresnick/src/emacs/lisp/play/doctor.el",
+		"/Users/aresnick/Dropbox/Projects/numbercrunching/school IO/biodiversity_031013.md",
+		"/Users/aresnick/Dropbox/Projects/numbercrunching/school IO/districLevelInputsF.md",
+		"/Users/aresnick/Dropbox/Projects/numbercrunching/school IO/districLevelInputsE.md",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_assets/scss/blog.scss",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_posts/2013-02-11-a-place-for-small-things-to-grow.html",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_includes/work/playing_math.html",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_posts/2012-12-31-on-intellectual-craftsmanship.html",
+		"/Users/aresnick/src/emacs/leim/quail/ZIRANMA.el",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_posts/2013-01-29-tools-as-cargo-cult-pedagogy.html",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_posts/2013-02-11-biodiversity.html",
+		"/Users/aresnick/Dropbox/Projects/numbercrunching/school IO/biodiversity_02032013.md",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_assets/scss/site.scss",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_assets/css/sprites.css",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_assets/scss/index.scss",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/index.html",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_posts/2013-01-25-the-right-tool-for-me.html",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/site/_assets/css/site.css",
+		"/Users/aresnick/Dropbox/Projects/Aaron Swartz's Estate/FOIA/FOIA.tex",
+		"/Users/aresnick/Dropbox/sprout/thesprouts-org/.gitignore",
+		"/Users/aresnick/Desktop/PublicLab_LoS_NSF-AISL_2013.tex",
+		"/Users/aresnick/Desktop/DayOne_nvAlt_sync/Gemfile",
+		"/Users/aresnick/Desktop/DayOne_nvAlt_sync/Guardfile",
+		"/Users/aresnick/Dropbox/sprout/Letters of Support/Public Laboratory/PublicLab_LoS_NSF-AISL_2013.tex",
+		"/Users/aresnick/Dropbox/sprout/Digital Hands Project/Digital Hands Partnership/District MOU/dhp_mou.tex",
+		"/Users/aresnick/Guardfile",
+		"/Users/aresnick/Desktop/thesprouts.org/site/about.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_layouts/connect.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_plugins/in_environment.rb",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_plugins/jekyll_asset_pipeline.rb",
+		"/Users/aresnick/Desktop/thesprouts.org/Rakefile",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/footer.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/banner.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_layouts/default.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/js/helpers.js",
+		"/Users/aresnick/Desktop/thesprouts.org/site/donation_failure.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/donation_success.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/scss/connect.scss",
+		"/Users/aresnick/Desktop/thesprouts.org/site/connect.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/donation_failed.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/work.html",
+		"/Users/aresnick/Desktop/thesprouts.org/app.rb",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/us/alec-resnick.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/scss/work.scss",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/scss/sprites.scss",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/scss/site.scss",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/donation_succeeded.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/scss/blog.scss",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/scss/_base.scss",
+		"/Users/aresnick/Desktop/thesprouts.org/Gemfile",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/elsewhere_option.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_posts/2012-12-17-on-intellectual-craftsmanship.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/work/byg2md.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/js/contact_form.js",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_plugins/lede_filter.rb",
+		"/Users/aresnick/Desktop/thesprouts.org/site/robots.txt",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/work_item.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/scss/about.scss",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_assets/scss/style.scss",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/who_item.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/signed_who_item.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/work/somerville_steam_academy.html",
+		"/Users/aresnick/Desktop/thesprouts.org/site/_includes/work/quantified_self.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"  ",
+			" *\\n",
+			" *$",
+			"^ ",
+			"> ",
+			"t{_",
+			"postsecondary_transitions",
+			"special_education",
+			"postsecondary_transitions",
+			"chaper",
+			" $",
+			"$}",
+			"\\breakablecell{",
+			"breakabl",
+			"textit",
+			"@{+}",
+			"l",
+			"   &",
+			"   ",
+			"+",
+			"~+",
+			"\\ppy",
+			"\\%",
+			"%",
+			"\\%/\\smallcaps{y}",
+			"(",
+			")",
+			"gsc",
+			"\\smallcaps{Year-over-Year}",
+			"{\\color{Gray}\\smallcaps{Year 3}}",
+			"YOY",
+			"3Y",
+			"smallcaps{CPI}",
+			"smallcaps{SGP}",
+			"textsc",
+			")",
+			"smallcaps",
+			"\\breakablecell{",
+			"~+ ",
+			"~\\te",
+			"{y}",
+			"\\smallcapfrac",
+			"~",
+			"smallcap",
+			"     ",
+			"$ $",
+			"\\\\ ",
+			" \\\\",
+			"\\\\",
+			"{\\color{Gray} ",
+			"ay}",
+			"y}",
+			"}",
+			"\\ $",
+			"~\\smallcapfrac",
+			"$}",
+			"/y}",
+			"}",
+			"caps",
+			"~\\s",
+			"~",
+			"$}}",
+			"$",
+			"\\%",
+			"$",
+			"\\\\textit\\{(.+)\\}",
+			"+",
+			"&",
+			" ",
+			"textit",
+			"impo",
+			"users",
+			"shade",
+			"snugshad",
+			"snugsh",
+			"shadequote",
+			" points",
+			"SGP",
+			"CPI",
+			"l",
+			"}{",
+			"l",
+			"$ + \\geq$",
+			"color",
+			"xcolor",
+			"|",
+			"table",
+			"build",
+			"SSA_Innovation_Plan",
+			"[^0-9A-Za-z&~\\n\\\\]{2,}",
+			"[^0-9A-Za-z&~\\n]{2,}",
+			"[^0-9A-Za-z&~]{2,}",
+			"                                               ",
+			"                                              ",
+			"                                             ",
+			"                                            ",
+			"                                           ",
+			"                                          ",
+			"                                         ",
+			"                                        ",
+			"                                       ",
+			"                                      ",
+			"                                     ",
+			"                                    ",
+			"                                   ",
+			"                                  ",
+			"                                 ",
+			"                                ",
+			"                               ",
+			"                              ",
+			"                             ",
+			"                            ",
+			"                           ",
+			"                          ",
+			"                         ",
+			"                        ",
+			"                       ",
+			"                      ",
+			"                     ",
+			"                    ",
+			"                   ",
+			"                  ",
+			"                 ",
+			"                ",
+			"               ",
+			"              ",
+			"              ",
+			"%"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"  ",
+			" ",
+			"",
+			" ",
+			"chapter",
+			"}$}",
+			"}$}\n}$}",
+			"}$}\n",
+			"$1",
+			"smallcaps",
+			" ",
+			"\\subimport{$1}{$2}",
+			"\\subimport",
+			"\\input{@",
+			"\\input{_",
+			"marginquote",
+			"paragraph",
+			"&mdash;",
+			"opacity 0.125",
+			"",
+			"opacity 0.125",
+			"",
+			" ",
+			"",
+			"~/site",
+			"post",
+			"page",
+			"19, 169, 63",
+			"77, 165, 62",
+			"rgba(19, 169, 63, 0.9)",
+			"249, 250, 251",
+			"",
+			"District",
+			"\"",
+			"'",
+			"ul.lifestream > li",
+			"'",
+			"- [$1,]",
+			"- [\\1,]",
+			"elsewhere-option",
+			"",
+			"append:",
+			"work",
+			"class='collaborator-logo ",
+			"class='collaborator-logo",
+			"/img/work/collaborators/",
+			"/img/work/collaborators",
+			"<div class='span3'>\n<img src='/img/work/google_cape.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/somerville_ssa.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/shady_hill_school.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/parts_and_crafts.png'>\n</div>\n\n\n<div class='span3'>\n<img src='/img/work/ginger_io.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/mass_dot.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/somerville_public_schools.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/tremont_school.png'>\n</div>\n\n<div class='span3'>\n<img src='/img/work/tufts.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/UMass_Boston.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/city_of_somerville.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/maimonides.png'>\n</div>\n\n\n<div class='span3'>\n<img src='/img/work/eliot.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/artscience.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/mit_sloan.png'>\n</div>\n\n<div class='span3'>\n  <img src='/img/work/artists_in_context.png'>\n</div>\n",
+			"\"adelle-1\",\"adelle-2\";",
+			"\"adelle-1\",\"adelle-2\"  -ms-transform: rotate(5deg); /* IE 9 */\n  -webkit-transform: rotate(5deg); /* Safari and Chrome */\n  -o-transform: rotate(5deg); /* Opera */\n  -moz-transform: rotate(5deg); /* Firefox */",
+			"  transform: rotate(5deg);\n  -ms-transform: rotate(5deg); /* IE 9 */\n  -webkit-transform: rotate(5deg); /* Safari and Chrome */\n  -o-transform: rotate(5deg); /* Opera */\n  -moz-transform: rotate(5deg); /* Firefox */",
+			"cite",
+			"street light",
+			"@"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"st",
+				"_staffing/_staffing.tex"
+			],
+			[
+				"staf",
+				"_staffing/_staffing.tex"
+			],
+			[
+				"sch",
+				"_schedule/_schedule.tex"
+			],
+			[
+				"pro",
+				"_professional_development/_professional_development.tex"
+			],
+			[
+				"poli",
+				"_policy_and_procedures/_policy_and_procedures.tex"
+			],
+			[
+				"mea",
+				"_measures_of_performance/_measures_of_performance.tex"
+			],
+			[
+				"fa",
+				"_faq/_faq.tex"
+			],
+			[
+				"exe",
+				"_executive_summary/_executive_summary.tex"
+			],
+			[
+				"curr",
+				"_curriculum/_curriculum.tex"
+			],
+			[
+				"bud",
+				"_budget/_budget.tex"
+			],
+			[
+				"ssa_",
+				"SSA_Innovation_Plan.tex"
+			],
+			[
+				"measu",
+				"_measures_of_performance/_measures_of_performance.tex"
+			],
+			[
+				"meas",
+				"_measures_of_performance/_measures_of_performance.tex"
+			],
+			[
+				"css",
+				"site/_assets/css/blog.css"
+			],
+			[
+				"helprb",
+				"site/_plugins/typography_helper.rb"
+			],
+			[
+				"helpe",
+				"site/_assets/js/helpers.js"
+			],
+			[
+				"app",
+				"app.rb"
+			],
+			[
+				"index.scs",
+				"site/_assets/scss/index.scss"
+			],
+			[
+				"in_",
+				"site/_plugins/in_environment.rb"
+			],
+			[
+				"connec",
+				"site/_layouts/connect.html"
+			],
+			[
+				"foote",
+				"site/_includes/footer.html"
+			],
+			[
+				"connect.",
+				"site/_layouts/connect.html"
+			],
+			[
+				"donation_",
+				"site/donation_success.html"
+			],
+			[
+				"alec-",
+				"site/_includes/us/alec-resnick.html"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"elsew",
+				"site/_includes/elsewhere_option.html"
+			],
+			[
+				"crafts",
+				"site/_posts/2012-12-17-on-intellectual-craftsmanship.html"
+			],
+			[
+				"work_i",
+				"site/_includes/work_item.html"
+			],
+			[
+				".g",
+				".gitignore"
+			],
+			[
+				"post.h",
+				"site/_includes/post.html"
+			],
+			[
+				"style1",
+				"site/_assets/css/app/style1.css"
+			],
+			[
+				"style",
+				"site/_assets/css/app/style.css"
+			],
+			[
+				"post.",
+				"site/_includes/post.html"
+			],
+			[
+				"config.",
+				"config.ru"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true
+}
