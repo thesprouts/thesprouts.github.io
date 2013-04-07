@@ -216,11 +216,38 @@ div.article > h2, .blog-toc > h2 {
   text-align: center;
   font-size: 1.75em;
   font-family: "adelle-1", "adelle-2", Georgia, serif;
+}
+
+/* line 188, ../scss/blog.scss */
+div.article > h2 {
+  line-height: 1.125em;
+}
+
+/* line 192, ../scss/blog.scss */
+div.article h3 {
+  font-size: 1.375em;
+  font-family: "adelle-1", "adelle-2", Georgia, serif;
   margin-top: 1.5em;
   margin-bottom: 0.75em;
 }
 
-/* line 190, ../scss/blog.scss */
+/* line 199, ../scss/blog.scss */
+div.article h4 {
+  font-size: 1.125em;
+  margin-top: 1.125em;
+  margin-bottom: 0.375em;
+}
+
+/* line 206, ../scss/blog.scss */
+div.article h3, div.article h4 {
+  margin-left: -0.5em;
+}
+/* line 210, ../scss/blog.scss */
+div.article .unshift-left-quote {
+  margin-left: 0em;
+}
+
+/* line 215, ../scss/blog.scss */
 #blog-posts hr.section-divider {
   width: 100%;
   clear: both;
@@ -233,21 +260,21 @@ div.article > h2, .blog-toc > h2 {
   margin-bottom: 5em;
 }
 
-/* line 202, ../scss/blog.scss */
+/* line 227, ../scss/blog.scss */
 p.acknowledgements {
   font-size: 0.75em;
   font-style: italic;
 }
 
 @media (max-width: 480px) {
-  /* line 208, ../scss/blog.scss */
+  /* line 233, ../scss/blog.scss */
   .article .img {
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 213, ../scss/blog.scss */
+  /* line 238, ../scss/blog.scss */
   .article blockquote {
     padding-left: 0.25em;
     border-left: 2px solid #eeeeee;
