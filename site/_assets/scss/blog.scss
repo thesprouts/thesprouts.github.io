@@ -55,6 +55,7 @@ div.article {
 }
 
 .blog-container h3 {
+  height: 3.25em;
   text-align: center;
   font-family: $museo;
 }
@@ -81,6 +82,12 @@ div.article {
 .article blockquote p {
   font-size: 1em;
   line-height: 1.5em;
+}
+
+blockquote p.attribution {
+  width: 100%;
+  text-align: right;
+  margin-top: -1em;
 }
 
 .blog-toc {
@@ -138,10 +145,14 @@ div.article {
   font-variant: small-caps;
 }
 
+ul li {
+  line-height: 1.125em;
+  margin-bottom: 0.75em;
+}
+
 .img .caption {
   position: absolute;
   text-align: right;
-  max-height: 2em;
   min-height: 1em;
   @include rgba-background(rgb(248, 249, 250), 0.75);
   bottom: 0;
@@ -172,6 +183,8 @@ div.article > h2, .blog-toc > h2 {
   text-align: center;
   font-size: 1.75em;
   font-family: $adelle;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
 }
 
 #blog-posts hr.section-divider {
