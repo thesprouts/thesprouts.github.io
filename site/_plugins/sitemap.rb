@@ -7,9 +7,9 @@ module Jekyll
     safe true
 
     def generate(site)
-      if not development?
-        ::SitemapGenerator.verbose = false
-      end
+#      if not development?
+#        ::SitemapGenerator.verbose = false
+#      end
       
       ::SitemapGenerator::Sitemap.default_host = 'http://thesprouts.org'
       ::SitemapGenerator::Sitemap.public_path = File.expand_path('../../site', File.dirname(__FILE__))

@@ -15,8 +15,6 @@ end
 helpers do
   def send_static(path)
     full_path = File.join(settings.public_folder, path)
-    
-    if development? then puts "Looking for " + full_path end
 
     if File.exist?(full_path)
       etag Digest::SHA1.hexdigest (full_path + File.size(full_path).to_s + File.mtime(full_path).to_s)
@@ -60,10 +58,9 @@ post '/contact' do
   email = params[:email]
   body = params[:body]
 
-  if development? then p "Emailing "+ email + " with " + body end
-  Pony.mail(:to => recipient, 
-    :from => email, 
-    :subject => "Inquiry via thesprouts.org from #{email}", 
+  Pony.mail(:to => recipient,
+    :from => email,
+    :subject => "Inquiry via thesprouts.org from #{email}",
     :body => body
     )
 end

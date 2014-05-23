@@ -1,4 +1,4 @@
-source :rubygems
+source "https://rubygems.org"
 
 gem 'sinatra'
 gem 'pony'             # email for contact, donation form
@@ -11,13 +11,13 @@ end
 
 
 group :development do
-  gem 'jekyll', '0.12.0' # need 0.12.0 for include: functionality
+  gem 'jekyll'
   gem 'closure-compiler' # JS compression for jekyll-asset-pipeline
   gem 'yui-compressor'   # CSS compression for jekyll-asset-pipeline
 
   gem 'thin'                  # re: speed, WARN re: content length, preferred > WEBrick
   gem 'sinatra-reloader'      # auto-reload upon filechange
-  
+
   gem 'nokogiri'              # HTML parsing for lede_filter
   gem 'to_regexp'             # safe str => regexp conversion for strip_regex, via http://stackoverflow.com/questions/6669425/convert-a-regular-expression-in-a-string-to-a-regexp-object-in-ruby
 

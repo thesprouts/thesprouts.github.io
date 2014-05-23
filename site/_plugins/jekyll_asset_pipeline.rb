@@ -8,11 +8,11 @@ class CssCompressor < JekyllAssetPipeline::Compressor
   end
 
   def compress
-    if development?
-      return @content
-    else
+#    if development?
+#      return @content
+#    else
       return YUI::CssCompressor.new.compress(@content)
-    end
+#    end
   end  
 end
 
@@ -24,10 +24,10 @@ class JavaScriptCompressor < JekyllAssetPipeline::Compressor
   end
 
   def compress
-    if development?
-      return @content
-    else
+#    if development?
+#      return @content
+#    else
       return Closure::Compiler.new.compile(@content)
-    end
+#    end
   end
 end

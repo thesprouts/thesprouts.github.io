@@ -6,7 +6,7 @@ desc "Compile static site with jekyll"
 task :compile do
   puts 'Beginning compilation. . .'
   Dir.chdir File.expand_path('./site', File.dirname(__FILE__)) do
-    puts `jekyll`
+    puts `jekyll build`
   end
   puts '. . .compilation complete.'
   puts '==='
