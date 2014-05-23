@@ -172,13 +172,14 @@ blockquote p.attribution {
   font-variant: small-caps;
 }
 
-/* line 148, ../scss/blog.scss */
-ul li {
+/* line 150, ../scss/blog.scss */
+ol li, ul li {
   line-height: 1.125em;
   margin-bottom: 0.75em;
+  margin-top: 0.75em;
 }
 
-/* line 153, ../scss/blog.scss */
+/* line 157, ../scss/blog.scss */
 .img .caption {
   position: absolute;
   text-align: right;
@@ -196,7 +197,7 @@ ul li {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 169, ../scss/blog.scss */
+/* line 173, ../scss/blog.scss */
 .article .img {
   position: relative;
   margin-right: 1em;
@@ -211,19 +212,19 @@ ul li {
   behavior: url(/assets/PIE.htc);
 }
 
-/* line 182, ../scss/blog.scss */
+/* line 186, ../scss/blog.scss */
 div.article > h2, .blog-toc > h2 {
   text-align: center;
   font-size: 1.75em;
   font-family: "adelle-1", "adelle-2", Georgia, serif;
 }
 
-/* line 188, ../scss/blog.scss */
+/* line 192, ../scss/blog.scss */
 div.article > h2 {
   line-height: 1.125em;
 }
 
-/* line 192, ../scss/blog.scss */
+/* line 196, ../scss/blog.scss */
 div.article h3 {
   font-size: 1.375em;
   font-family: "adelle-1", "adelle-2", Georgia, serif;
@@ -231,52 +232,52 @@ div.article h3 {
   margin-bottom: 0.75em;
 }
 
-/* line 199, ../scss/blog.scss */
+/* line 203, ../scss/blog.scss */
 div.article h4 {
   font-size: 1.125em;
   margin-top: 1.125em;
   margin-bottom: 0.375em;
 }
 
-/* line 206, ../scss/blog.scss */
+/* line 210, ../scss/blog.scss */
 div.article h3, div.article h4 {
   margin-left: -0.5em;
 }
-/* line 210, ../scss/blog.scss */
+/* line 214, ../scss/blog.scss */
 div.article .unshift-left-quote {
   margin-left: 0em;
 }
 
-/* line 215, ../scss/blog.scss */
+/* line 219, ../scss/blog.scss */
 #blog-posts hr.section-divider {
   width: 100%;
   clear: both;
   height: 2px;
   display: inline-block;
   vertical-align: middle;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #ddd;
   border-bottom: 1px solid white;
   margin-top: 5em;
   margin-bottom: 5em;
 }
 
-/* line 227, ../scss/blog.scss */
+/* line 231, ../scss/blog.scss */
 p.acknowledgements {
   font-size: 0.75em;
   font-style: italic;
 }
 
 @media (max-width: 480px) {
-  /* line 233, ../scss/blog.scss */
+  /* line 237, ../scss/blog.scss */
   .article .img {
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 238, ../scss/blog.scss */
+  /* line 242, ../scss/blog.scss */
   .article blockquote {
     padding-left: 0.25em;
-    border-left: 2px solid #eeeeee;
+    border-left: 2px solid #eee;
   }
 }
