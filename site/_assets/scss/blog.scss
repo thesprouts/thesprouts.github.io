@@ -145,9 +145,13 @@ blockquote p.attribution {
   font-variant: small-caps;
 }
 
-ul li {
-  line-height: 1.125em;
-  margin-bottom: 0.75em;
+ol, ul
+{
+  li {
+    line-height: 1.125em;
+    margin-bottom: 0.75em;
+    margin-top: 0.75em
+  }
 }
 
 .img .caption {
