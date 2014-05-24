@@ -1,17 +1,17 @@
 ---
 layout: nil
 ---
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>{{ site.name }}</title>
   <description>{{ site.description }}</description>
-  <link href="{{ site.url }}"/>
   <link type="application/atom+xml" rel="self" href="{{ site.url }}/feed.xml"/>
+  <link href="{{ site.url }}"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://thesprouts.org/</id>
   <author>
-    <name>sprout &amp; co.</name>
+    <name>sprout & co.</name>
     <email>us@thesprouts.org</email>
   </author>
 
@@ -19,7 +19,7 @@ layout: nil
   <entry>
     <id>{{ site.url }}{{ post.url }}</id>
     <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
-    <title>{{ post.title }}</title>
+    <title>{{ post.title | xml_escape }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
