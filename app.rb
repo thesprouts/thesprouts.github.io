@@ -9,7 +9,7 @@ set :static_cache_control, [:public, :max_age => 31557600]
 
 
 before do
-  content_type 'text/html', :charset => 'utf-8'
+    content_type 'text/html', :charset => 'utf-8'
 end
 
 helpers do
@@ -18,7 +18,11 @@ helpers do
 
     if File.exist?(full_path)
       etag Digest::SHA1.hexdigest (full_path + File.size(full_path).to_s + File.mtime(full_path).to_s)
-      send_file full_path
+      if File.extname(full_path) == '.atom'
+        send_file full_path, :type => 'application/atom+xml'
+      else
+        send_file full_path
+      end
     else
       not_found
     end
@@ -34,8 +38,7 @@ get '/robots.txt' do
 end
 
 get '/feed' do
-  content_type 'application/atom+xml', :charset => 'utf-8'
-  send_static('feed.xml')
+  send_static 'feed.atom'
 end
 
 get '/' do
