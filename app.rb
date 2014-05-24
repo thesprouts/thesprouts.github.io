@@ -46,7 +46,7 @@ get '/blog/:name' do
 end
 
 get '/:name' do
-  send_static params[:name].to_s +  '.html'
+  send_static params[:name].to_s
 end
 
 post '/charge' do
