@@ -5,7 +5,7 @@
   <description>dispatches from the future of learning</description>
   <link type="application/atom+xml" rel="self" href="http://thesprouts.org/blog/feed.xml"/>
   <link href="http://thesprouts.org/blog"/>
-  <updated>2014-05-23T21:12:38-04:00</updated>
+  <updated>2014-05-23T21:15:53-04:00</updated>
   <id>http://thesprouts.org/</id>
   <author>
     <name>sprout & co.</name>
@@ -14,9 +14,9 @@
 
   
   <entry>
-    <id>http://thesprouts.org/blog/blog/how-children-what%3F</id>
-    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/how-children-what%3F"/>
-    <title>How Children What?</title>
+    <id>http://thesprouts.org/blog/blog/how-children-what</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/how-children-what"/>
+    <title>How Children What</title>
     <published>2014-05-18T00:00:00-04:00</published>
     <updated>2014-05-18T00:00:00-04:00</updated>
     <author>
