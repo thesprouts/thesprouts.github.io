@@ -34,6 +34,7 @@ get '/robots.txt' do
 end
 
 get '/feed' do
+  content_type 'application/atom+xml', :charset => 'utf-8'
   send_static('feed.xml')
 end
 
