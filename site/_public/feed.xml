@@ -1,14 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>sprout & co's blog</title>
-    <description>dispatches from the future of learning</description>
-    <link>http://thesprouts.org/blog</link>
-    <atom:link href="http://thesprouts.org/blog/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>How Children What?</title>
-        <description>&lt;p&gt;
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>sprout & co's blog</title>
+  <description>dispatches from the future of learning</description>
+  <link href="http://thesprouts.org/blog"/>
+  <link type="application/atom+xml" rel="self" href="http://thesprouts.org/blog/feed.xml"/>
+  <updated>2014-05-23T20:18:58-04:00</updated>
+  <id>http://thesprouts.org/</id>
+  <author>
+    <name>sprout &amp; co.</name>
+    <email>us@thesprouts.org</email>
+  </author>
+
+  
+  <entry>
+    <id>http://thesprouts.org/blog/blog/how-children-what%3F</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/how-children-what%3F"/>
+    <title>How Children What?</title>
+    <published>2014-05-18T00:00:00-04:00</published>
+    <updated>2014-05-18T00:00:00-04:00</updated>
+    <author>
+      <name>sprout &amp; co.</name>
+      <uri>http://thesprouts.org/</uri>
+    </author>
+    <content type="html">&lt;p&gt;
 	In 1967, &lt;a href=&quot;https://en.wikipedia.org/wiki/John_Holt_(educator)&quot;&gt;John Holt&lt;/a&gt; published &lt;a href=&quot;http://www.amazon.com/dp/B00ADO79QQ&quot;&gt;&lt;em&gt;How Children Learn&lt;/em&gt;&lt;/a&gt;. In 2013, &lt;a href=&quot;http://www.paultough.com/&quot;&gt;Paul Tough&lt;/a&gt; published &lt;a href=&quot;http://www.amazon.com/dp/B0070ZLZ1G&quot;&gt;&lt;em&gt;How Children Succeed&lt;/em&gt;&lt;/a&gt;.
 &lt;/p&gt;
 
@@ -276,15 +291,20 @@
 &lt;p&gt;
   These juxtapositions are unfair; they&#39;re gotchas. They&#39;re also relevant. Our tools and services increasingly do things &lt;em&gt;to&lt;/em&gt; us, not &lt;em&gt;for&lt;/em&gt; us. And they &lt;em&gt;certainly&lt;/em&gt; aren&#39;t about helping us to do things &lt;em&gt;with&lt;/em&gt; them. There are few places this is clearer than our children&amp;mdash;or more precisely, our students.
 &lt;/p&gt;
-</description>
-        <pubDate>Sun, 18 May 2014 00:00:00 -0400</pubDate>
-        <link>http://thesprouts.org/blog/blog/how-children-what%3F</link>
-        <guid isPermaLink="true">http://thesprouts.org/blog/blog/how-children-what%3F</guid>
-      </item>
-    
-      <item>
-        <title>Rendering <br> Learners Legible</title>
-        <description>&lt;div class=&#39;img&#39;  style=&#39;height: 390px; background: url(&quot;/img/blog/GeorgeOrwell.gif&quot;)&#39;&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <id>http://thesprouts.org/blog/blog/rendering-learners-legible</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/rendering-learners-legible"/>
+    <title>Rendering <br> Learners Legible</title>
+    <published>2013-04-06T00:00:00-04:00</published>
+    <updated>2013-04-06T00:00:00-04:00</updated>
+    <author>
+      <name>sprout &amp; co.</name>
+      <uri>http://thesprouts.org/</uri>
+    </author>
+    <content type="html">&lt;div class=&#39;img&#39;  style=&#39;height: 390px; background: url(&quot;/img/blog/GeorgeOrwell.gif&quot;)&#39;&gt;
   &lt;div class=&#39;caption&#39;&gt;
     &quot;The fallacy is to believe that under a dic&amp;shy;ta&amp;shy;torial government you can be free &lt;em&gt;inside&lt;/em&gt;.&quot; &lt;br&gt; &amp;mdash; George Orwell, &lt;a href=&quot;http://wintermute10.tripod.com/AIP19.htm&quot;&gt;&#39;As I Please&#39;&lt;/a&gt;
     &lt;/div&gt;
@@ -483,15 +503,20 @@
     &lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/p&gt;
-</description>
-        <pubDate>Sat, 06 Apr 2013 00:00:00 -0400</pubDate>
-        <link>http://thesprouts.org/blog/blog/rendering-learners-legible</link>
-        <guid isPermaLink="true">http://thesprouts.org/blog/blog/rendering-learners-legible</guid>
-      </item>
-    
-      <item>
-        <title>Some Observations <br> on Habits</title>
-        <description>&lt;p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <id>http://thesprouts.org/blog/blog/some-observations-on-habit</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/some-observations-on-habit"/>
+    <title>Some Observations <br> on Habits</title>
+    <published>2013-03-24T00:00:00-04:00</published>
+    <updated>2013-03-24T00:00:00-04:00</updated>
+    <author>
+      <name>sprout &amp; co.</name>
+      <uri>http://thesprouts.org/</uri>
+    </author>
+    <content type="html">&lt;p&gt;
   Every morning, I brush my teeth. &quot;One, two, three, four, five, six, seven.&quot; I brush in multiples of seven. I shift the toothbrush over one tooth. &quot;One, two, three, four, five, six seven.&quot; And I repeat. I do the same for the insides and tops of my teeth. &quot;One, two, three, four, five, six, seven.&quot; Then I spit and brush my tongue. &quot;One, two, three, four, five, six, seven.&quot; I take a gulp of water, swish seven times, and spit it out. Every morning.
 &lt;/p&gt;
 
@@ -645,15 +670,20 @@
 
 &lt;p class=&#39;acknowledgements&#39;&gt;
   Thanks to Shaunalynn Duffy for reading drafts of this post.  The good parts are her fault; the bad parts mine.
-&lt;/p&gt;</description>
-        <pubDate>Sun, 24 Mar 2013 00:00:00 -0400</pubDate>
-        <link>http://thesprouts.org/blog/blog/some-observations-on-habit</link>
-        <guid isPermaLink="true">http://thesprouts.org/blog/blog/some-observations-on-habit</guid>
-      </item>
-    
-      <item>
-        <title>On Needing a Place for Small Things</title>
-        <description>&lt;p&gt;
+&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://thesprouts.org/blog/blog/a-place-for-small-things-to-grow</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/a-place-for-small-things-to-grow"/>
+    <title>On Needing a Place for Small Things</title>
+    <published>2013-02-23T00:00:00-05:00</published>
+    <updated>2013-02-23T00:00:00-05:00</updated>
+    <author>
+      <name>sprout &amp; co.</name>
+      <uri>http://thesprouts.org/</uri>
+    </author>
+    <content type="html">&lt;p&gt;
   Biodiversity helps evolution find new, better solutions faster. And evolution is especially good at finding solutions to multidimensional problems which haven&#39;t proven susceptible to analysis. &amp;quot;Education&amp;quot; is one of these. Unfortunately, biodiversity is not a priority among reformers. Funding patterns and the hype cycle, among other influences, insure most focus on The Next Big Thing.
 &lt;/p&gt;
 
@@ -798,15 +828,20 @@
     Thanks to Shaunalynn Duffy &amp;amp; Will Bosworth for reading drafts of this post.  The good parts are their fault; the bad parts mine.
   &lt;/p&gt;
 &lt;/p&gt;
-</description>
-        <pubDate>Sat, 23 Feb 2013 00:00:00 -0500</pubDate>
-        <link>http://thesprouts.org/blog/blog/a-place-for-small-things-to-grow</link>
-        <guid isPermaLink="true">http://thesprouts.org/blog/blog/a-place-for-small-things-to-grow</guid>
-      </item>
-    
-      <item>
-        <title>Tools as Cargo Cult Pedagogy</title>
-        <description>&lt;p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <id>http://thesprouts.org/blog/blog/tools-as-cargo-cult-pedagogy</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/tools-as-cargo-cult-pedagogy"/>
+    <title>Tools as Cargo Cult Pedagogy</title>
+    <published>2013-01-29T00:00:00-05:00</published>
+    <updated>2013-01-29T00:00:00-05:00</updated>
+    <author>
+      <name>sprout &amp; co.</name>
+      <uri>http://thesprouts.org/</uri>
+    </author>
+    <content type="html">&lt;p&gt;
   Too often, school reframes learning as skill- and fact-acquisiton.  At best this creates a blindspot to the various metacognitive dispositions and disciplines which define good learning.  At worst, it leaves learners predisposed to externalize all difficulties (&quot;My teacher sucked.&quot;) or internalize all difficulties solely in the language of skills (&quot;I never was a math person.&quot;)  Both leave the learner disabled.  Despite the fact that school has mostly failed to integrate computation into its world, in the course of our work we stub our toe on the projection of students&#39; notions of &#39;how learning works&#39; all the time.
 &lt;/p&gt;
 
@@ -859,15 +894,20 @@
 &lt;p&gt;
   The opportunities have only grown since then.
 &lt;/p&gt;
-</description>
-        <pubDate>Tue, 29 Jan 2013 00:00:00 -0500</pubDate>
-        <link>http://thesprouts.org/blog/blog/tools-as-cargo-cult-pedagogy</link>
-        <guid isPermaLink="true">http://thesprouts.org/blog/blog/tools-as-cargo-cult-pedagogy</guid>
-      </item>
-    
-      <item>
-        <title>"On Intellectual Craftsmanship"</title>
-        <description>&lt;div class=&#39;img&#39; style=&#39;background: url(&quot;/img/blog/CWrightMills.png&quot;)&#39;&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <id>http://thesprouts.org/blog/blog/on-intellectual-craftsmanship</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/on-intellectual-craftsmanship"/>
+    <title>"On Intellectual Craftsmanship"</title>
+    <published>2012-12-31T00:00:00-05:00</published>
+    <updated>2012-12-31T00:00:00-05:00</updated>
+    <author>
+      <name>sprout &amp; co.</name>
+      <uri>http://thesprouts.org/</uri>
+    </author>
+    <content type="html">&lt;div class=&#39;img&#39; style=&#39;background: url(&quot;/img/blog/CWrightMills.png&quot;)&#39;&gt;
   &lt;div class=&#39;caption&#39;&gt;C. Wright Mills &lt;a href=&#39;http://www.gettyimages.com/detail/news-photo/american-sociologist-c-wright-mills-1960-news-photo/83924276&#39;&gt;on New Year&#39;s, 1960&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;
@@ -1035,11 +1075,7 @@
         &lt;em&gt;Do not allow public issues as they are officially formulated, or troubles as they are privately felt, to determine the problems that you take up for study.&lt;/em&gt; Above all, do not give up your moral and political autonomy by accepting in somebody else&#39;s terms the illiberal practicality of the bureaucratic ethos or the liberal practicality of the moral scatter. Know that many personal troubles cannot be solved merely as troubles, but must be understood in terms of public issues -and in terms of the problems of history- making. Know that the human meaning of public issues must be revealed by relating them to personal troubles-and to the problems of the individual life. Know that the problems of social science, when adequately formulated, must include both troubles and issues, both biography and history, and the range of their intricate relations. Within that range the life of the individual and the making of societies occur; and within that range the sociological imagination has its chance to make a difference in the quality of human life in our time.
       &lt;/li&gt;
     &lt;/ol&gt;
-&lt;/blockquote&gt;</description>
-        <pubDate>Mon, 31 Dec 2012 00:00:00 -0500</pubDate>
-        <link>http://thesprouts.org/blog/blog/on-intellectual-craftsmanship</link>
-        <guid isPermaLink="true">http://thesprouts.org/blog/blog/on-intellectual-craftsmanship</guid>
-      </item>
-    
-  </channel>
-</rss>
+&lt;/blockquote&gt;</content>
+  </entry>
+  
+</feed>
