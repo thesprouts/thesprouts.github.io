@@ -1,14 +1,14 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>sprout & co's blog</title>
   <description>dispatches from the future of learning</description>
-  <link href="http://thesprouts.org/blog"/>
   <link type="application/atom+xml" rel="self" href="http://thesprouts.org/blog/feed.xml"/>
-  <updated>2014-05-23T20:18:58-04:00</updated>
+  <link href="http://thesprouts.org/blog"/>
+  <updated>2014-05-23T20:29:16-04:00</updated>
   <id>http://thesprouts.org/</id>
   <author>
-    <name>sprout &amp; co.</name>
+    <name>sprout & co.</name>
     <email>us@thesprouts.org</email>
   </author>
 
@@ -297,7 +297,7 @@
   <entry>
     <id>http://thesprouts.org/blog/blog/rendering-learners-legible</id>
     <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/rendering-learners-legible"/>
-    <title>Rendering <br> Learners Legible</title>
+    <title>Rendering &lt;br&gt; Learners Legible</title>
     <published>2013-04-06T00:00:00-04:00</published>
     <updated>2013-04-06T00:00:00-04:00</updated>
     <author>
@@ -509,7 +509,7 @@
   <entry>
     <id>http://thesprouts.org/blog/blog/some-observations-on-habit</id>
     <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/some-observations-on-habit"/>
-    <title>Some Observations <br> on Habits</title>
+    <title>Some Observations &lt;br&gt; on Habits</title>
     <published>2013-03-24T00:00:00-04:00</published>
     <updated>2013-03-24T00:00:00-04:00</updated>
     <author>
@@ -900,7 +900,7 @@
   <entry>
     <id>http://thesprouts.org/blog/blog/on-intellectual-craftsmanship</id>
     <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/on-intellectual-craftsmanship"/>
-    <title>"On Intellectual Craftsmanship"</title>
+    <title>&quot;On Intellectual Craftsmanship&quot;</title>
     <published>2012-12-31T00:00:00-05:00</published>
     <updated>2012-12-31T00:00:00-05:00</updated>
     <author>
