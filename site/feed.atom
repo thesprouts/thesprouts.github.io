@@ -6,7 +6,7 @@ layout: nil
 
   <title>{{ site.name }}</title>
   <description>{{ site.description }}</description>
-  <link type="application/atom+xml" rel="self" href="{{ site.url }}/feed.xml"/>
+  <link type="application/atom+xml" rel="self" href="{{ site.url }}/feed.atom"/>
   <link href="{{ site.url }}"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://thesprouts.org/</id>
@@ -17,8 +17,8 @@ layout: nil
 
   {% for post in site.posts %}
   <entry>
-    <id>{{ site.url }}{{ post.url }}</id>
-    <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
+    <id>http://thesprouts.org{{ post.url }}</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org{{ post.url }}"/>
     <title>{{ post.title | xml_escape }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>

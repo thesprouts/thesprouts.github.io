@@ -3,9 +3,9 @@
 
   <title>sprout & co's blog</title>
   <description>dispatches from the future of learning</description>
-  <link type="application/atom+xml" rel="self" href="http://thesprouts.org/blog/feed.xml"/>
+  <link type="application/atom+xml" rel="self" href="http://thesprouts.org/blog/feed.atom"/>
   <link href="http://thesprouts.org/blog"/>
-  <updated>2014-05-24T17:44:09-04:00</updated>
+  <updated>2014-05-24T18:44:11-04:00</updated>
   <id>http://thesprouts.org/</id>
   <author>
     <name>sprout & co.</name>
@@ -14,8 +14,8 @@
 
   
   <entry>
-    <id>http://thesprouts.org/blog/blog/how-children-what</id>
-    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/how-children-what"/>
+    <id>http://thesprouts.org/blog/how-children-what</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/how-children-what"/>
     <title>How Children What?</title>
     <published>2014-05-18T00:00:00-04:00</published>
     <updated>2014-05-18T00:00:00-04:00</updated>
@@ -295,8 +295,8 @@
   </entry>
   
   <entry>
-    <id>http://thesprouts.org/blog/blog/rendering-learners-legible</id>
-    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/rendering-learners-legible"/>
+    <id>http://thesprouts.org/blog/rendering-learners-legible</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/rendering-learners-legible"/>
     <title>Rendering &lt;br&gt; Learners Legible</title>
     <published>2013-04-06T00:00:00-04:00</published>
     <updated>2013-04-06T00:00:00-04:00</updated>
@@ -507,8 +507,8 @@
   </entry>
   
   <entry>
-    <id>http://thesprouts.org/blog/blog/some-observations-on-habit</id>
-    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/some-observations-on-habit"/>
+    <id>http://thesprouts.org/blog/some-observations-on-habit</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/some-observations-on-habit"/>
     <title>Some Observations &lt;br&gt; on Habits</title>
     <published>2013-03-24T00:00:00-04:00</published>
     <updated>2013-03-24T00:00:00-04:00</updated>
@@ -674,8 +674,8 @@
   </entry>
   
   <entry>
-    <id>http://thesprouts.org/blog/blog/a-place-for-small-things-to-grow</id>
-    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/a-place-for-small-things-to-grow"/>
+    <id>http://thesprouts.org/blog/a-place-for-small-things-to-grow</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/a-place-for-small-things-to-grow"/>
     <title>On Needing a Place for Small Things</title>
     <published>2013-02-23T00:00:00-05:00</published>
     <updated>2013-02-23T00:00:00-05:00</updated>
@@ -832,8 +832,8 @@
   </entry>
   
   <entry>
-    <id>http://thesprouts.org/blog/blog/tools-as-cargo-cult-pedagogy</id>
-    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/tools-as-cargo-cult-pedagogy"/>
+    <id>http://thesprouts.org/blog/tools-as-cargo-cult-pedagogy</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/tools-as-cargo-cult-pedagogy"/>
     <title>Tools as Cargo Cult Pedagogy</title>
     <published>2013-01-29T00:00:00-05:00</published>
     <updated>2013-01-29T00:00:00-05:00</updated>
@@ -898,8 +898,8 @@
   </entry>
   
   <entry>
-    <id>http://thesprouts.org/blog/blog/on-intellectual-craftsmanship</id>
-    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/blog/on-intellectual-craftsmanship"/>
+    <id>http://thesprouts.org/blog/on-intellectual-craftsmanship</id>
+    <link type="text/html" rel="alternate" href="http://thesprouts.org/blog/on-intellectual-craftsmanship"/>
     <title>&quot;On Intellectual Craftsmanship&quot;</title>
     <published>2012-12-31T00:00:00-05:00</published>
     <updated>2012-12-31T00:00:00-05:00</updated>
