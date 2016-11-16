@@ -1,14 +1,33 @@
-name: "sprout & co's blog"
-description: "dispatches from the future of learning"
-url: http://thesprouts.org/blog
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-baseurl: /
-source: ./
-destination: ./_public
-permalink: /blog/:title
+# Site settings
+title: sprout & co.
+email: us@thesprouts.org
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/thesprouts-org/" # the subpath of your site, e.g. /blog
+url: "https://thesprouts.github.io" # the base hostname & protocol for your site
+twitter_username: sprouts
+github_username: thesprouts
 
-asset_pipeline:
-  bundle: true
-  compress: true
-  output_path: assets
-  gzip: false
+# Build settings
+markdown: kramdown
+
+# name: "sprout & co's blog"
+# description: "dispatches from the future of learning"
+# url: http://thesprouts.org/blog
+
+# baseurl: /
+# source: ./
+# destination: ./_public
+# permalink: /blog/:title
+
+# asset_pipeline:
+#   bundle: true
+#   compress: true
+#   output_path: assets
+#   gzip: false
