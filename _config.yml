@@ -4,11 +4,5 @@ url: http://thesprouts.org/blog
 
 baseurl: /
 source: ./
-destination: ./_public
+destination: ./_site
 permalink: /blog/:title
-
-asset_pipeline:
-  bundle: true
-  compress: true
-  output_path: assets
-  gzip: false
