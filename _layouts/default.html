@@ -9,17 +9,15 @@ layout: base
 
     <title>sprout &amp; co :: {% if page.title %}{{ page.title }}{% endif %}</title>
 
-    {% css_asset_tag app %}
-    - /_assets/css/vendor/bootstrap.min.css
-    - /_assets/css/vendor/bootstrap-responsive.css
-    - /_assets/css/sprites.css
-    - /_assets/css/site.css
-    - /_assets/css/index.css
-    - /_assets/css/about.css
-    - /_assets/css/work.css
-    - /_assets/css/blog.css
-    - /_assets/css/connect.css
-    {% endcss_asset_tag %}
+    <link rel='stylesheet' src='/assets/css/vendor/bootstrap.min.css'>
+    <link rel='stylesheet' src='/assets/css/vendor/bootstrap-responsive.css'>
+    <link rel='stylesheet' src='/assets/css/sprites.css'>
+    <link rel='stylesheet' src='/assets/css/site.css'>
+    <link rel='stylesheet' src='/assets/css/index.css'>
+    <link rel='stylesheet' src='/assets/css/about.css'>
+    <link rel='stylesheet' src='/assets/css/work.css'>
+    <link rel='stylesheet' src='/assets/css/blog.css'>
+    <link rel='stylesheet' src='/assets/css/connect.css'>
 
     {% include typekit.html %}
 
@@ -46,17 +44,15 @@ layout: base
 
     {% include footer.html %}
 
-    {% javascript_asset_tag app %}
-    - /_assets/js/google_analytics.js
-    - /_assets/js/jquery.min.js
-    - /_assets/js/bootstrap.min.js
-    - /_assets/js/jquery.lifestream.min.js
-    - /_assets/js/jquery.autoellipsis-1.0.10.min.js
-    - /_assets/js/contact_form.js
-    - /_assets/js/lifestream.js
-    - /_assets/js/hyphenator.js
-    - /_assets/js/en-us.js
-    {% endjavascript_asset_tag %}
+    <script src='/assets/js/google_analytics.js'></script>
+    <script src='/assets/js/jquery.min.js'></script>
+    <script src='/assets/js/bootstrap.min.js'></script>
+    <script src='/assets/js/jquery.lifestream.min.js'></script>
+    <script src='/assets/js/jquery.autoellipsis-1.0.10.min.js'></script>
+    <script src='/assets/js/contact_form.js'></script>
+    <script src='/assets/js/lifestream.js'></script>
+    <script src='/assets/js/hyphenator.js'></script>
+    <script src='/assets/js/en-us.js'></script>
 
     {% raw %}
     <script type="text/javascript">
