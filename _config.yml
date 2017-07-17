@@ -1,8 +1,3 @@
-name: "sprout & co's blog"
+name: "sprout & co"
 description: "dispatches from the future of learning"
-url: http://thesprouts.org/blog
-
-baseurl: /
-source: ./
-destination: ./_site
-permalink: /blog/:title
+url: http://thesprouts.org/

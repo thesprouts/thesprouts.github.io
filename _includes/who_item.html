@@ -4,13 +4,13 @@
 <div id='{{ who.id }}' class='bio-entry span4'>
   <div class='who'>
     <div class='headshot us-{{ who.id }}'></div>
-    
+
     <div class='name'>{{ who.name }}</div>
   </div> <!-- ends div#{{ who.id }} -->
-  
+
   <div class='bio'>
-    <p class='hyphenate'>  
-      {% include bio_file %}
+    <p class='hyphenate'>
+      {% include {{ bio_file}}  %}
     </p>
   </div> <!-- ends div.bio -->
 </div>

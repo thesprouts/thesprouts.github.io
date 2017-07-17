@@ -3,47 +3,41 @@ layout: base
 ---
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>sprout &amp; co :: {% if page.title %}{{ page.title }}{% endif %}</title>
-
-    <link rel='stylesheet' src='/assets/css/vendor/bootstrap.min.css'>
-    <link rel='stylesheet' src='/assets/css/vendor/bootstrap-responsive.css'>
-    <link rel='stylesheet' src='/assets/css/sprites.css'>
-    <link rel='stylesheet' src='/assets/css/site.css'>
-    <link rel='stylesheet' src='/assets/css/index.css'>
-    <link rel='stylesheet' src='/assets/css/about.css'>
-    <link rel='stylesheet' src='/assets/css/work.css'>
-    <link rel='stylesheet' src='/assets/css/blog.css'>
-    <link rel='stylesheet' src='/assets/css/connect.css'>
-
+    <link rel='stylesheet' href='/assets/css/vendor/bootstrap.min.css'>
+    <link rel='stylesheet' href='/assets/css/vendor/bootstrap-responsive.css'>
+    <link rel='stylesheet' href='/assets/css/sprites.css'>
+    <link rel='stylesheet' href='/assets/css/site.css'>
+    <link rel='stylesheet' href='/assets/css/index.css'>
+    <link rel='stylesheet' href='/assets/css/about.css'>
+    <link rel='stylesheet' href='/assets/css/work.css'>
+    <link rel='stylesheet' href='/assets/css/blog.css'>
+    <link rel='stylesheet' href='/assets/css/connect.css'>
     {% include typekit.html %}
-
     <link rel="alternate" type="application/atom+xml" title="pollen : sprout's blog" href="/feed" />
-  </head>
-  <body>
-      {% if page.is_splash %}
-        {% include splash_banner.html %}
-      {% else %}
-        {% include banner.html %}
-      {% endif %}
+</head>
 
+<body>
+    {% if page.is_splash %} {% include splash_banner.html %} {% else %} {% include banner.html %} {% endif %}
     <div id='wrap'>
-    <div class='container'>
-      <div class='row'>
-        <div id='content' class='span12'>
-          {{ content }}
-        </div> <!-- ends div#content -->
-      </div> <!-- ends div.row -->
-    </div> <!-- ends div.container -->
-
-    <div id="push"></div>
-    </div> <!-- ends div#wrap -->
-
+        <div class='container'>
+            <div class='row'>
+                <div id='content' class='span12'>
+                    {{ content }}
+                </div>
+                <!-- ends div#content -->
+            </div>
+            <!-- ends div.row -->
+        </div>
+        <!-- ends div.container -->
+        <div id="push"></div>
+    </div>
+    <!-- ends div#wrap -->
     {% include footer.html %}
-
     <script src='/assets/js/google_analytics.js'></script>
     <script src='/assets/js/jquery.min.js'></script>
     <script src='/assets/js/bootstrap.min.js'></script>
@@ -53,22 +47,16 @@ layout: base
     <script src='/assets/js/lifestream.js'></script>
     <script src='/assets/js/hyphenator.js'></script>
     <script src='/assets/js/en-us.js'></script>
-
     {% raw %}
     <script type="text/javascript">
-      Hyphenator.enableRemoteLoading = false;
-      Hyphenator.run();
+    Hyphenator.enableRemoteLoading = false;
+    Hyphenator.run();
     </script>
-    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML.js">
-    </script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        showMathMenu: false,
-        delayStartupUntil: "onload",
-        showProcessingMessages: false,
-        messageStyle: "none",
-      });
+        MathJax.Hub.Config({ showMathMenu: false, delayStartupUntil: "onload", showProcessingMessages: false, messageStyle: "none", });
     </script>
     {% endraw %}
-  </body>
+</body>
+
 </html>

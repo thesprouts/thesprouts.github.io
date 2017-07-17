@@ -4,7 +4,7 @@ layout: default
 title: our work
 
 portfolio_items:
-- 
+-
   id: 'somerville_steam_academy'
   name: "Somerville STEAM Academy"
   established: "2012&ndash;"
@@ -12,7 +12,7 @@ portfolio_items:
   id: 'sprout_spaghetti_dinners'
   name: "sprout Spaghetti Dinners"
   established: "2009&ndash;"
-- 
+-
   id: 'signs_of_life'
   name: "Signs of Life"
   established: "2012&ndash;"
@@ -20,7 +20,7 @@ portfolio_items:
   id: 'turtle_geometry'
   name: "Turtle Geometry"
   established: "2009&ndash;"
-- 
+-
   id: 'flutes_and_waves'
   name: "Flutes &amp; Waves"
   established: "2010&ndash;"
@@ -102,17 +102,17 @@ collaborators:
   </p>
   </div>
 </div> <!-- ends div.page-summary -->
-  
+
 <hr class='page-summary-delimiter'>
 
 <div id='projects-and-programs' class='page-section'>
   <h2>Selected Projects &amp; Programs</h2>
 
   {% for work in page.portfolio_items %}
-  {% cycle 'open work rows': '<div class="work-container row">', nil, nil %}
+  {% cycle 'open work rows': '<div class="work-container row">', '', '' %}
   {% include work_item.html %}
-  {% cycle 'close work rows': nil, nil, '</div> <!-- ends div.work-container.row -->' %}
-  {% if forloop.last and forloop.length-forloop.index*(forloop.length/forloop.index) != 0 %}
+  {% cycle 'close work rows': '', '', '</div> <!-- ends div.work-container.row -->' %}
+  {% if forloop.last %}
   </div> <!-- ends div.work-container.row -->
   {% endif %}
   {% endfor %}
@@ -125,7 +125,7 @@ collaborators:
   {% for collaborator_pair in page.collaborators %}
   {% assign collaborator = collaborator_pair | first %}
   {% assign collaborator_url = collaborator_pair | last %}
-  {% cycle 'open collaborator rows': '<div class="collaborator-container row">', nil, nil, nil %}
+  {% cycle 'open collaborator rows': '<div class="collaborator-container row">', '', '', '' %}
   <div class='collaborator-logo span3'>
     <a href='{{ collaborator_url }}'>
       <div class='vertical-centering outer'>
@@ -135,8 +135,8 @@ collaborators:
       </div> <!-- ends .outer -->
     </a>
   </div>
-  {% cycle 'close collaborator rows': nil, nil, nil, '</div> <!-- ends div.collaborator-container.row -->' %}
-  {% if forloop.last and forloop.length-forloop.index*(forloop.length/forloop.index) != 0 %}
+  {% cycle 'close collaborator rows': '', '', '', '</div> <!-- ends div.collaborator-container.row -->' %}
+  {% if forloop.last %}
   </div> <!-- ends div.collaborator-container.row -->
   {% endif %}
   {% endfor %}
