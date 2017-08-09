@@ -5,73 +5,116 @@ title: our work
 
 portfolio_items:
 -
-  id: 'somerville_steam_academy'
-  name: "Somerville STEAM Academy"
-  established: "2012&ndash;"
+  id: 'powderhouse_studios'
+  name: "Powderhouse Studios"
+  established: "2012-present"
+  link: 'http://powderhouse.org'
+  category: present
+- 
+  id: 'steam_at_healey'
+  name: 'STEAM @ Healey'
+  established: "2016&ndash;present"
+  link: 'http://thesprouts.github.io/healey/'
+  category: present
+-
+  id: 'turtle_geometry'
+  name: "Turtle Geometry"
+  established: "2009&ndash;present"
+  link: '#'
+  category: present
+-
+  id: 'dgmd'
+  name: "Creative Explorations in Physical and Screen-based Computing"
+  established: "2014&ndash;2016"
+  link: 'https://dgmd.github.io/'
+  category: past
+-
+  id: 'codman_ccp'
+  name: "Creative Computer Coding"
+  established: "2015&ndash;2016"
+  link: 'https://thesprouts.github.io/ccp/'
+  category: past
+-
+  id: 'codman_hli'
+  name: "Interactive, Digital Storytelling"
+  established: "2015&ndash;2016"
+  link: 'https://thesprouts.github.io/hli/'
+  category: past
 -
   id: 'sprout_spaghetti_dinners'
   name: "sprout Spaghetti Dinners"
-  established: "2009&ndash;"
+  established: "2009&ndash;2014"
+  category: past
 -
   id: 'signs_of_life'
   name: "Signs of Life"
   established: "2012&ndash;"
--
-  id: 'turtle_geometry'
-  name: "Turtle Geometry"
-  established: "2009&ndash;"
--
-  id: 'flutes_and_waves'
-  name: "Flutes &amp; Waves"
-  established: "2010&ndash;"
+  category: past
 -
   id: 'parade_floats'
   name: "Parade Floats!"
-  established: "2012&ndash;"
+  established: "2012"
+  category: past
+-
+  id: 'flutes_and_waves'
+  name: "Flutes &amp; Waves"
+  established: "2010&ndash;-2011"
+  category: past
 -
   id: 'ecomodding_your_home'
   name: "Ecomodding Your Home"
   established: "2010"
+  category: past
 -
   id: 'quantified_self'
   name: "Quantified Self"
-  established: "2011&ndash;"
+  established: "2011&ndash;2013"
+  category: past
 -
   id: 'playing_math'
   name: "Playing Math"
   established: "2009&ndash;2011;"
+  category: past
 -
   id: 'byg2md'
   name: "Bring Your Grandma to Math Day"
   established: "2009&ndash;2012"
+  category: past
 -
   id: 'streetbeest'
   name: "The Streetbeest"
   established: "2010"
+  category: past
 -
   id: 'engineering_the_wind'
   name: "Engineering the Wind"
   established: "2010&ndash;2011;"
--
-  id: 'simulation_and_nature_in_design'
-  name: "Simulation &amp; Nature in Design"
-  established: "2009&ndash;2010"
--
-  id: 'unlocking_locks'
-  name: "Unlocking Locks"
-  established: "2009&ndash;2010"
+  category: past
 -
   id: 'science_of_sourdough'
   name: "Science of Sourdough"
   established: "2010"
+  category: past
 -
   id: 'overthinking_board_games'
   name: "Overthinking Board Games"
   established: "2010"
+  category: past
+-
+  id: 'simulation_and_nature_in_design'
+  name: "Simulation &amp; Nature in Design"
+  established: "2009&ndash;2010"
+  category: past
+-
+  id: 'unlocking_locks'
+  name: "Unlocking Locks"
+  established: "2009&ndash;2010"
+  category: past
 -
   id: 'magnetic_machines'
   name: "Magnetic Machines"
   established: "2009&ndash;2010"
+  category: past
 
 collaborators:
   - [somerville_public_schools, "http://www.somerville.k12.ma.us/education/components/scrapbook/default.php?sectionid=1"]
@@ -106,14 +149,33 @@ collaborators:
 <hr class='page-summary-delimiter'>
 
 <div id='projects-and-programs' class='page-section'>
-  <h2>Selected Projects &amp; Programs</h2>
+  <h2>Current Projects</h2>
 
   {% for work in page.portfolio_items %}
+  {% if work.category == 'present' %}
   {% cycle 'open work rows': '<div class="work-container row">', '', '' %}
   {% include work_item.html %}
   {% cycle 'close work rows': '', '', '</div> <!-- ends div.work-container.row -->' %}
   {% if forloop.last %}
   </div> <!-- ends div.work-container.row -->
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+</div> <!-- ends div#projects-and-programs -->
+
+<hr>
+
+<div id='projects-and-programs' class='page-section'>
+  <h2>Select Past Programs & Projects</h2>
+
+  {% for work in page.portfolio_items %}
+  {% if work.category == 'past' %}
+  {% cycle 'open work rows': '<div class="work-container row">', '', '' %}
+  {% include work_item.html %}
+  {% cycle 'close work rows': '', '', '</div> <!-- ends div.work-container.row -->' %}
+  {% if forloop.last %}
+  </div> <!-- ends div.work-container.row -->
+  {% endif %}
   {% endif %}
   {% endfor %}
 </div> <!-- ends div#projects-and-programs -->
