@@ -7,7 +7,7 @@ portfolio_items:
 -
   id: 'powderhouse_studios'
   name: "Powderhouse Studios"
-  established: "2012-present"
+  established: "2012&ndash;present"
   link: 'http://powderhouse.org'
   category: present
 - 
@@ -19,7 +19,7 @@ portfolio_items:
 -
   id: 'turtle_geometry'
   name: "Turtle Geometry"
-  established: "2009&ndash;present"
+  established: "2012&ndash;present"
   link: '#'
   category: present
 -
@@ -118,6 +118,8 @@ portfolio_items:
 
 collaborators:
   - [somerville_public_schools, "http://www.somerville.k12.ma.us/education/components/scrapbook/default.php?sectionid=1"]
+  - [xq, "https://xqsuperschool.org/"]
+  - [codman_academy, "http://www.codmanacademy.org/"]
   - [google, "https://www.google.com/edu/cape/"]
   - [shady_hill_school, "http://shs.org/"]
   - [parts_and_crafts, "http://partsandcrafts.org/"]
@@ -140,9 +142,6 @@ collaborators:
 <div class='page-summary row'>
   <div class='span8 offset2'>
     <h2 class='page-title'>{{ page.title }}</h2>
-    <p class='hyphenate'>
-    Whether working with local families, companies, universities, or schools, our focus is finding interesting, flexible contexts to prototype novel tools &amp; materials supporting creative, scientific inquiry. Got a lead?  <a href='/connect'>Drop us a line!</a>
-  </p>
   </div>
 </div> <!-- ends div.page-summary -->
 
@@ -166,7 +165,7 @@ collaborators:
 <hr>
 
 <div id='projects-and-programs' class='page-section'>
-  <h2>Select Past Programs & Projects</h2>
+  <h2>Portfolio</h2>
 
   {% for work in page.portfolio_items %}
   {% if work.category == 'past' %}
