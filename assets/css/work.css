@@ -38,6 +38,9 @@
 }
 /* line 32, ../scss/work.scss */
 .work-entry > .name {
+  margin-bottom: 1em;
+}
+.work-entry > .name > a {
   font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
   text-align: center;
   font-size: 1.25em;
@@ -45,9 +48,14 @@
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.375em;
+  color: #555555;
+}
+.work-entry > .name > a:hover > span {
+  color: #aaa;
+  border-bottom: 1px dashed #aaa;
 }
 /* line 40, ../scss/work.scss */
-.work-entry > .name > span {
+.work-entry > .name > a > span {
   padding-right: 0.25em;
   padding-left: 0.25em;
   border-bottom: 1px dashed #555555;
