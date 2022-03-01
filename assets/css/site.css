@@ -1,3 +1,33 @@
+/* Archive banner styling */
+:root {
+  --archive-banner-height: calc(4 * 17px);
+}
+#archive-banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: var(--archive-banner-height);
+  background-color: rgb(250, 167, 85);
+  color: black;
+  font-size: 1.5em;
+  font-family: "museo-slab-1", "museo-slab-2", Georgia, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#archive-banner p {
+  margin: 0 17px;
+}
+#site-container {
+  margin-top: var(--archive-banner-height);
+}
+header {
+  position: relative;
+}
+/* End archive banner styling */
+
 /* line 3, ../scss/site.scss */
 body {
   background-color: #f9fafb;

@@ -22,22 +22,25 @@ layout: base
 </head>
 
 <body>
-    {% if page.is_splash %} {% include splash_banner.html %} {% else %} {% include banner.html %} {% endif %}
-    <div id='wrap'>
-        <div class='container'>
-            <div class='row'>
-                <div id='content' class='span12'>
-                    {{ content }}
+    {% include archive-banner.html %}
+    <div id="site-container">
+        {% if page.is_splash %} {% include splash_banner.html %} {% else %} {% include banner.html %} {% endif %}
+        <div id='wrap'>
+            <div class='container'>
+                <div class='row'>
+                    <div id='content' class='span12'>
+                        {{ content }}
+                    </div>
+                    <!-- ends div#content -->
                 </div>
-                <!-- ends div#content -->
+                <!-- ends div.row -->
             </div>
-            <!-- ends div.row -->
+            <!-- ends div.container -->
+            <div id="push"></div>
         </div>
-        <!-- ends div.container -->
-        <div id="push"></div>
+        <!-- ends div#wrap -->
+        {% include footer.html %}
     </div>
-    <!-- ends div#wrap -->
-    {% include footer.html %}
     <script src='/assets/js/google_analytics.js'></script>
     <script src='/assets/js/jquery.min.js'></script>
     <script src='/assets/js/bootstrap.min.js'></script>
